@@ -3,7 +3,7 @@
 * {
     margin: 0;
     //padding: 0;
-    color: #f7fbe1;
+    //color: #f7fbe1;
     font-family: "Roboto";
     font-size: 18px;
     text-shadow: 0 0 1px rgba(0,0,0, 0.3);
@@ -24,6 +24,7 @@ body {
     align-items: start;
     background-color: #436f8a;
     padding: 10px;
+    color: #fff;
 }
 
 #user-info > ul {
@@ -69,8 +70,13 @@ a:hover {
 }
 
 #navbar a:hover{
-  background-color: #436f8a;
+  background-color: #999999;
   color: #fff;
+}
+
+#navbar .active{
+  background-color: #436f8a !important;
+  color: #fff !important;
 }
 
 ul > li {
@@ -104,4 +110,61 @@ ul > li {
     align-items: center;
     padding-top: 50px;
     font-size: 32px;
+}
+
+.info-section-container{
+  width: 70%;
+  margin: 0 auto;
+}
+
+.sub-title{
+  text-align: center;
+  padding: 15px 50px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #fff;
+  display: inline-block;
+  margin: 50px 0 0 75px;
+}
+
+.info-section{
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 25px;
+  background-color: #fff;
+  color: #000;
+}
+
+.info-section li{
+  padding: 10px 0;
+}
+
+.button-spacing{
+  margin-bottom: 35px;
+}
+
+.underlined-space{
+  text-decoration: underline;
+  margin-left: 10px;
+}
+
+.button{
+  border-radius: 10px;
+  border: 2px solid #3d3d3d;
+  border-left: none;
+  border-top: none;
+  background-color: #fff;
+  padding: 10px 15px;
+  color: #000;
+}
+
+.button:hover{
+  border: 1px solid #3d3d3d;
+  border-left: none;
+  border-top: none;
+}
+
+.edit-button{
+  background-color: #436f8a !important;
+  color: #fff !important;
 }
