@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
 * {
     margin: 0;
-    padding: 0;
+    //padding: 0;
     color: #f7fbe1;
-    font-family: "Roboto Thin", "Roboto Light";
+    font-family: "Roboto";
     font-size: 18px;
     text-shadow: 0 0 1px rgba(0,0,0, 0.3);
 }
@@ -14,6 +16,23 @@ body {
     background-color: #438a5e;
     height: 100%;
     width: 100%;
+}
+
+#user-info {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    background-color: #436f8a;
+    padding: 10px;
+}
+
+#user-info > ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.user-info-separator{
+  padding: 0 10px;
 }
 
 #nav-body {
@@ -38,14 +57,23 @@ a:hover {
 #navbar {
     display: flex;
     align-items: center;
-    padding: 20px 40px 20px 0;
+    padding: 20px 0;
     background-color: #bac964;
     position: fixed;
     height: 100%;
 }
 
+#navbar a{
+  width: 100%;
+  padding: 15px 25px;
+}
+
+#navbar a:hover{
+  background-color: #436f8a;
+  color: #fff;
+}
+
 ul > li {
-    padding-left: 30px;
     display: flex;
     justify-content: start;
 }
@@ -54,13 +82,16 @@ ul > li {
     list-style: none;
     display: flex;
     flex-direction: column;
-    padding: 10px 10px 10px 0;
+    padding: 10px 0;
     height: 50%;
 }
 
 #navbar-menu > li {
-    padding-top: 20px;
     font-size: 18px;
+}
+
+.nav-separator{
+  padding: 10px 0;
 }
 
 #content {
@@ -73,17 +104,4 @@ ul > li {
     align-items: center;
     padding-top: 50px;
     font-size: 32px;
-}
-
-#user-info {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    background-color: #436f8a;
-    padding: 10px;
-}
-
-#user-info > ul {
-    display: flex;
-    flex-direction: row;
 }
