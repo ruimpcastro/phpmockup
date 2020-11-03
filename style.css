@@ -62,6 +62,7 @@ a:hover {
     background-color: #bac964;
     position: fixed;
     height: 100%;
+    width: 15%;
 }
 
 #navbar a{
@@ -89,7 +90,8 @@ ul > li {
     display: flex;
     flex-direction: column;
     padding: 10px 0;
-    height: 50%;
+    height: 75%;
+    width: 100%;
 }
 
 #navbar-menu > li {
@@ -101,7 +103,7 @@ ul > li {
 }
 
 #content {
-    padding: 0 0 0 295px;
+    padding: 0 0 0 15%;
 }
 
 #page-title {
@@ -125,11 +127,11 @@ ul > li {
   border-top-right-radius: 10px;
   background-color: #fff;
   display: inline-block;
-  margin: 50px 0 0 75px;
+  margin-left: 75px;
 }
 
 .info-section{
-  margin: 0 auto;
+  margin: 0 auto 70px auto;
   border-radius: 10px;
   padding: 25px;
   background-color: #fff;
