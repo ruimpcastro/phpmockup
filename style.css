@@ -172,9 +172,18 @@ ul > li {
   color: #fff !important;
 }
 
-.details-button{
+.details-button, .add-button{
   background-color: #bac964 !important;
   color: #000 !important;
+}
+
+.delete-button{
+  background-color: #c42814 !important;
+  color: #fff !important;
+}
+
+table a{
+  display: inline-block;
 }
 
 .notification{
