@@ -172,7 +172,7 @@ ul > li {
   color: #fff !important;
 }
 
-.details-button, .add-button{
+.details-button, .add-button, .accept-button{
   background-color: #bac964 !important;
   color: #000 !important;
 }
