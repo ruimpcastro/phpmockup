@@ -1,26 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Form</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <title>Gestão de Estágios - Propostas de Estágio</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <div id="nav-body">
 
-<nav id="navbar">
-    <ul id="navbar-menu">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="pif.html">PIF</a></li>
-        <li><a href="sumarios.html">Sumários</a></li>
-    </ul>
-</nav>
+        <nav id="navbar">
+            <ul id="navbar-menu">
+              <li><a href="index.html">Os Meus Dados</a></li>
+              <li><a href="notificacoes.html">Notificações</a></li>
+              <li><a href="propostas_estagios.html">Procurar Propostas de Estágio</a></li>
+              <li class="nav-separator"></li>
+              <li><a href="descricao_estagio.html">Descrição do estágio</a></li>
+              <li><a href="plano_atividades.html">Plano de Atividades</a></li>
+              <li><a href="sumarios.html" class="active">Sumários</a></li>
+              <li class="nav-separator"></li>
+              <li><a href="">Terminar Sessão</a></li>
+            </ul>
+        </nav>
+    </div>
         <div id="content">
-            <button type="button">Add sumários</button>
-            <h3>Histórico de sumários</h3>
 
+            <section id="user-info">
+                <ul>
+                    <li>[NOME DO UTILIZADOR]</li>
+                    <li class="user-info-separator"> | </li>
+                    <li>[NOME DA ENTIDADE ACOLHEDORA]</li>
+                </ul>
+            </section>
+
+            <h1 id="page-title">Sumários</h1>
+
+            <div class="table-container">
+              <table id="propostas-table">
+                <tr>
+                  <th>Data</th>
+                  <th>Horas</th>
+                  <th>ID Tarefa(s)</th>
+                  <th>Sumário</th>
+                  <th>Opções</th>
+                </tr>
+                <tr>
+                  <td>10/10/1010</td>
+                  <td>8h</td>
+                  <td>01</td>
+                  <td>Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.</td>
+                  <td>
+                    <a href="#" class="details-button button">Detalhes</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>10/10/1010</td>
+                  <td>8h</td>
+                  <td>01</td>
+                  <td>Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.</td>
+                  <td>
+                    <a href="#" class="details-button button">Detalhes</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>10/10/1010</td>
+                  <td>8h</td>
+                  <td>01</td>
+                  <td>Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.</td>
+                  <td>
+                    <a href="#" class="details-button button">Detalhes</a>
+                  </td>
+                </tr>
+              </table>
+
+            </div>
 
         </div>
 
-        <footer>Feito pelos BackendStorm</footer>
     </body>
 </html>
