@@ -194,3 +194,12 @@ table a{
 }
 
 #contacts-table tr:nth-child(odd){background-color: #ddd;}
+
+#data-publi-container{
+  text-align: center;
+  padding: 25px;
+  margin: 45px auto 100px;
+  background-color: #bac964;
+  width: 45%;
+  border-radius: 25px;
+}
