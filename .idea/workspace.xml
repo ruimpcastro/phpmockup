@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/main" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e43f7d07-5f69-409e-983c-4a2684f92cab" name="Default Changelist" comment="Added home.html and perfil.html">
+      <change afterPath="$PROJECT_DIR$/laravel-7-web-template/configurar_projeto.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/laravel-7-web-template/composer.json</pharConfigPath>
+    <execution>
+      <executable path="composer" />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="composer.json" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Pull.Settings">
+    <option name="BRANCH" value="main" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectId" id="1jEuaIW4CKJSUtrO9m8TDoGVfi6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/laravel-7-web-template/artisan" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.zend.framework.tool" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="artisan serve" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="home.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/phpmockup/home.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.home.html" />
+        <item itemvalue="JavaScript Debug.home.html" />
+        <item itemvalue="JavaScript Debug.home.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e43f7d07-5f69-409e-983c-4a2684f92cab" name="Default Changelist" comment="" />
+      <created>1603381634187</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603381634187</updated>
+      <workItem from="1603381635456" duration="366000" />
+      <workItem from="1603383987265" duration="1474000" />
+      <workItem from="1603732220087" duration="37000" />
+      <workItem from="1603732336075" duration="5104000" />
+      <workItem from="1603897561278" duration="7553000" />
+      <workItem from="1603984558839" duration="369000" />
+      <workItem from="1603987861507" duration="2628000" />
+      <workItem from="1604075794427" duration="3989000" />
+      <workItem from="1604589671740" duration="2991000" />
+      <workItem from="1605739892044" duration="2609000" />
+      <workItem from="1605743061663" duration="4532000" />
+    </task>
+    <task id="LOCAL-00001" summary="Added style.css file and added some style to the navbar">
+      <created>1603735149154</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603735149154</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added style to footer and added some divs for future editing">
+      <created>1603737394075</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603737394075</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added #user-info and some divs to index.html&#10;&#10;Changed nav style and added #user-info style">
+      <created>1603904797879</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603904797879</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added style.css file and added some style to the navbar" />
+    <MESSAGE value="Added style to footer and added some divs for future editing" />
+    <MESSAGE value="Added #user-info and some divs to index.html&#10;&#10;Changed nav style and added #user-info style" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added #user-info and some divs to index.html&#10;&#10;Changed nav style and added #user-info style" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2290" y="546" key="ComposerCompositePathDialog" timestamp="1605747258585">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2290" y="546" key="ComposerCompositePathDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605747258585" />
+    <state x="2102" y="432" key="ComposerInitDialogKey" timestamp="1605746585220">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2102" y="432" key="ComposerInitDialogKey/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605746585220" />
+    <state x="129" y="55" key="DiffContextDialog" timestamp="1604589796255">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="129" y="55" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1604589796255" />
+    <state x="2017" y="170" key="FileChooserDialogImpl" timestamp="1605747428296">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2017" y="170" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605747428296" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1603984928685" />
+    <state x="2331" y="538" key="FrameworkEditDialogDimensionKey" timestamp="1605747430278">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2331" y="538" key="FrameworkEditDialogDimensionKey/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605747430278" />
+    <state x="1547" y="79" width="1559" height="943" key="MergeDialog" timestamp="1605744626634">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1547" y="79" width="1559" height="943" key="MergeDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605744626634" />
+    <state x="129" y="55" key="MergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1604589912314" />
+    <state x="2114" y="222" key="RollbackChangesDialog" timestamp="1605746156848">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2114" y="222" key="RollbackChangesDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605746156848" />
+    <state x="2067" y="314" key="SettingsEditor" timestamp="1605747436854">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2067" y="314" key="SettingsEditor/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605747436854" />
+    <state x="2335" y="529" key="SymfonyComponentCompositeDataDialog" timestamp="1605747268022">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2335" y="529" key="SymfonyComponentCompositeDataDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605747268022" />
+    <state x="1753" y="120" key="Vcs.Push.Dialog.v2" timestamp="1605744830688">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1753" y="120" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605744830688" />
+    <state x="275" y="84" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1603904804452" />
+    <state x="1349" y="196" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1605746188307">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1349" y="196" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605746188307" />
+    <state x="2069" y="397" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605746090249">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2069" y="397" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605746090249" />
+    <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1604589822155" />
+    <state x="2106" y="233" key="git4idea.branch.GitSmartOperationDialog" timestamp="1605744563051">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2106" y="233" key="git4idea.branch.GitSmartOperationDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605744563051" />
+    <state x="1842" y="231" width="945" height="968" key="run.anything.popup" timestamp="1605747249305">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1842" y="231" width="945" height="968" key="run.anything.popup/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605747249305" />
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1603989795804" />
+  </component>
+</project>
