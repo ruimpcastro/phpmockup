@@ -29,8 +29,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e43f7d07-5f69-409e-983c-4a2684f92cab" name="Default Changelist" comment="Added home.html and perfil.html">
-      <change afterPath="$PROJECT_DIR$/laravel-7-web-template/configurar_projeto.md" afterDir="false" />
+    <list default="true" id="e43f7d07-5f69-409e-983c-4a2684f92cab" name="Default Changelist" comment="Added laravel-7-web-template to project">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-7-web-template/configurar_projeto.md" beforeDir="false" afterPath="$PROJECT_DIR$/laravel-7-web-template/configurar_projeto.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +121,7 @@
       <workItem from="1604075794427" duration="3989000" />
       <workItem from="1604589671740" duration="2991000" />
       <workItem from="1605739892044" duration="2609000" />
-      <workItem from="1605743061663" duration="4532000" />
+      <workItem from="1605743061663" duration="5219000" />
     </task>
     <task id="LOCAL-00001" summary="Added style.css file and added some style to the navbar">
       <created>1603735149154</created>
@@ -143,7 +144,21 @@
       <option name="project" value="LOCAL" />
       <updated>1603904797879</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added configurar_projeto.md -&gt; Guia de configuração inicial do projeto">
+      <created>1605748191767</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605748191767</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added laravel-7-web-template to project">
+      <created>1605748422273</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605748422273</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,7 +192,9 @@
     <MESSAGE value="Added style.css file and added some style to the navbar" />
     <MESSAGE value="Added style to footer and added some divs for future editing" />
     <MESSAGE value="Added #user-info and some divs to index.html&#10;&#10;Changed nav style and added #user-info style" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added #user-info and some divs to index.html&#10;&#10;Changed nav style and added #user-info style" />
+    <MESSAGE value="Added configurar_projeto.md -&gt; Guia de configuração inicial do projeto" />
+    <MESSAGE value="Added laravel-7-web-template to project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added laravel-7-web-template to project" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2290" y="546" key="ComposerCompositePathDialog" timestamp="1605747258585">
@@ -201,6 +218,22 @@
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state x="2331" y="538" key="FrameworkEditDialogDimensionKey/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605747430278" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1605748133019">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605748133019" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1605748133019">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605748133019" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1605748133019">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605748133019" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1605748133019">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605748133019" />
     <state x="1547" y="79" width="1559" height="943" key="MergeDialog" timestamp="1605744626634">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
@@ -218,10 +251,10 @@
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state x="2335" y="529" key="SymfonyComponentCompositeDataDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605747268022" />
-    <state x="1753" y="120" key="Vcs.Push.Dialog.v2" timestamp="1605744830688">
+    <state x="1753" y="120" key="Vcs.Push.Dialog.v2" timestamp="1605748429842">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state x="1753" y="120" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605744830688" />
+    <state x="1753" y="120" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605748429842" />
     <state x="275" y="84" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1603904804452" />
     <state x="1349" y="196" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1605746188307">
       <screen x="1366" y="0" width="1920" height="1040" />
