@@ -3,8 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <title>Gestão de Estágios - Os Meus Dados</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="master.css">
+        <link rel="stylesheet" href="../../../style.css">
+        <link rel="stylesheet" href="../../../master.css">
     </head>
     <body>
     <div id="nav-body">
@@ -17,7 +17,7 @@
               <li class="nav-separator"></li>
               <li><a href="descricao_estagio.html">Descrição do estágio</a></li>
               <li><a href="plano_atividades.html">Plano de Atividades</a></li>
-              <li><a href="sumarios.html">Sumários</a></li>
+              <li><a href="../../../sumarios.html">Sumários</a></li>
               <li class="nav-separator"></li>
               <li><a href="">Terminar Sessão</a></li>
             </ul>
@@ -51,10 +51,17 @@
               <div class="info-section">
                 <p>Informações Básicas:</p><br>
                 <ul class="button-spacing">
-                  <li>Nome: <span class="underlined-space">[NOME PLACEHOLDER]</span></li>
-                  <li>Nº de Aluno: <span class="underlined-space">[NOME PLACEHOLDER]</span></li>
-                  <li>Ano: <span class="underlined-space">[NOME PLACEHOLDER]</span></li>
-                  <li>Curso: <span class="underlined-space">[NOME PLACEHOLDER]</span></li>
+
+                  <li>Nome: <input type="text" name="nome" value="PH"></li>
+                  <li>Nº de Aluno: <input type="text" name="numaluno" value="PH"></li>
+                  <li>Ano: <input type="number" name="nome" value="PH"></li>
+                  <li>Curso: <select name="curso" id="cursos-select">
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                  </select>
+                  </li>
                 </ul>
                 <p>Contactos:</p><br>
                 <table id="contacts-table">
@@ -69,16 +76,9 @@
                         <p>Lorem ipsum dolor sit amet</p>
                       </div>
                     </td>
-                  </tr>
-                  <tr>
                     <td>
-                      <div>
-                        <p>Telemóvel:</p>
-                      </div>
-                    </td>
-                    <td>
-                      <div>
-                        <p>Lorem ipsum dolor sit amet</p>
+                      <div class="contact-remove">
+                        <button class="delete-button button" type="button" name="button">X</button>
                       </div>
                     </td>
                   </tr>
@@ -91,11 +91,51 @@
                     <td>
                       <div>
                         <p>Lorem ipsum dolor sit amet</p>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="contact-remove">
+                        <button class="delete-button button" type="button" name="button">X</button>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div>
+                        <p>Telemóvel:</p>
+                      </div>
+                    </td>
+                    <td>
+                      <div>
+                        <p>Lorem ipsum dolor sit amet</p>
+                      </div>
+                    </td>
+                    <td>
+                      <div>
+                        <button class="delete-button button" type="button" name="button">X</button>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div>
+                        <input type="text" name="designacao" value="Designação">
+                      </div>
+                    </td>
+                    <td>
+                      <div>
+                        <input type="text" name="contacto" value="Contacto">
+                      </div>
+                    </td>
+                    <td>
+                      <div>
+                        <button class="add-button button" type="button" name="button">Adicionar</button>
                       </div>
                     </td>
                   </tr>
                 </table>
-                <a href="meusdados_form.html" class="button edit-button">Alterar Dados</a>
+                <a href="" class="button accept-button">Guardar Alterações</a>
+                <a href="" class="button cancel-button">Cancelar</a>
               </div>
             </div>
 
