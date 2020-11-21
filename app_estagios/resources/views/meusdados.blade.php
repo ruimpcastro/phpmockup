@@ -1,38 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Gestão de Estágios - Os Meus Dados</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="master.css">
-    </head>
-    <body>
-    <div id="nav-body">
+@extends("master")
 
-        <nav id="navbar">
-            <ul id="navbar-menu">
-              <li><a href="meusdados.html" class="active">Os Meus Dados</a></li>
-              <li><a href="notificacoes.html">Notificações</a></li>
-              <li><a href="propostas_estagios.html">Procurar Propostas de Estágio</a></li>
-              <li class="nav-separator"></li>
-              <li><a href="descricao_estagio.html">Descrição do estágio</a></li>
-              <li><a href="plano_atividades.html">Plano de Atividades</a></li>
-              <li><a href="sumarios.html">Sumários</a></li>
-              <li class="nav-separator"></li>
-              <li><a href="">Terminar Sessão</a></li>
-            </ul>
-        </nav>
-    </div>
-        <div id="content">
+@section("header-content")
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="master.css">
+@endsection
 
-            <section id="user-info">
-                <ul>
-                    <li>[NOME DO UTILIZADOR]</li>
-                    <li class="user-info-separator"> | </li>
-                    <li>[NOME DA ENTIDADE ACOLHEDORA]</li>
-                </ul>
-            </section>
+@section("sidemenu-options")
+    <li><a href="meusdados.html" class="active">Os Meus Dados</a></li>
+    <li><a href="notificacoes.html">Notificações</a></li>
+    <li><a href="propostas_estagios.html">Procurar Propostas de Estágio</a></li>
+    <li class="nav-separator"></li>
+    <li><a href="descricao_estagio.html">Descrição do estágio</a></li>
+    <li><a href="plano_atividades.html">Plano de Atividades</a></li>
+    <li><a href="sumarios.html">Sumários</a></li>
+    <li class="nav-separator"></li>
+    <li><a href="">Terminar Sessão</a></li>
+@endsection
 
+@section("topbar-contents")
+    <li>[NOME DO UTILIZADOR]</li>
+    <li class="user-info-separator"> | </li>
+    <li>[NOME DA ENTIDADE ACOLHEDORA]</li>
+@endsection
+
+@section("mainpage-contents")
             <h1 id="page-title">Os Meus Dados</h1>
 
             <div class="info-section-container">
@@ -98,9 +89,4 @@
                 <a href="meusdados_form.html" class="button edit-button">Alterar Dados</a>
               </div>
             </div>
-
-        </div>
-
-
-    </body>
-</html>
+@endsection
