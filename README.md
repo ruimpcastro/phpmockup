@@ -1,4 +1,4 @@
-# pweb202113
+# Programação Web 2021 - Grupo 13
 
 ## O repositório deve conter:
 * o código fonte do vosso projeto (não é necessário a pasta vendor);
