@@ -7,6 +7,12 @@ use Illuminate\Http\Request;
 
 class EntidadeController extends Controller
 {
+    public function home(int $id)
+    {
+        $e = Entidade::find($id);
+        return view('entidade.home', ['entidade'=>$e]);
+    }
+
     /**
      * Display a listing of the resource.
      *

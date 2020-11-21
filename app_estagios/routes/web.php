@@ -13,6 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+//Route::get('/alunos/create', "AlunoController@create");
+
 Route::get('/', function () {
     return view('welcome');
 });
@@ -20,6 +22,8 @@ Route::get('/', function () {
 Route::get('/login', function () {
     return view('login');
 });
+
+Route::get('/entidade/{id}/home/', "EntidadeController@home");
 
 Route::get('/estagiario/{id}/meusdados/', function () {
     return view('meusdados');

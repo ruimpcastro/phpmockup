@@ -3,14 +3,15 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-        @yield("header-contents")
+        <link rel="stylesheet" href="{{ asset('css/master.css') }}">
+        @yield('header-contents')
     </head>
     <body>
     <div id="nav-body">
 
         <nav id="navbar">
             <ul id="navbar-menu">
-                @yield("sidemenu-options")
+                @yield('sidemenu-options')
             </ul>
         </nav>
     </div>
@@ -18,11 +19,11 @@
 
         <section id="user-info">
             <ul>
-                @yield("topbar-contents")
+                @yield('topbar-contents')
             </ul>
         </section>
 
-        @yield("mainpage-contents")
+        @yield('mainpage-contents')
 
     </div>
 
