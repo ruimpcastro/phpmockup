@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Gestão de Estágios - Os Meus Dados</title>
-        <link rel="stylesheet" href="../../../style.css">
+        <link rel="stylesheet" href="../../public/style.css/style.css">
         <link rel="stylesheet" href="../../../master.css">
     </head>
     <body>

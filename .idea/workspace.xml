@@ -30,12 +30,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e43f7d07-5f69-409e-983c-4a2684f92cab" name="Default Changelist" comment="Moved file @configurar_projeto.md out of laravel-7-web-template">
-      <change beforePath="$PROJECT_DIR$/.idea/commandlinetools/Tool_based_on_Symfony_Console_18_11_20__23_53_artisan.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/commandlinetools/Tool_based_on_Symfony_Console_18_11_20__23_53_artisan.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_11_2020_23_09__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_11_2020_23_09__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_11_2020_22_22__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_11_2020_22_22__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/phpmockup.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phpmockup.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_estagios/artisan" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_estagios/resources/views/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/app_estagios/resources/views/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_estagios/resources/views/entidade/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/app_estagios/resources/views/entidade/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_estagios/resources/views/meusdados.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/app_estagios/resources/views/meusdados.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-7-web-template/resources/views/admin_home.html" beforeDir="false" afterPath="$PROJECT_DIR$/laravel-7-web-template/resources/views/admin_home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-7-web-template/resources/views/descricao_estagio.html" beforeDir="false" afterPath="$PROJECT_DIR$/laravel-7-web-template/resources/views/descricao_estagio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-7-web-template/resources/views/diretor_proposta.html" beforeDir="false" afterPath="$PROJECT_DIR$/laravel-7-web-template/resources/views/diretor_proposta.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-7-web-template/resources/views/diretor_propostas_estagios.html" beforeDir="false" afterPath="$PROJECT_DIR$/laravel-7-web-template/resources/views/diretor_propostas_estagios.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-7-web-template/resources/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/laravel-7-web-template/resources/views/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-7-web-template/resources/views/meusdados.html" beforeDir="false" afterPath="$PROJECT_DIR$/laravel-7-web-template/resources/views/meusdados.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-7-web-template/resources/views/meusdados_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/laravel-7-web-template/resources/views/meusdados_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-7-web-template/resources/views/notificacoes.html" beforeDir="false" afterPath="$PROJECT_DIR$/laravel-7-web-template/resources/views/notificacoes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-7-web-template/resources/views/pif.html" beforeDir="false" afterPath="$PROJECT_DIR$/laravel-7-web-template/resources/views/pif.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-7-web-template/resources/views/plano_atividades.html" beforeDir="false" afterPath="$PROJECT_DIR$/laravel-7-web-template/resources/views/plano_atividades.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-7-web-template/resources/views/proposta.html" beforeDir="false" afterPath="$PROJECT_DIR$/laravel-7-web-template/resources/views/proposta.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-7-web-template/resources/views/propostas_estagios.html" beforeDir="false" afterPath="$PROJECT_DIR$/laravel-7-web-template/resources/views/propostas_estagios.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumarios.html" beforeDir="false" afterPath="$PROJECT_DIR$/sumarios.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +109,8 @@
       <recent name="C:\PhpProjects\pweb202113\app_estagios" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\PhpProjects\pweb202113\app_estagios\public\" />
+      <recent name="C:\PhpProjects\pweb202113\app_estagios\public\style.css" />
       <recent name="C:\Users\rui_c\PhpstormProjects\pweb202113\laravel-7-web-template\resources\views" />
       <recent name="C:\Users\rui_c\PhpstormProjects\pweb202113" />
     </key>
@@ -141,7 +155,7 @@
       <workItem from="1605986591313" duration="36000" />
       <workItem from="1605986628564" duration="168000" />
       <workItem from="1605986809980" duration="990000" />
-      <workItem from="1605987822371" duration="858000" />
+      <workItem from="1605987822371" duration="1658000" />
     </task>
     <task id="LOCAL-00001" summary="Added style.css file and added some style to the navbar">
       <created>1603735149154</created>

@@ -1,6 +1,7 @@
 @extends('master')
 
 @section('header-contents')
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}" />
 @endsection
 
 @section('sidemenu-options')
