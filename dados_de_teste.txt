@@ -1,0 +1,5 @@
+$e = new Entidade();
+$e->designacao="Empresa de Programacao Generica" ;
+$e->designacao_curta= "EPG";
+$e->descricao= "Equipa de desenvolvedores focada em projetos web fantasticos!";
+$e->save();
