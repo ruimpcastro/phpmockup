@@ -1,100 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="7dbefb2a-ed57-4958-9ee9-bee9e9d12ccb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/.env.example" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/.idea/commandlinetools/Tool_based_on_Symfony_Console_4_17_20__2_47_PM_artisan.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/.idea/commandlinetools/schemas/frameworkDescriptionVersion1.1.4.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/.idea/laravel-7-web-template.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/.idea/laravel-plugin.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/.idea/php.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/.idea/phpunit.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/.styleci.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/app/Console/Kernel.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/app/Exceptions/Handler.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/app/Http/Controllers/Controller.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/app/Http/Kernel.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/app/Http/Middleware/Authenticate.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/app/Http/Middleware/CheckForMaintenanceMode.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/app/Http/Middleware/EncryptCookies.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/app/Http/Middleware/TrimStrings.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/app/Http/Middleware/TrustProxies.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/app/Providers/AppServiceProvider.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/app/Providers/AuthServiceProvider.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/app/Providers/BroadcastServiceProvider.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/app/Providers/EventServiceProvider.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/app/Providers/RouteServiceProvider.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/app/User.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/artisan" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/bootstrap/app.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/bootstrap/cache/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/composer.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/config/app.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/config/auth.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/config/broadcasting.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/config/cache.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/config/cors.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/config/database.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/config/filesystems.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/config/hashing.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/config/logging.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/config/mail.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/config/queue.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/config/services.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/config/session.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/config/view.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/database/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/database/factories/UserFactory.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/database/seeds/DatabaseSeeder.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/phpunit.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/public/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/public/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/resources/js/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/resources/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/resources/lang/en/auth.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/resources/lang/en/pagination.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/resources/lang/en/passwords.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/resources/lang/en/validation.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/resources/sass/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/resources/sass/app.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/resources/views/master-title.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/resources/views/pagina-inicial.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/resources/views/pagina2.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/resources/views/welcome.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/routes/api.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/routes/channels.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/routes/console.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/routes/web.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/server.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/storage/app/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/storage/app/public/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/storage/framework/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/storage/framework/cache/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/storage/framework/cache/data/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/storage/framework/sessions/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/storage/framework/testing/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/storage/framework/views/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/storage/logs/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/tests/CreatesApplication.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/tests/Feature/ExampleTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/tests/TestCase.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/tests/Unit/ExampleTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/webpack.mix.js" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/commandlinetools/Laravel_21_11_2020__12_22.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/commandlinetools/Tool_based_on_Symfony_Console_4_17_20__2_47_PM_artisan.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/commandlinetools/Tool_based_on_Symfony_Console_4_17_20__2_47_PM_artisan.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/laravel-7-web-template.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laravel-7-web-template.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/master-title.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pagina-inicial.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pagina2.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login-styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../master.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,6 +143,12 @@
       <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-client-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
     </include_path>
   </component>
   <component name="ProjectId" id="1acTqwsQ2hypb1O9gsXE0c0g8o9" />
@@ -216,6 +159,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -228,13 +172,19 @@
     <property name="settings.editor.selected.configurable" value="Laravel.SettingsForm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\PhpProjects\pweb202113\app_estagios\public" />
+      <recent name="C:\PhpProjects\pweb202113\app_estagios\resources\css" />
+    </key>
+  </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
-      <command value="artisan serve" />
       <command value="artisan ui" />
       <command value="artisan help ui bootstrap" />
       <command value="artisan help ui" />
       <command value="artisan ui bootstrap" />
+      <command value="artisan serve" />
     </option>
   </component>
   <component name="RunManager">
@@ -258,53 +208,44 @@
       <workItem from="1587123260929" duration="1522000" />
       <workItem from="1587134814989" duration="7002000" />
       <workItem from="1587821706212" duration="1172000" />
-      <workItem from="1605964203288" duration="44000" />
+      <workItem from="1605964203288" duration="1688000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state x="476" y="381" key="ComposerInitDialogKey" timestamp="1587134235863">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1877" height="247" key="GridCell.Tab.0.bottom" timestamp="1605965021120">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="476" y="381" key="ComposerInitDialogKey/0.23.1440.877@0.23.1440.877" timestamp="1587134235863" />
-    <state width="1398" height="211" key="GridCell.Tab.0.bottom" timestamp="1587911547272">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1877" height="247" key="GridCell.Tab.0.bottom/-1280.764.1280.680/0.0.1920.1040@0.0.1920.1040" timestamp="1605965021120" />
+    <state width="1877" height="247" key="GridCell.Tab.0.center" timestamp="1605965021120">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1398" height="211" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1587911547272" />
-    <state width="1398" height="211" key="GridCell.Tab.0.center" timestamp="1587911547272">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1877" height="247" key="GridCell.Tab.0.center/-1280.764.1280.680/0.0.1920.1040@0.0.1920.1040" timestamp="1605965021120" />
+    <state width="1877" height="247" key="GridCell.Tab.0.left" timestamp="1605965021120">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1398" height="211" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1587911547272" />
-    <state width="1398" height="211" key="GridCell.Tab.0.left" timestamp="1587911547271">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1877" height="247" key="GridCell.Tab.0.left/-1280.764.1280.680/0.0.1920.1040@0.0.1920.1040" timestamp="1605965021120" />
+    <state width="1877" height="247" key="GridCell.Tab.0.right" timestamp="1605965021120">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1398" height="211" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1587911547271" />
-    <state width="1398" height="211" key="GridCell.Tab.0.right" timestamp="1587911547272">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1877" height="247" key="GridCell.Tab.0.right/-1280.764.1280.680/0.0.1920.1040@0.0.1920.1040" timestamp="1605965021120" />
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1605965020799">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1398" height="211" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1587911547272" />
-    <state x="414" y="171" key="RollbackChangesDialog" timestamp="1587202375950">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state x="414" y="171" key="RollbackChangesDialog/0.23.1440.877@0.23.1440.877" timestamp="1587202375950" />
-    <state x="225" y="36" key="SettingsEditor" timestamp="1587202349847">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state x="225" y="36" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1587202349847" />
-    <state x="471" y="313" key="SymfonyComponentCompositeDataDialog" timestamp="1587134871769">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state x="471" y="313" key="SymfonyComponentCompositeDataDialog/0.23.1440.877@0.23.1440.877" timestamp="1587134871769" />
-    <state x="385" y="211" width="670" height="675" key="run.anything.popup" timestamp="1587821953927">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state x="385" y="211" width="670" height="675" key="run.anything.popup/0.23.1440.877@0.23.1440.877" timestamp="1587821953927" />
-    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1587036953076">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1587036953076" />
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup/-1280.764.1280.680/0.0.1920.1040@0.0.1920.1040" timestamp="1605965020799" />
   </component>
 </project>

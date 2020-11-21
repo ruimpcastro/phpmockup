@@ -3,8 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <title>Gestão de Estágios - Os Meus Dados</title>
-        <link rel="stylesheet" href="login-styles.css">
-        <link rel="stylesheet" href="master.css">
+        <link rel="stylesheet" type="text/css" href="{{ asset('css/login-styles.css') }}" />
+        <link rel="stylesheet" type="text/css" href="{{ asset('css/master.css') }}" />
     </head>
     <body>
       <div class="wrapper">
