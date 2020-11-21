@@ -30,27 +30,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e43f7d07-5f69-409e-983c-4a2684f92cab" name="Default Changelist" comment="Moved file @configurar_projeto.md out of laravel-7-web-template">
-      <change beforePath="$PROJECT_DIR$/admin_home.html" beforeDir="false" afterPath="$PROJECT_DIR$/laravel-7-web-template/resources/views/admin_home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/descricao_estagio.html" beforeDir="false" afterPath="$PROJECT_DIR$/laravel-7-web-template/resources/views/descricao_estagio.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/diretor_proposta.html" beforeDir="false" afterPath="$PROJECT_DIR$/laravel-7-web-template/resources/views/diretor_proposta.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/diretor_propostas_estagios.html" beforeDir="false" afterPath="$PROJECT_DIR$/laravel-7-web-template/resources/views/diretor_propostas_estagios.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/laravel-7-web-template/resources/views/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/laravel-7-web-template/resources/views/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meusdados.html" beforeDir="false" afterPath="$PROJECT_DIR$/laravel-7-web-template/resources/views/meusdados.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meusdados_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/laravel-7-web-template/resources/views/meusdados_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notificacoes.html" beforeDir="false" afterPath="$PROJECT_DIR$/laravel-7-web-template/resources/views/notificacoes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pif.html" beforeDir="false" afterPath="$PROJECT_DIR$/laravel-7-web-template/resources/views/pif.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plano_atividades.html" beforeDir="false" afterPath="$PROJECT_DIR$/laravel-7-web-template/resources/views/plano_atividades.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proposta.html" beforeDir="false" afterPath="$PROJECT_DIR$/laravel-7-web-template/resources/views/proposta.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/propostas_estagios.html" beforeDir="false" afterPath="$PROJECT_DIR$/laravel-7-web-template/resources/views/propostas_estagios.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sumarios.html" beforeDir="false" afterPath="$PROJECT_DIR$/sumarios.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/commandlinetools/Tool_based_on_Symfony_Console_18_11_20__23_53_artisan.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/commandlinetools/Tool_based_on_Symfony_Console_18_11_20__23_53_artisan.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_11_2020_23_09__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_11_2020_23_09__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_11_2020_22_22__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_11_2020_22_22__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_estagios/artisan" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_estagios/resources/views/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/app_estagios/resources/views/login.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/laravel-7-web-template/composer.json</pharConfigPath>
     <execution>
       <executable path="composer" />
@@ -83,10 +75,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/laravel-7-web-template/artisan" />
+    <property name="dumpAutoload C:/PhpProjects/pweb202113/app_estagios/composer.json" value="--no-interaction --ansi --verbose" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app_estagios" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -99,6 +93,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\PhpProjects\pweb202113\app_estagios" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\rui_c\PhpstormProjects\pweb202113\laravel-7-web-template\resources\views" />
       <recent name="C:\Users\rui_c\PhpstormProjects\pweb202113" />
@@ -106,6 +103,7 @@
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
+      <command value="artisan" />
       <command value="artisan serve" />
     </option>
   </component>
@@ -140,6 +138,10 @@
       <workItem from="1604589671740" duration="2991000" />
       <workItem from="1605739892044" duration="2609000" />
       <workItem from="1605743061663" duration="5838000" />
+      <workItem from="1605986591313" duration="36000" />
+      <workItem from="1605986628564" duration="168000" />
+      <workItem from="1605986809980" duration="990000" />
+      <workItem from="1605987822371" duration="858000" />
     </task>
     <task id="LOCAL-00001" summary="Added style.css file and added some style to the navbar">
       <created>1603735149154</created>
@@ -231,10 +233,22 @@
     <option name="LAST_COMMIT_MESSAGE" value="Moved file @configurar_projeto.md out of laravel-7-web-template" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605987034683">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1280.764.1280.680/0.0.1920.1040@0.0.1920.1040" timestamp="1605987034683" />
+    <state x="734" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605988499470">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="734" y="322" key="#com.intellij.fileTypes.FileTypeChooser/-1280.764.1280.680/0.0.1920.1040@0.0.1920.1040" timestamp="1605988499470" />
     <state x="2290" y="546" key="ComposerCompositePathDialog" timestamp="1605747258585">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state x="2290" y="546" key="ComposerCompositePathDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605747258585" />
+    <state x="774" y="402" key="ComposerDumpAutoloadDialog" timestamp="1605988082855">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="774" y="402" key="ComposerDumpAutoloadDialog/-1280.764.1280.680/0.0.1920.1040@0.0.1920.1040" timestamp="1605988082855" />
     <state x="2102" y="432" key="ComposerInitDialogKey" timestamp="1605746585220">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
@@ -243,30 +257,36 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="129" y="55" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1604589796255" />
-    <state x="2017" y="170" key="FileChooserDialogImpl" timestamp="1605747428296">
-      <screen x="1366" y="0" width="1920" height="1040" />
+    <state x="651" y="170" key="FileChooserDialogImpl" timestamp="1605988275589">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="651" y="170" key="FileChooserDialogImpl/-1280.764.1280.680/0.0.1920.1040@0.0.1920.1040" timestamp="1605988275589" />
     <state x="2017" y="170" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605747428296" />
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1603984928685" />
-    <state x="2331" y="538" key="FrameworkEditDialogDimensionKey" timestamp="1605747430278">
-      <screen x="1366" y="0" width="1920" height="1040" />
+    <state x="965" y="538" key="FrameworkEditDialogDimensionKey" timestamp="1605988278355">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="965" y="538" key="FrameworkEditDialogDimensionKey/-1280.764.1280.680/0.0.1920.1040@0.0.1920.1040" timestamp="1605988278355" />
     <state x="2331" y="538" key="FrameworkEditDialogDimensionKey/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605747430278" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1605748133019">
-      <screen x="1366" y="0" width="1920" height="1040" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1605988195672">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/-1280.764.1280.680/0.0.1920.1040@0.0.1920.1040" timestamp="1605988195672" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605748133019" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1605748133019">
-      <screen x="1366" y="0" width="1920" height="1040" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1605988195672">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/-1280.764.1280.680/0.0.1920.1040@0.0.1920.1040" timestamp="1605988195672" />
     <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605748133019" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1605748133019">
-      <screen x="1366" y="0" width="1920" height="1040" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1605988195672">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/-1280.764.1280.680/0.0.1920.1040@0.0.1920.1040" timestamp="1605988195672" />
     <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605748133019" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1605748133019">
-      <screen x="1366" y="0" width="1920" height="1040" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1605988195672">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/-1280.764.1280.680/0.0.1920.1040@0.0.1920.1040" timestamp="1605988195672" />
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605748133019" />
     <state x="1547" y="79" width="1559" height="943" key="MergeDialog" timestamp="1605744626634">
       <screen x="1366" y="0" width="1920" height="1040" />
@@ -277,9 +297,10 @@
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state x="2114" y="222" key="RollbackChangesDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605746156848" />
-    <state x="2067" y="314" key="SettingsEditor" timestamp="1605747436854">
-      <screen x="1366" y="0" width="1920" height="1040" />
+    <state x="508" y="291" width="998" height="709" key="SettingsEditor" timestamp="1605988279844">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="508" y="291" width="998" height="709" key="SettingsEditor/-1280.764.1280.680/0.0.1920.1040@0.0.1920.1040" timestamp="1605988279844" />
     <state x="2067" y="314" key="SettingsEditor/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605747436854" />
     <state x="2335" y="529" key="SymfonyComponentCompositeDataDialog" timestamp="1605747268022">
       <screen x="1366" y="0" width="1920" height="1040" />
@@ -303,9 +324,10 @@
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state x="2106" y="233" key="git4idea.branch.GitSmartOperationDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605744563051" />
-    <state x="1842" y="231" width="945" height="968" key="run.anything.popup" timestamp="1605747249305">
-      <screen x="1366" y="0" width="1920" height="1040" />
+    <state x="476" y="231" width="945" height="968" key="run.anything.popup" timestamp="1605988361668">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="476" y="231" width="945" height="968" key="run.anything.popup/-1280.764.1280.680/0.0.1920.1040@0.0.1920.1040" timestamp="1605988361668" />
     <state x="1842" y="231" width="945" height="968" key="run.anything.popup/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605747249305" />
     <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1603989795804" />
   </component>

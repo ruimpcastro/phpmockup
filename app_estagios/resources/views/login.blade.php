@@ -3,13 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <title>Gestão de Estágios - Os Meus Dados</title>
-<<<<<<< HEAD:laravel-7-web-template/resources/views/login.html
-        <link rel="stylesheet" href="../../../login-styles.css">
-        <link rel="stylesheet" href="../../../master.css">
-=======
         <link rel="stylesheet" type="text/css" href="{{ asset('css/login-styles.css') }}" />
         <link rel="stylesheet" type="text/css" href="{{ asset('css/master.css') }}" />
->>>>>>> 36434aa679fc01d83e3feb80b221fa073763ebd7:app_estagios/resources/views/login.blade.php
     </head>
     <body>
       <div class="wrapper">
