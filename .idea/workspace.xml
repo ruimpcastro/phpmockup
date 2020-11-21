@@ -24,29 +24,27 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:origin/main" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/iteracao1" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e43f7d07-5f69-409e-983c-4a2684f92cab" name="Default Changelist" comment="Moved file @configurar_projeto.md out of laravel-7-web-template">
-      <change beforePath="$PROJECT_DIR$/.idea/phpmockup.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phpmockup.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_estagios/resources/views/entidade/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/app_estagios/resources/views/entidade/home.blade.php" afterDir="false" />
+    <list default="true" id="d9675cdf-35a4-4e7a-8f0a-aadef6182900" name="Default Changelist" comment="Moved html files to project view">
+      <change beforePath="$PROJECT_DIR$/app_estagios/resources/views/admin_home.html" beforeDir="false" afterPath="$PROJECT_DIR$/app_estagios/resources/views/admin_home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_estagios/resources/views/descricao_estagio.html" beforeDir="false" afterPath="$PROJECT_DIR$/app_estagios/resources/views/descricao_estagio.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_estagios/resources/views/diretor_proposta.html" beforeDir="false" afterPath="$PROJECT_DIR$/app_estagios/resources/views/diretor_proposta.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_estagios/resources/views/diretor_propostas_estagios.html" beforeDir="false" afterPath="$PROJECT_DIR$/app_estagios/resources/views/diretor_propostas_estagios.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_estagios/resources/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app_estagios/resources/views/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_estagios/resources/views/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/app_estagios/resources/views/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_estagios/resources/views/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/app_estagios/resources/views/login2.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app_estagios/resources/views/meusdados.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/app_estagios/resources/views/meusdados.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel-7-web-template/resources/views/admin_home.html" beforeDir="false" afterPath="$PROJECT_DIR$/laravel-7-web-template/resources/views/admin_home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel-7-web-template/resources/views/descricao_estagio.html" beforeDir="false" afterPath="$PROJECT_DIR$/laravel-7-web-template/resources/views/descricao_estagio.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel-7-web-template/resources/views/diretor_proposta.html" beforeDir="false" afterPath="$PROJECT_DIR$/laravel-7-web-template/resources/views/diretor_proposta.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel-7-web-template/resources/views/diretor_propostas_estagios.html" beforeDir="false" afterPath="$PROJECT_DIR$/laravel-7-web-template/resources/views/diretor_propostas_estagios.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel-7-web-template/resources/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/laravel-7-web-template/resources/views/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel-7-web-template/resources/views/meusdados.html" beforeDir="false" afterPath="$PROJECT_DIR$/laravel-7-web-template/resources/views/meusdados.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel-7-web-template/resources/views/meusdados_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/laravel-7-web-template/resources/views/meusdados_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel-7-web-template/resources/views/notificacoes.html" beforeDir="false" afterPath="$PROJECT_DIR$/laravel-7-web-template/resources/views/notificacoes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel-7-web-template/resources/views/pif.html" beforeDir="false" afterPath="$PROJECT_DIR$/laravel-7-web-template/resources/views/pif.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel-7-web-template/resources/views/plano_atividades.html" beforeDir="false" afterPath="$PROJECT_DIR$/laravel-7-web-template/resources/views/plano_atividades.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel-7-web-template/resources/views/proposta.html" beforeDir="false" afterPath="$PROJECT_DIR$/laravel-7-web-template/resources/views/proposta.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel-7-web-template/resources/views/propostas_estagios.html" beforeDir="false" afterPath="$PROJECT_DIR$/laravel-7-web-template/resources/views/propostas_estagios.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_estagios/resources/views/meusdados.html" beforeDir="false" afterPath="$PROJECT_DIR$/app_estagios/resources/views/meusdados2.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_estagios/resources/views/meusdados_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/app_estagios/resources/views/meusdados_form.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_estagios/resources/views/notificacoes.html" beforeDir="false" afterPath="$PROJECT_DIR$/app_estagios/resources/views/notificacoes.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_estagios/resources/views/pif.html" beforeDir="false" afterPath="$PROJECT_DIR$/app_estagios/resources/views/pif.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_estagios/resources/views/plano_atividades.html" beforeDir="false" afterPath="$PROJECT_DIR$/app_estagios/resources/views/plano_atividades.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_estagios/resources/views/proposta.html" beforeDir="false" afterPath="$PROJECT_DIR$/app_estagios/resources/views/proposta.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_estagios/resources/views/propostas_estagios.html" beforeDir="false" afterPath="$PROJECT_DIR$/app_estagios/resources/views/propostas_estagios.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sumarios.html" beforeDir="false" afterPath="$PROJECT_DIR$/sumarios.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -105,14 +103,15 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\PhpProjects\pweb202113\app_estagios" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\rui_c\PhpstormProjects\pweb202113\app_estagios\resources\views" />
       <recent name="C:\PhpProjects\pweb202113\app_estagios\public\" />
       <recent name="C:\PhpProjects\pweb202113\app_estagios\public\style.css" />
       <recent name="C:\Users\rui_c\PhpstormProjects\pweb202113\laravel-7-web-template\resources\views" />
       <recent name="C:\Users\rui_c\PhpstormProjects\pweb202113" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\PhpProjects\pweb202113\app_estagios" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -122,6 +121,10 @@
     </option>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ComposerRunConfigurationType" factoryName="Composer Script">
+      <option name="pathToComposerJson" value="$PROJECT_DIR$/laravel-7-web-template/composer.json" />
+      <method v="2" />
+    </configuration>
     <configuration name="home.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/phpmockup/home.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -206,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605749166055</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Moved html files to project view">
+      <created>1605989913667</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1605989913667</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,7 +254,8 @@
     <MESSAGE value="Added laravel-7-web-template to project" />
     <MESSAGE value="Updated configurar_projeto.md. Added some project configuration guides" />
     <MESSAGE value="Moved file @configurar_projeto.md out of laravel-7-web-template" />
-    <option name="LAST_COMMIT_MESSAGE" value="Moved file @configurar_projeto.md out of laravel-7-web-template" />
+    <MESSAGE value="Moved html files to project view" />
+    <option name="LAST_COMMIT_MESSAGE" value="Moved html files to project view" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605987034683">
@@ -320,10 +331,10 @@
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state x="2335" y="529" key="SymfonyComponentCompositeDataDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605747268022" />
-    <state x="1753" y="120" key="Vcs.Push.Dialog.v2" timestamp="1605749435733">
+    <state x="1753" y="120" key="Vcs.Push.Dialog.v2" timestamp="1605989915825">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state x="1753" y="120" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605749435733" />
+    <state x="1753" y="120" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605989915825" />
     <state x="275" y="84" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1603904804452" />
     <state x="1349" y="196" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1605746188307">
       <screen x="1366" y="0" width="1920" height="1040" />

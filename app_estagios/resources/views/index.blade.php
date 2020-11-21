@@ -10,9 +10,9 @@
 
         <nav id="navbar">
             <ul id="navbar-menu">
-                <li><a href="index.html" class="active">Os Meus Dados</a></li>
-                <li><a href="notificacoes.html">Notificações</a></li>
-                <li><a href="propostas_estagios.html">Procurar Propostas de Estágio</a></li>
+                <li><a href="index.blade.php" class="active">Os Meus Dados</a></li>
+                <li><a href="notificacoes.blade.php">Notificações</a></li>
+                <li><a href="propostas_estagios.blade.php">Procurar Propostas de Estágio</a></li>
                 <li class="nav-separator"></li>
                 <li><a href="">Descrição do estágio</a></li>
                 <li><a href="">Plano de Atividades</a></li>

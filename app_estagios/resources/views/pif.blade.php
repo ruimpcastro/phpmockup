@@ -10,8 +10,8 @@
 
     <nav id="navbar">
         <ul id="navbar-menu">
-            <li><a href="meusdados.html">Home</a></li>
-            <li><a href="pif.html">PIF</a></li>
+            <li><a href="meusdados2.blade.php">Home</a></li>
+            <li><a href="pif.blade.php">PIF</a></li>
             <li><a href="../../../sumarios.html">Sumários</a></li>
         </ul>
     </nav>

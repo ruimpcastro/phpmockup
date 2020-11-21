@@ -8,27 +8,24 @@
     </head>
     <body>
     <div id="nav-body">
-        <nav id="navbar">
-            <ul id="navbar-menu">
-              <li><a href="meusdados.html">Os Meus Dados</a></li>
-              <li><a href="notificacoes.html">Notificações</a></li>
-              <li><a href="propostas_estagios.html" class="active">Procurar Propostas de Estágio</a></li>
-              <li class="nav-separator"></li>
-              <li><a href="descricao_estagio.html">Descrição do estágio</a></li>
-              <li><a href="plano_atividades.html">Plano de Atividades</a></li>
-              <li><a href="../../../sumarios.html">Sumários</a></li>
-              <li class="nav-separator"></li>
-              <li><a href="">Terminar Sessão</a></li>
-            </ul>
-        </nav>
+      <nav id="navbar">
+        <ul id="navbar-menu">
+          <li><a href="" class="active">Orientadores</a></li>
+          <li><a href="">Supervisores</a></li>
+          <li><a href="">Estagiários</a></li>
+          <li class="nav-separator"></li>
+          <li><a href="">Entidades</a></li>
+          <li><a href="diretor_propostas_estagios.blade.php">Propostas de Estágio</a></li>
+          <li class="nav-separator"></li>
+          <li><a href="">Terminar Sessão</a></li>
+        </ul>
+      </nav>
     </div>
         <div id="content">
 
             <section id="user-info">
                 <ul>
                     <li>[NOME DO UTILIZADOR]</li>
-                    <li class="user-info-separator"> | </li>
-                    <li>[NOME DA ENTIDADE ACOLHEDORA]</li>
                 </ul>
             </section>
 
@@ -89,11 +86,27 @@
                 </table>
 
                 <a href="#" class="accept-button button">Aceitar Proposta</a>
+                <a href="#" id="reject-btn" class="cancel-button button">Rejeitar Proposta</a>
               </div>
             </div>
-
         </div>
 
+        <div id="reject-modal" class="modal">
+          <div class="modal-content">
+            <div class="modal-header">
+              <span class="close">&times;</span>
+              <h1>Rejeitar Proposta</h1><br>
+            </div>
+            <div class="modal-main">
+              <p>Por favor, indique a razão pela qual a proposta será rejeitada:</p><br>
+              <textarea name="name" rows="8" cols="40"></textarea><br>
+              <a href="#" class="cancel-button button">Confirmar</a>
+              <a href="#" id="cancel-reject-btn" class="neutral-button button">Cancelar</a>
+            </div>
+          </div>
+        </div>
+        <script type="text/javascript" src="../../../js/effects.js">
 
+        </script>
     </body>
 </html>

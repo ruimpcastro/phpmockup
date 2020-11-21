@@ -12,7 +12,7 @@
         <h1 id="app-title">Plataforma de Gestão<br>de Estágios</h1>
         <div class="login-wrapper">
           <div id="login-form-div">
-            <form id="login-form" action="index.html" method="post">
+            <form id="login-form" action="index.blade.php" method="post">
               <p>Utilizadors:</p>
               <input type="text" name="username" value="">
               <p>Palavra-Passe:</p>

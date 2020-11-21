@@ -11,12 +11,12 @@
 
         <nav id="navbar">
             <ul id="navbar-menu">
-              <li><a href="meusdados.html">Os Meus Dados</a></li>
-              <li><a href="notificacoes.html">Notificações</a></li>
-              <li><a href="propostas_estagios.html" class="active">Procurar Propostas de Estágio</a></li>
+              <li><a href="meusdados2.blade.php">Os Meus Dados</a></li>
+              <li><a href="notificacoes.blade.php">Notificações</a></li>
+              <li><a href="propostas_estagios.blade.php" class="active">Procurar Propostas de Estágio</a></li>
               <li class="nav-separator"></li>
-              <li><a href="descricao_estagio.html">Descrição do estágio</a></li>
-              <li><a href="plano_atividades.html">Plano de Atividades</a></li>
+              <li><a href="descricao_estagio.blade.php">Descrição do estágio</a></li>
+              <li><a href="plano_atividades.blade.php">Plano de Atividades</a></li>
               <li><a href="../../../sumarios.html">Sumários</a></li>
               <li class="nav-separator"></li>
               <li><a href="">Terminar Sessão</a></li>
@@ -49,10 +49,10 @@
                   <td>Web Developer</td>
                   <td>Manutenção do Sistema de Gestão de Recursos Humanos</td>
                   <td>
-                    <a href="proposta.html" class="details-button button">Detalhes</a>
-                    <a href="proposta.html" class="delete-button button">X</a>
-                    <a href="proposta.html" class="neutral-button button">^</a>
-                    <a href="proposta.html" class="neutral-button button">v</a>
+                    <a href="proposta.blade.php" class="details-button button">Detalhes</a>
+                    <a href="proposta.blade.php" class="delete-button button">X</a>
+                    <a href="proposta.blade.php" class="neutral-button button">^</a>
+                    <a href="proposta.blade.php" class="neutral-button button">v</a>
                   </td>
                 </tr>
                 <tr>
@@ -60,10 +60,10 @@
                   <td>Web Developer</td>
                   <td>Manutenção do Sistema de Gestão de Recursos Humanos</td>
                   <td>
-                    <a href="proposta.html" class="details-button button">Detalhes</a>
-                    <a href="proposta.html" class="delete-button button">X</a>
-                    <a href="proposta.html" class="neutral-button button">^</a>
-                    <a href="proposta.html" class="neutral-button button">v</a>
+                    <a href="proposta.blade.php" class="details-button button">Detalhes</a>
+                    <a href="proposta.blade.php" class="delete-button button">X</a>
+                    <a href="proposta.blade.php" class="neutral-button button">^</a>
+                    <a href="proposta.blade.php" class="neutral-button button">v</a>
                   </td>
                 </tr>
                 <tr>
@@ -71,10 +71,10 @@
                   <td>Web Developer</td>
                   <td>Manutenção do Sistema de Gestão de Recursos Humanos</td>
                   <td>
-                    <a href="proposta.html" class="details-button button">Detalhes</a>
-                    <a href="proposta.html" class="delete-button button">X</a>
-                    <a href="proposta.html" class="neutral-button button">^</a>
-                    <a href="proposta.html" class="neutral-button button">v</a>
+                    <a href="proposta.blade.php" class="details-button button">Detalhes</a>
+                    <a href="proposta.blade.php" class="delete-button button">X</a>
+                    <a href="proposta.blade.php" class="neutral-button button">^</a>
+                    <a href="proposta.blade.php" class="neutral-button button">v</a>
                   </td>
                 </tr>
                 <tr>
@@ -82,10 +82,10 @@
                   <td>Web Developer</td>
                   <td>Manutenção do Sistema de Gestão de Recursos Humanos</td>
                   <td>
-                    <a href="proposta.html" class="details-button button">Detalhes</a>
-                    <a href="proposta.html" class="delete-button button">X</a>
-                    <a href="proposta.html" class="neutral-button button">^</a>
-                    <a href="proposta.html" class="neutral-button button">v</a>
+                    <a href="proposta.blade.php" class="details-button button">Detalhes</a>
+                    <a href="proposta.blade.php" class="delete-button button">X</a>
+                    <a href="proposta.blade.php" class="neutral-button button">^</a>
+                    <a href="proposta.blade.php" class="neutral-button button">v</a>
                   </td>
                 </tr>
                 <tr>
@@ -93,10 +93,10 @@
                   <td>Web Developer</td>
                   <td>Manutenção do Sistema de Gestão de Recursos Humanos</td>
                   <td>
-                    <a href="proposta.html" class="details-button button">Detalhes</a>
-                    <a href="proposta.html" class="delete-button button">X</a>
-                    <a href="proposta.html" class="neutral-button button">^</a>
-                    <a href="proposta.html" class="neutral-button button">v</a>
+                    <a href="proposta.blade.php" class="details-button button">Detalhes</a>
+                    <a href="proposta.blade.php" class="delete-button button">X</a>
+                    <a href="proposta.blade.php" class="neutral-button button">^</a>
+                    <a href="proposta.blade.php" class="neutral-button button">v</a>
                   </td>
                 </tr>
               </table>
@@ -117,7 +117,7 @@
                   <td>Web Developer</td>
                   <td>Manutenção do Sistema de Gestão de Recursos Humanos</td>
                   <td>
-                    <a href="proposta.html" class="details-button button">Detalhes</a>
+                    <a href="proposta.blade.php" class="details-button button">Detalhes</a>
                   </td>
                 </tr>
                 <tr>
@@ -125,7 +125,7 @@
                   <td>Web Developer</td>
                   <td>Manutenção do Sistema de Gestão de Recursos Humanos</td>
                   <td>
-                    <a href="proposta.html" class="details-button button">Detalhes</a>
+                    <a href="proposta.blade.php" class="details-button button">Detalhes</a>
                   </td>
                 </tr>
                 <tr>
@@ -133,7 +133,7 @@
                   <td>Web Developer</td>
                   <td>Manutenção do Sistema de Gestão de Recursos Humanos</td>
                   <td>
-                    <a href="proposta.html" class="details-button button">Detalhes</a>
+                    <a href="proposta.blade.php" class="details-button button">Detalhes</a>
                   </td>
                 </tr>
                 <tr>
@@ -141,7 +141,7 @@
                   <td>Web Developer</td>
                   <td>Manutenção do Sistema de Gestão de Recursos Humanos</td>
                   <td>
-                    <a href="proposta.html" class="details-button button">Detalhes</a>
+                    <a href="proposta.blade.php" class="details-button button">Detalhes</a>
                   </td>
                 </tr>
                 <tr>
@@ -149,7 +149,7 @@
                   <td>Web Developer</td>
                   <td>Manutenção do Sistema de Gestão de Recursos Humanos</td>
                   <td>
-                    <a href="proposta.html" class="details-button button">Detalhes</a>
+                    <a href="proposta.blade.php" class="details-button button">Detalhes</a>
                   </td>
                 </tr>
                 <tr>
@@ -157,7 +157,7 @@
                   <td>Web Developer</td>
                   <td>Manutenção do Sistema de Gestão de Recursos Humanos</td>
                   <td>
-                    <a href="proposta.html" class="details-button button">Detalhes</a>
+                    <a href="proposta.blade.php" class="details-button button">Detalhes</a>
                   </td>
                 </tr>
                 <tr>
@@ -165,7 +165,7 @@
                   <td>Web Developer</td>
                   <td>Manutenção do Sistema de Gestão de Recursos Humanos</td>
                   <td>
-                    <a href="proposta.html" class="details-button button">Detalhes</a>
+                    <a href="proposta.blade.php" class="details-button button">Detalhes</a>
                   </td>
                 </tr>
                 <tr>
@@ -173,7 +173,7 @@
                   <td>Web Developer</td>
                   <td>Manutenção do Sistema de Gestão de Recursos Humanos</td>
                   <td>
-                    <a href="proposta.html" class="details-button button">Detalhes</a>
+                    <a href="proposta.blade.php" class="details-button button">Detalhes</a>
                   </td>
                 </tr>
                 <tr>
@@ -181,7 +181,7 @@
                   <td>Web Developer</td>
                   <td>Manutenção do Sistema de Gestão de Recursos Humanos</td>
                   <td>
-                    <a href="proposta.html" class="details-button button">Detalhes</a>
+                    <a href="proposta.blade.php" class="details-button button">Detalhes</a>
                   </td>
                 </tr>
                 <tr>
@@ -189,7 +189,7 @@
                   <td>Web Developer</td>
                   <td>Manutenção do Sistema de Gestão de Recursos Humanos</td>
                   <td>
-                    <a href="proposta.html" class="details-button button">Detalhes</a>
+                    <a href="proposta.blade.php" class="details-button button">Detalhes</a>
                   </td>
                 </tr>
               </table>
