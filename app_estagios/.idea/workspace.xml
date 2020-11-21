@@ -2,12 +2,99 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7dbefb2a-ed57-4958-9ee9-bee9e9d12ccb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/.env.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/.idea/commandlinetools/Tool_based_on_Symfony_Console_4_17_20__2_47_PM_artisan.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/.idea/commandlinetools/schemas/frameworkDescriptionVersion1.1.4.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/.idea/laravel-7-web-template.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/.idea/laravel-plugin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/.idea/php.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/.idea/phpunit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/.styleci.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/app/Console/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/app/Exceptions/Handler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/app/Http/Controllers/Controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/app/Http/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/app/Http/Middleware/Authenticate.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/app/Http/Middleware/CheckForMaintenanceMode.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/app/Http/Middleware/EncryptCookies.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/app/Http/Middleware/TrimStrings.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/app/Http/Middleware/TrustProxies.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/app/Providers/AppServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/app/Providers/AuthServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/app/Providers/BroadcastServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/app/Providers/EventServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/app/Providers/RouteServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/app/User.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/artisan" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/bootstrap/app.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/bootstrap/cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/config/app.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/config/auth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/config/broadcasting.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/config/cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/config/cors.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/config/database.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/config/filesystems.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/config/hashing.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/config/logging.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/config/mail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/config/queue.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/config/services.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/config/session.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/config/view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/database/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/database/factories/UserFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/database/seeds/DatabaseSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/phpunit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/public/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/public/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/resources/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/resources/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/resources/lang/en/auth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/resources/lang/en/pagination.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/resources/lang/en/passwords.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/resources/lang/en/validation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/resources/sass/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/resources/sass/app.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/resources/views/master-title.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/resources/views/pagina-inicial.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/resources/views/pagina2.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/resources/views/welcome.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/routes/api.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/routes/channels.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/routes/console.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/routes/web.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/server.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/storage/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/storage/app/public/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/storage/framework/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/storage/framework/cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/storage/framework/cache/data/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/storage/framework/sessions/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/storage/framework/testing/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/storage/framework/views/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/storage/logs/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/tests/CreatesApplication.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/tests/Feature/ExampleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/tests/TestCase.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/tests/Unit/ExampleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-7-web-template/webpack.mix.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,6 +226,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="Laravel.SettingsForm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
@@ -155,6 +243,7 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -169,11 +258,12 @@
       <workItem from="1587123260929" duration="1522000" />
       <workItem from="1587134814989" duration="7002000" />
       <workItem from="1587821706212" duration="1172000" />
+      <workItem from="1605964203288" duration="44000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="476" y="381" key="ComposerInitDialogKey" timestamp="1587134235863">
