@@ -23,9 +23,10 @@ Route::get('/login', function () {
     return view('login');
 });
 
-Route::get('/entidade/{id}/home', "EntidadeController@home");
-Route::get('/entidade/{id}/notificacoes', "EntidadeController@notificacoes");
-Route::get('/entidade/{id}/propostas', "EntidadeController@propostas");
+Route::get('/entidades/{id_entidade}/home', "EntidadeController@home");
+Route::get('/entidades/{id_entidade}/notificacoes', "EntidadeController@notificacoes");
+Route::get('/entidades/{id_entidade}/propostas', "EntidadeController@listar_propostas");
+Route::get('/entidades/{id_entidade}/propostas/{id_proposta}', "EntidadeController@detalhes_proposta");
 
 Route::get('/estagiario/{id}/meusdados', function () {
     return view('meusdados');

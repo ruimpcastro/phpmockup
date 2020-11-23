@@ -7,22 +7,29 @@ use Illuminate\Http\Request;
 
 class EntidadeController extends Controller
 {
-    public function home(int $id)
+    public function home(int $id_entidade)
     {
-        $e = Entidade::find($id);
+        $e = Entidade::find($id_entidade);
         return view('entidade.home', ['entidade'=>$e]);
     }
 
-    public function notificacoes(int $id)
+    public function notificacoes(int $id_entidade)
     {
-        $e = Entidade::find($id);
+        $e = Entidade::find($id_entidade);
         return view('entidade.notificacoes', ['entidade'=>$e]);
     }
 
-    public function propostas(int $id)
+    public function listar_propostas(int $id_entidade)
     {
-        $e = Entidade::find($id);
+        $e = Entidade::find($id_entidade);
         return view('entidade.propostas', ['entidade'=>$e]);
+    }
+
+    public function detalhes_propostas(int $id_entidade, int $id_proposta)
+    {
+        $e = Entidade::find($id_entidade);
+        $p = Proposta::find($id_proposta);
+        return view('entidade.proposta', ['entidade'=>$e, 'proposta'=>$p]);
     }
 
     /**
