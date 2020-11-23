@@ -13,6 +13,18 @@ class EntidadeController extends Controller
         return view('entidade.home', ['entidade'=>$e]);
     }
 
+    public function notificacoes(int $id)
+    {
+        $e = Entidade::find($id);
+        return view('entidade.notificacoes', ['entidade'=>$e]);
+    }
+
+    public function propostas(int $id)
+    {
+        $e = Entidade::find($id);
+        return view('entidade.propostas', ['entidade'=>$e]);
+    }
+
     /**
      * Display a listing of the resource.
      *

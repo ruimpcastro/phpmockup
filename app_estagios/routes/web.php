@@ -23,8 +23,10 @@ Route::get('/login', function () {
     return view('login');
 });
 
-Route::get('/entidade/{id}/home/', "EntidadeController@home");
+Route::get('/entidade/{id}/home', "EntidadeController@home");
+Route::get('/entidade/{id}/notificacoes', "EntidadeController@notificacoes");
+Route::get('/entidade/{id}/propostas', "EntidadeController@propostas");
 
-Route::get('/estagiario/{id}/meusdados/', function () {
+Route::get('/estagiario/{id}/meusdados', function () {
     return view('meusdados');
 });

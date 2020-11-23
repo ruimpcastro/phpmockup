@@ -3,7 +3,8 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-        <link rel="stylesheet" href="{{ asset('css/master.css') }}">
+        <link rel="stylesheet" type="text/css" href="{{ asset('css/master.css') }}">
+        <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}"/>
         @yield('header-contents')
     </head>
     <body>

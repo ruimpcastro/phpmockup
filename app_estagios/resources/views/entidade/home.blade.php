@@ -1,17 +1,13 @@
 @extends('master')
 
 @section('header-contents')
-    <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}" />
+    <title>Entidade - Home</title>
 @endsection
 
 @section('sidemenu-options')
-    <li><a href="meusdados.html" class="active">Os Meus Dados</a></li>
-    <li><a href="notificacoes.html">Notificações</a></li>
-    <li><a href="propostas_estagios.html">Procurar Propostas de Estágio</a></li>
-    <li class="nav-separator"></li>
-    <li><a href="descricao_estagio.html">Descrição do estágio</a></li>
-    <li><a href="plano_atividades.html">Plano de Atividades</a></li>
-    <li><a href="sumarios.html">Sumários</a></li>
+    <li><a href="/entidade/{{$entidade->id}}/home" class="active">Os Meus Dados</a></li>
+    <li><a href="/entidade/{{$entidade->id}}/notificacoes">Notificações</a></li>
+    <li><a href="/entidade/{{$entidade->id}}/propostas">Propostas de Estágio</a></li>
     <li class="nav-separator"></li>
     <li><a href="">Terminar Sessão</a></li>
 @endsection
@@ -21,5 +17,106 @@
 @endsection
 
 @section('mainpage-contents')
-    <p>Coisa</p>
+    <h1 id="page-title">Os Meus Dados</h1>
+
+    <div class="info-section-container">
+        <h2 class="sub-title">Informações da Entidade</h2>
+        <div class="info-section">
+            <ul class="button-spacing">
+                <li>Designação da Entidade: <span class="underlined-space">{{$entidade->designacao}}</span></li>
+                <li>Abreviatura: <span class="underlined-space">{{$entidade->designacao_curta}}</span></li>
+                <br>
+                <p>Contactos da Entidade:</p><br>
+                <table id="contacts-table">
+                    <tr>
+                        <td>
+                            <div>
+                                <p>Telemóvel:</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div>
+                                <p>Lorem ipsum dolor sit amet</p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div>
+                                <p>Telemóvel:</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div>
+                                <p>Lorem ipsum dolor sit amet</p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div>
+                                <p>Telemóvel:</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div>
+                                <p>Lorem ipsum dolor sit amet</p>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </ul>
+            <a href="meusdados_form.blade.php" class="button edit-button">Alterar Dados</a>
+        </div>
+    </div>
+
+    <div class="info-section-container">
+        <h2 class="sub-title">Informações do Orientador</h2>
+        <div class="info-section">
+            <ul class="button-spacing">
+                <li>Nome do Orientador: <span class="underlined-space">[NOME DO ORIENTADOR]</span></li>
+                <br>
+                <p>Contactos:</p><br>
+                <table id="contacts-table">
+                    <tr>
+                        <td>
+                            <div>
+                                <p>Telemóvel:</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div>
+                                <p>Lorem ipsum dolor sit amet</p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div>
+                                <p>Telemóvel:</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div>
+                                <p>Lorem ipsum dolor sit amet</p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div>
+                                <p>Telemóvel:</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div>
+                                <p>Lorem ipsum dolor sit amet</p>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </ul>
+            <a href="meusdados_form.blade.php" class="button edit-button">Alterar Dados</a>
+        </div>
+    </div>
 @endsection
