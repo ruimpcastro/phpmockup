@@ -3,22 +3,24 @@
 namespace App\Http\Controllers;
 
 use App\Entidade;
+use App\Proposta;
 use Illuminate\Http\Request;
 
-class EntidadeController extends Controller
+class PropostaController extends Controller
 {
-    public function home(int $id_entidade)
+
+    public function listar_propostas_entidades(int $id_entidade)
     {
-        $e = Entidade::find($id_entidade);
-        return view('entidade.home', ['entidade'=>$e]);
+        $p = Proposta::find($id_entidade);
+        return view('entidade.propostas', ['propostas'=>$p]);
     }
 
-    public function notificacoes(int $id_entidade)
+    public function detalhes_propostas_entidades(int $id_entidade, int $id_proposta)
     {
         $e = Entidade::find($id_entidade);
-        return view('entidade.notificacoes', ['entidade'=>$e]);
+        $p = Proposta::find($id_proposta);
+        return view('entidade.proposta', ['entidade'=>$e, 'proposta'=>$p]);
     }
-
     /**
      * Display a listing of the resource.
      *
@@ -53,10 +55,10 @@ class EntidadeController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Entidade  $entidade
+     * @param  \App\Proposta  $proposta
      * @return \Illuminate\Http\Response
      */
-    public function show(Entidade $entidade)
+    public function show(Proposta $proposta)
     {
         //
     }
@@ -64,10 +66,10 @@ class EntidadeController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Entidade  $entidade
+     * @param  \App\Proposta  $proposta
      * @return \Illuminate\Http\Response
      */
-    public function edit(Entidade $entidade)
+    public function edit(Proposta $proposta)
     {
         //
     }
@@ -76,10 +78,10 @@ class EntidadeController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Entidade  $entidade
+     * @param  \App\Proposta  $proposta
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Entidade $entidade)
+    public function update(Request $request, Proposta $proposta)
     {
         //
     }
@@ -87,10 +89,10 @@ class EntidadeController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Entidade  $entidade
+     * @param  \App\Proposta  $proposta
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Entidade $entidade)
+    public function destroy(Proposta $proposta)
     {
         //
     }
