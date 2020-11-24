@@ -37,9 +37,9 @@ class PropostaController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function create(int $id_entidade)
     {
-        //
+        return view('entidade.proposta_criar', ['entidade'=>$id_entidade]);
     }
 
     /**
