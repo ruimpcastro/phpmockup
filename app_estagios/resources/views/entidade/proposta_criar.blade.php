@@ -41,8 +41,8 @@
                         </tr>
                     </table>
                 </div>
-                <input type="submit" class="edit-button button" value="Alterar Dados">
-                <a href="#" class="delete-button button">Apagar Proposta</a>
+                <input type="submit" class="accept-button button" value="Submeter Proposta">
+                <a href="/entidades/{{$entidade->id}}/propostas" class="delete-button button">Cancelar</a>
             </form>
         </div>
     </div>

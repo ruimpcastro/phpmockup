@@ -10,12 +10,14 @@ addRowBtn.addEventListener("click", function() {
     var table_data = document.createElement("td");
     var input_field = document.createElement("input");
     input_field.id="crono_desc_tarefa_" + ids_cronograma;
+    input_field.type="text";
     table_data.append(input_field);
     table_row.append(table_data);
 
     var table_data = document.createElement("td");
     var input_field = document.createElement("input");
     input_field.id="crono_duracao_" + ids_cronograma;
+    input_field.type="text";
     table_data.append(input_field);
     table_row.append(table_data);
 
