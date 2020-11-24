@@ -5,9 +5,9 @@
 @endsection
 
 @section('sidemenu-options')
-    <li><a href="/entidade/{{$entidade->id}}/home">Os Meus Dados</a></li>
-    <li><a href="/entidade/{{$entidade->id}}/notificacoes">Notificações</a></li>
-    <li><a href="/entidade/{{$entidade->id}}/propostas" class="active">Propostas de Estágio</a></li>
+    <li><a href="/entidades/{{$entidade->id}}/home">Os Meus Dados</a></li>
+    <li><a href="/entidades/{{$entidade->id}}/notificacoes">Notificações</a></li>
+    <li><a href="/entidades/{{$entidade->id}}/propostas" class="active">Propostas de Estágio</a></li>
     <li class="nav-separator"></li>
     <li><a href="">Terminar Sessão</a></li>
 @endsection
@@ -21,20 +21,13 @@
     <h1 id="page-title">Proposta de Estágio</h1>
 
     <div class="info-section-container">
-        <h2 class="sub-title">[NOME DA ENTIDADE ACOLHEDORA]</h2>
+        <h2 class="sub-title">{{$entidade->designacao}}</h2>
         <div class="info-section">
-            <p>Projeto: [NOME DO PROJETO]</p><br><br>
-            <p>Estagiário(s): [NOME DO ESTAGIARIO]</p><br>
-            <p>Orientador: [NOME DO ORIENTADOR]</p><br>
-            <p>Supervisor: [NOME DO SUPERVISOR]</p><br><br>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                irure dolor in reprehenderit in voluptate velit esse cillum
-                dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat non proident, sunt in culpa qui officia deserunt
-                mollit anim id est laborum.</p><br>
+            <p>Projeto: {{$proposta->titulo_projeto}}</p><br><br>
+            <p>Estagiário(s): [TBD]</p><br>
+            <p>Orientador: [TBD]</p><br>
+            <p>Supervisor: {{$proposta->supervisor}}</p><br><br>
+            <p>{{$proposta->descricao_projeto}}</p><br>
             <p>Requisitos:</p>
             <ul class="button-spacing">
                 <li>[PLACEHOLDER]:<span class="underlined-space">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -48,7 +41,7 @@
             </ul>
 
             <p>Cronograma:</p>
-            <table id="propostas-table">
+            <table id="propostas-table" class="button-spacing">
                 <tr>
                     <th>ID Tarefa</th>
                     <th>Descrição da Tarefa</th>
@@ -76,7 +69,8 @@
                 </tr>
             </table>
 
-            <a href="#" class="accept-button button">Aceitar Proposta</a>
+            <a href="#" class="edit-button button">Alterar Dados</a>
+            <a href="#" class="delete-button button">Apagar Proposta</a>
         </div>
     </div>
 @endsection

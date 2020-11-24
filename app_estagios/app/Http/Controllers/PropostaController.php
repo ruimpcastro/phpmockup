@@ -11,8 +11,9 @@ class PropostaController extends Controller
 
     public function listar_propostas_entidades(int $id_entidade)
     {
-        $p = Proposta::find($id_entidade);
-        return view('entidade.propostas', ['propostas'=>$p]);
+        $e = Entidade::find($id_entidade);
+        $p = Proposta::where('id_entidade', $id_entidade)->get();
+        return view('entidade.propostas', ['entidade'=>$e, 'propostas'=>$p]);
     }
 
     public function detalhes_propostas_entidades(int $id_entidade, int $id_proposta)

@@ -22,7 +22,7 @@
           </div>
         </div>
           <div class="login-shortcut">
-              <a href="/entidade/1/home/" class="login-shortcut-btn accept-button button">Login: Entidade Acolhedora</a>
+              <a href="/entidades/1/home/" class="login-shortcut-btn accept-button button">Login: Entidade Acolhedora</a>
               <a href="/diretor/1/" class="login-shortcut-btn accept-button button">Login: Diretor de Curso</a>
               <a href="/orientador/1/" class="login-shortcut-btn accept-button button">Login: Orientador</a>
               <a href="/supervisor/1/" class="login-shortcut-btn accept-button button">Login: Supervisor</a>

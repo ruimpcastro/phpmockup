@@ -5,9 +5,9 @@
 @endsection
 
 @section('sidemenu-options')
-    <li><a href="/entidade/{{$entidade->id}}/home">Os Meus Dados</a></li>
-    <li><a href="/entidade/{{$entidade->id}}/notificacoes">Notificações</a></li>
-    <li><a href="/entidade/{{$entidade->id}}/propostas" class="active">Propostas de Estágio</a></li>
+    <li><a href="/entidades/{{$entidade->id}}/home">Os Meus Dados</a></li>
+    <li><a href="/entidades/{{$entidade->id}}/notificacoes">Notificações</a></li>
+    <li><a href="/entidades/{{$entidade->id}}/propostas" class="active">Propostas de Estágio</a></li>
     <li class="nav-separator"></li>
     <li><a href="">Terminar Sessão</a></li>
 @endsection
@@ -28,22 +28,16 @@
                 <th>Projeto</th>
                 <th>Opções</th>
             </tr>
-            <tr>
-                <td>[NOME DA ENTIDADE]</td>
-                <td>Web Developer</td>
-                <td>Manutenção do Sistema de Gestão de Recursos Humanos</td>
-                <td>
-                    <a href="/entidade/{{$entidade->id}}/proposta" class="details-button button">Detalhes</a>
-                </td>
-            </tr>
-            <tr>
-                <td>[NOME DA ENTIDADE]</td>
-                <td>Web Developer</td>
-                <td>Manutenção do Sistema de Gestão de Recursos Humanos</td>
-                <td>
-                    <a href="/entidade/{{$entidade->id}}/proposta" class="details-button button">Detalhes</a>
-                </td>
-            </tr>
+            @foreach($propostas as $p)
+                <tr>
+                    <td>{{$entidade->designacao}}</td>
+                    <td>{{$p->perfil}}</td>
+                    <td>{{$p->titulo_projeto}}</td>
+                    <td>
+                        <a href="/entidades/{{$entidade->id}}/propostas/{{$p->id}}/" class="details-button button">Detalhes</a>
+                    </td>
+                </tr>
+            @endforeach
             <tr>
                 <td></td>
                 <td></td>
