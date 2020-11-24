@@ -39,7 +39,8 @@ class PropostaController extends Controller
      */
     public function create(int $id_entidade)
     {
-        return view('entidade.proposta_criar', ['entidade'=>$id_entidade]);
+        $e = Entidade::find($id_entidade);
+        return view('entidade.proposta_criar', ['entidade'=>$e]);
     }
 
     /**

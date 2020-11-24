@@ -34,7 +34,7 @@
                     <td>{{$p->perfil}}</td>
                     <td>{{$p->titulo_projeto}}</td>
                     <td>
-                        <a href="/entidades/{{$entidade->id}}/propostas/{{$p->id}}/" class="details-button button">Detalhes</a>
+                        <a href="/entidades/{{$entidade->id}}/propostas/{{$p->id}}/detalhes/" class="details-button button">Detalhes</a>
                     </td>
                 </tr>
             @endforeach
@@ -43,10 +43,9 @@
                 <td></td>
                 <td></td>
                 <td>
-                    <a href="/entidade/{{$entidade->id}}/proposta" class="add-button button">Adicionar</a>
+                    <a href="/entidades/{{$entidade->id}}/propostas/criar/" class="add-button button">Adicionar</a>
                 </td>
             </tr>
         </table>
     </div>
-
 @endsection

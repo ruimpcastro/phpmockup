@@ -28,6 +28,6 @@
 
     </div>
 
-
+    @yield('script-imports')
     </body>
 </html>

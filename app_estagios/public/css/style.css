@@ -188,6 +188,10 @@ table a {
     color: #000;
 }
 
+.table-container{
+    margin: auto;
+}
+
 #contacts-table {
     border-collapse: collapse;
     margin: 0 0 25px 40px;

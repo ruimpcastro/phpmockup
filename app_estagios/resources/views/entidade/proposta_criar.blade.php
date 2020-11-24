@@ -5,9 +5,9 @@
 @endsection
 
 @section('sidemenu-options')
-    <li><a href="/entidades/{{$entidade->id}}/home">Os Meus Dados</a></li>
-    <li><a href="/entidades/{{$entidade->id}}/notificacoes">Notificações</a></li>
-    <li><a href="/entidades/{{$entidade->id}}/propostas" class="active">Propostas de Estágio</a></li>
+    <li><a href="/entidades/{{$entidade->id}}/home/">Os Meus Dados</a></li>
+    <li><a href="/entidades/{{$entidade->id}}/notificacoes/">Notificações</a></li>
+    <li><a href="/entidades/{{$entidade->id}}/propostas/" class="active">Propostas de Estágio</a></li>
     <li class="nav-separator"></li>
     <li><a href="">Terminar Sessão</a></li>
 @endsection
@@ -23,43 +23,31 @@
     <div class="info-section-container">
         <h2 class="sub-title">{{$entidade->designacao}}</h2>
         <div class="info-section">
-            <p>Projeto: {{$proposta->titulo_projeto}}</p><br><br>
-            <p>Estagiário(s): [TBD]</p><br>
-            <p>Orientador: [TBD]</p><br>
-            <p>Supervisor: {{$proposta->supervisor}}</p><br><br>
-            <p>{{$proposta->descricao_projeto}}</p><br>
-
-            <p>Cronograma:</p>
-            <table id="propostas-table" class="button-spacing">
-                <tr>
-                    <th>ID Tarefa</th>
-                    <th>Descrição da Tarefa</th>
-                    <th>Duração</th>
-                </tr>
-                <tr>
-                    <td>01</td>
-                    <td>Lorem ipsum dolor sit amet, consectetur
-                        adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                        et dolore magna aliqua.
-                    </td>
-                    <td>
-                        9 dias
-                    </td>
-                </tr>
-                <tr>
-                    <td>01</td>
-                    <td>Lorem ipsum dolor sit amet, consectetur
-                        adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                        et dolore magna aliqua.
-                    </td>
-                    <td>
-                        9 dias
-                    </td>
-                </tr>
-            </table>
-
-            <a href="#" class="edit-button button">Alterar Dados</a>
-            <a href="#" class="delete-button button">Apagar Proposta</a>
+            <form action="">
+                <p>Projeto: </p><input type="text"><br><br>
+                <p>Supervisor: </p><input type="text"><br><br>
+                <p>Descrição: </p>
+                <textarea name="" id="" cols="50" rows="10"></textarea>
+                <br><br>
+                <p>Cronograma:</p><br>
+                <div class="table-container">
+                    <table id="propostas-table" class="button-spacing">
+                        <tr>
+                            <th>Descrição da Tarefa</th>
+                            <th>Duração</th>
+                            <th>
+                                <a class="neutral-button button add-row-btn">Adicionar</a>
+                            </th>
+                        </tr>
+                    </table>
+                </div>
+                <input type="submit" class="edit-button button" value="Alterar Dados">
+                <a href="#" class="delete-button button">Apagar Proposta</a>
+            </form>
         </div>
     </div>
+@endsection
+
+@section("script-imports")
+    <script type="text/javascript" src="{{ asset('js/addTableRow.js') }}"></script>
 @endsection
