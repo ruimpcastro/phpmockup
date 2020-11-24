@@ -28,17 +28,6 @@
             <p>Orientador: [TBD]</p><br>
             <p>Supervisor: {{$proposta->supervisor}}</p><br><br>
             <p>{{$proposta->descricao_projeto}}</p><br>
-            <p>Requisitos:</p>
-            <ul class="button-spacing">
-                <li>[PLACEHOLDER]:<span class="underlined-space">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span></li>
-                <li>[PLACEHOLDER]:<span class="underlined-space">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span></li>
-                <li>[PLACEHOLDER]:<span class="underlined-space">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span></li>
-                <li>[PLACEHOLDER]:<span class="underlined-space">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span></li>
-            </ul>
 
             <p>Cronograma:</p>
             <table id="propostas-table" class="button-spacing">
