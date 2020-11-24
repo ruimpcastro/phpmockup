@@ -20,8 +20,18 @@ addRowBtn.addEventListener("click", function() {
     table_row.append(table_data);
 
     var table_data = document.createElement("td");
+    var delete_btn = document.createElement("a");
+    delete_btn.className ="delete-button button";
+    delete_btn.appendChild(document.createTextNode("X"));
+
+    table_data.append(delete_btn);
     table_row.append(table_data);
+
     cronogramaTable.appendChild(table_row);
 
     ids_cronograma++;
+
+    delete_btn.addEventListener("click", function() {
+        table_row.remove();
+    });
 });
