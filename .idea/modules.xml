@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/pweb202113.iml" filepath="$PROJECT_DIR$/.idea/pweb202113.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/laravel-7-web-template.iml" filepath="$PROJECT_DIR$/.idea/laravel-7-web-template.iml" />
     </modules>
   </component>
 </project>
