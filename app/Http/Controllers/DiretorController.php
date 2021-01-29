@@ -11,10 +11,9 @@ class DiretorController extends Controller
     /**
      * Análise e marcação da proposta como aprovada ou rejeitada
      *
-     *
      */
 
-    public function validarProposta()
+    public function validarProjeto(): void
     {
         //
     }
@@ -23,13 +22,28 @@ class DiretorController extends Controller
      * If proposta rejeitada:
      * Campo de texto para justificar a decisao do Diretor
      * Enviar aviso para empresa editar e voltar a submeter uma nova proposta
+     *
      */
-    public function justificarPropostaRejeitada()
+    public function justificarProjetoRejeitado(): void
     {
         //
     }
 
-    public function atribuirPropostaAluno()
+    /**
+     * Factor de seleção: média do estudante
+     *
+     */
+    public function atribuirProjetoAluno(): void
+    {
+        //
+    }
+
+    /**
+     * Atribuir supervisor
+     * Atribuir data de inicio e data da primeira reunião com a entidade
+     *
+     */
+    public function atribuirProjetoSupervisor(): void
     {
         //
     }
@@ -37,15 +51,11 @@ class DiretorController extends Controller
     /**
      * Numero de propostas de projeto por aluno (p. ex. 5 propostas)
      */
-    public function numeroPropostasPorAluno()
+    public function numeroPropostasPorAluno(): void
     {
         //
     }
 
-    public function atribuirPropostaSupervisor()
-    {
-        //
-    }
 
     /**
      * Display a listing of the resource.
