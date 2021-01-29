@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7dbefb2a-ed57-4958-9ee9-bee9e9d12ccb" name="Default Changelist" comment="New model Diretor (crm)&#10;New model Estagiario (crm)&#10;Updated web.php with routes for new models">
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_29_213622_alter_usertipo_type.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_29_215328_alter_dados_orientador.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d367ff17-26d1-4890-aa99-c4de6de311f6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d367ff17-26d1-4890-aa99-c4de6de311f6.xml" afterDir="false" />
+    <list default="true" id="7dbefb2a-ed57-4958-9ee9-bee9e9d12ccb" name="Default Changelist" comment=".gitignore now has composer.phar">
+      <change afterPath="$PROJECT_DIR$/composer.phar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/laravel-7-web-template.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laravel-7-web-template.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Entidade.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Entidade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/OrientadorController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/OrientadorController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Orientador.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Orientador.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Utilizador.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Utilizador.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +16,7 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
-      <executable path="composer" />
+      <phar pharPath="$PROJECT_DIR$/composer.phar" interpreterId="46b48a0d-12ce-4b74-a5bf-a696ab99a6cd" />
     </execution>
   </component>
   <component name="Git.Settings">
@@ -34,7 +30,7 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration">
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-iconv" />
       <path value="$PROJECT_DIR$/vendor/symfony/translation" />
@@ -165,7 +161,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.zend.framework.tool" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.composer" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -180,9 +176,9 @@
       <command value="artisan help ui bootstrap" />
       <command value="artisan help ui" />
       <command value="artisan ui bootstrap" />
-      <command value="artisan migrate" />
       <command value="artisan serve" />
       <command value="artisan make:model -crm admin" />
+      <command value="artisan migrate" />
     </option>
   </component>
   <component name="RunManager">
@@ -211,7 +207,7 @@
       <workItem from="1611868661072" duration="1737000" />
       <workItem from="1611878740355" duration="4108000" />
       <workItem from="1611919386606" duration="15677000" />
-      <workItem from="1611942842407" duration="10895000" />
+      <workItem from="1611942842407" duration="12142000" />
     </task>
     <task id="LOCAL-00001" summary="New model Diretor (crm)&#10;New model Estagiario (crm)&#10;Updated web.php with routes for new models">
       <created>1611949541288</created>
@@ -227,7 +223,28 @@
       <option name="project" value="LOCAL" />
       <updated>1611951003382</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Updated names function names&#10;Altered routes and made new routes">
+      <created>1611957500905</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1611957500905</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added Estagiaro::class">
+      <created>1611958117972</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1611958117972</updated>
+    </task>
+    <task id="LOCAL-00005" summary=".gitignore now has composer.phar">
+      <created>1611958505605</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1611958505605</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,7 +269,10 @@
     </ignored-roots>
     <MESSAGE value="New model Diretor (crm)&#10;New model Estagiario (crm)&#10;Updated web.php with routes for new models" />
     <MESSAGE value="Update DiretorController.php&#10;Update EstagiarioController.php&#10;Update web.php with new estagiario routes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update DiretorController.php&#10;Update EstagiarioController.php&#10;Update web.php with new estagiario routes" />
+    <MESSAGE value="Updated names function names&#10;Altered routes and made new routes" />
+    <MESSAGE value="Added Estagiaro::class" />
+    <MESSAGE value=".gitignore now has composer.phar" />
+    <option name="LAST_COMMIT_MESSAGE" value=".gitignore now has composer.phar" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
