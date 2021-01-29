@@ -16,7 +16,7 @@ class EstagiarioController extends Controller
      *  O Supervisor
      *
      */
-    public function verDetalhesPropostas()
+    public function verDetalhesProjeto(): void
     {
         //
     }
@@ -26,7 +26,7 @@ class EstagiarioController extends Controller
      * Estagiario indica propostas por ordem de preferência, no máximo até um número
      * especificado pelo diretor de curso (p. ex. 5 propostas
      */
-    public function escolherProposta()
+    public function escolherProjeto(): void
     {
         //
     }
@@ -34,7 +34,7 @@ class EstagiarioController extends Controller
      * Permite visualizar lista de propostas
      *
      */
-    public function verlistaPropostas()
+    public function verListaProjetos(): void
     {
         //
     }

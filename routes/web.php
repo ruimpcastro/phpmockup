@@ -36,10 +36,10 @@ Route::get('/entidades/{id_entidade}/notificacoes', "EntidadeController@notifica
 //DIRETOR (ADMIN)
 Route::get('Diretor/{id}/guardar', "DiretorController@store");
 
-Route::get('Diretor/{id_diretor}/validarProposta/{id_proposta}', "DiretorController@validarProposta");
-Route::get('Diretor/{id_diretor}/justificarPropostaRejeitada/{id_proposta}', "DiretorController@justificarPropostaRejeitada");
-Route::get('Diretor/{id_diretor}/atribuirPropostaAluno/{id_aluno}', "DiretorController@atribuirPropostaAluno");
-Route::get('Diretor/{id_diretor}/atribuirPropostaSupervisor/{id_supervisor}', "DiretorController@numeroPropostasPorAluno");
+Route::get('Diretor/{id_diretor}/validarProjeto/{id_projeto}', "DiretorController@validarProjeto");
+Route::get('Diretor/{id_diretor}/justificarProjetoRejeitado/{id_projeto}', "DiretorController@justificarProjetoRejeitado");
+Route::get('Diretor/{id_diretor}/atribuirProjetoAluno/{id_aluno}', "DiretorController@atribuirProjetoAluno");
+Route::get('Diretor/{id_diretor}/atribuirProjetoSupervisor/{id_supervisor}', "DiretorController@atribuirProjetoSupervisor");
 
 //ESTAGIÁRIO
 //Route::get('/estagiario/{id}/meusdados', function () {
@@ -48,6 +48,6 @@ Route::get('Diretor/{id_diretor}/atribuirPropostaSupervisor/{id_supervisor}', "D
 Route::get('estagiario/{id}/criar', "EstagiarioController@create");
 Route::get('estagiario/{id}/guardar', "EstagiarioController@store");
 
-Route::get('estagiario/{id}/verListaPropostas', "EstagiarioController@verListaPropostas");
-Route::get('estagiario/{id}/verDetalhesProposta', "EstagiarioController@verDetalhesProposta");
-Route::get('estagiario/{id}/escolherProposta', "EstagiarioController@escolherProposta");
+Route::get('estagiario/{id}/verListaProjetos', "EstagiarioController@verListaProjetos");
+Route::get('estagiario/{id}/verDetalhesProjeto', "EstagiarioController@verDetalhesProjeto");
+Route::get('estagiario/{id}/escolherProjeto', "EstagiarioController@escolherProjeto");
