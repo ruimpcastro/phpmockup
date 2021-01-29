@@ -13,7 +13,7 @@
 @endsection
 
 @section('topbar-contents')
-    <li>{{$entidade->designacao}} ({{$entidade->designacao_curta}})</li>
+    <li>{{$entidade->name}} ({{$entidade->shortName}})</li>
 @endsection
 
 @section('mainpage-contents')
@@ -23,8 +23,8 @@
         <h2 class="sub-title">Informações da Entidade</h2>
         <div class="info-section">
             <ul class="button-spacing">
-                <li>Designação da Entidade: <span class="underlined-space">{{$entidade->designacao}}</span></li>
-                <li>Abreviatura: <span class="underlined-space">{{$entidade->designacao_curta}}</span></li>
+                <li>Designação da Entidade: <span class="underlined-space">{{$entidade->name}}</span></li>
+                <li>Abreviatura: <span class="underlined-space">{{$entidade->shortName}}</span></li>
                 <br>
                 <p>Contactos da Entidade:</p><br>
                 <table id="contacts-table">

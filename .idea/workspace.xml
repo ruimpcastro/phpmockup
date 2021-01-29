@@ -1,51 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:origin/iteracao1" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </select>
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9675cdf-35a4-4e7a-8f0a-aadef6182900" name="Default Changelist" comment="Moved html files to project view">
-      <change beforePath="$PROJECT_DIR$/app_estagios/resources/views/admin_home.html" beforeDir="false" afterPath="$PROJECT_DIR$/app_estagios/resources/views/admin_home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_estagios/resources/views/descricao_estagio.html" beforeDir="false" afterPath="$PROJECT_DIR$/app_estagios/resources/views/descricao_estagio.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_estagios/resources/views/diretor_proposta.html" beforeDir="false" afterPath="$PROJECT_DIR$/app_estagios/resources/views/diretor_proposta.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_estagios/resources/views/diretor_propostas_estagios.html" beforeDir="false" afterPath="$PROJECT_DIR$/app_estagios/resources/views/diretor_propostas_estagios.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_estagios/resources/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app_estagios/resources/views/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_estagios/resources/views/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/app_estagios/resources/views/login.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_estagios/resources/views/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/app_estagios/resources/views/login2.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_estagios/resources/views/meusdados.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/app_estagios/resources/views/meusdados.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_estagios/resources/views/meusdados.html" beforeDir="false" afterPath="$PROJECT_DIR$/app_estagios/resources/views/meusdados2.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_estagios/resources/views/meusdados_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/app_estagios/resources/views/meusdados_form.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_estagios/resources/views/notificacoes.html" beforeDir="false" afterPath="$PROJECT_DIR$/app_estagios/resources/views/notificacoes.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_estagios/resources/views/pif.html" beforeDir="false" afterPath="$PROJECT_DIR$/app_estagios/resources/views/pif.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_estagios/resources/views/plano_atividades.html" beforeDir="false" afterPath="$PROJECT_DIR$/app_estagios/resources/views/plano_atividades.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_estagios/resources/views/proposta.html" beforeDir="false" afterPath="$PROJECT_DIR$/app_estagios/resources/views/proposta.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_estagios/resources/views/propostas_estagios.html" beforeDir="false" afterPath="$PROJECT_DIR$/app_estagios/resources/views/propostas_estagios.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sumarios.html" beforeDir="false" afterPath="$PROJECT_DIR$/sumarios.html" afterDir="false" />
+    <list default="true" id="7dbefb2a-ed57-4958-9ee9-bee9e9d12ccb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d367ff17-26d1-4890-aa99-c4de6de311f6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d367ff17-26d1-4890-aa99-c4de6de311f6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/entidade/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/entidade/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,45 +15,132 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
-    <pharConfigPath>$PROJECT_DIR$/laravel-7-web-template/composer.json</pharConfigPath>
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable path="composer" />
     </execution>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="CSS File" />
-        <option value="HTML File" />
-        <option value="composer.json" />
-      </list>
-    </option>
-  </component>
-  <component name="Git.Pull.Settings">
-    <option name="BRANCH" value="main" />
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="main" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
-  <component name="ProjectId" id="1jEuaIW4CKJSUtrO9m8TDoGVfi6" />
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/vendor/scrivo/highlight.php" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/collection" />
+      <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/vendor/league/commonmark" />
+      <path value="$PROJECT_DIR$/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/vendor/facade/flare-client-php" />
+      <path value="$PROJECT_DIR$/vendor/facade/ignition-contracts" />
+      <path value="$PROJECT_DIR$/vendor/facade/ignition" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/brick/math" />
+      <path value="$PROJECT_DIR$/vendor/asm89/stack-cors" />
+      <path value="$PROJECT_DIR$/vendor/voku/portable-ascii" />
+      <path value="$PROJECT_DIR$/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/vendor/fruitcake/laravel-cors" />
+      <path value="$PROJECT_DIR$/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-client-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/vendor/league/mime-type-detection" />
+      <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1acTqwsQ2hypb1O9gsXE0c0g8o9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="sqlite" />
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="dumpAutoload C:/PhpProjects/pweb202113/app_estagios/composer.json" value="--no-interaction --ansi --verbose" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app_estagios" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -103,120 +152,45 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\rui_c\PhpstormProjects\pweb202113\app_estagios\resources\views" />
-      <recent name="C:\PhpProjects\pweb202113\app_estagios\public\" />
-      <recent name="C:\PhpProjects\pweb202113\app_estagios\public\style.css" />
-      <recent name="C:\Users\rui_c\PhpstormProjects\pweb202113\laravel-7-web-template\resources\views" />
-      <recent name="C:\Users\rui_c\PhpstormProjects\pweb202113" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\PhpProjects\pweb202113\app_estagios" />
+      <recent name="C:\Projetos Web\pweb202113\resources\views" />
     </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
-      <command value="artisan" />
+      <command value="artisan ui" />
+      <command value="artisan help ui bootstrap" />
+      <command value="artisan help ui" />
+      <command value="artisan ui bootstrap" />
       <command value="artisan serve" />
     </option>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ComposerRunConfigurationType" factoryName="Composer Script">
-      <option name="pathToComposerJson" value="$PROJECT_DIR$/laravel-7-web-template/composer.json" />
+    <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner scope="XML" />
       <method v="2" />
     </configuration>
-    <configuration name="home.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/phpmockup/home.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JavaScript Debug.home.html" />
-        <item itemvalue="JavaScript Debug.home.html" />
-        <item itemvalue="JavaScript Debug.home.html" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e43f7d07-5f69-409e-983c-4a2684f92cab" name="Default Changelist" comment="" />
-      <created>1603381634187</created>
+      <changelist id="7dbefb2a-ed57-4958-9ee9-bee9e9d12ccb" name="Default Changelist" comment="" />
+      <created>1587034076167</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1603381634187</updated>
-      <workItem from="1603381635456" duration="366000" />
-      <workItem from="1603383987265" duration="1474000" />
-      <workItem from="1603732220087" duration="37000" />
-      <workItem from="1603732336075" duration="5104000" />
-      <workItem from="1603897561278" duration="7553000" />
-      <workItem from="1603984558839" duration="369000" />
-      <workItem from="1603987861507" duration="2628000" />
-      <workItem from="1604075794427" duration="3989000" />
-      <workItem from="1604589671740" duration="2991000" />
-      <workItem from="1605739892044" duration="2609000" />
-      <workItem from="1605743061663" duration="5838000" />
-      <workItem from="1605986591313" duration="36000" />
-      <workItem from="1605986628564" duration="168000" />
-      <workItem from="1605986809980" duration="990000" />
-      <workItem from="1605987822371" duration="1658000" />
+      <updated>1587034076167</updated>
+      <workItem from="1587034077432" duration="4948000" />
+      <workItem from="1587123260929" duration="1522000" />
+      <workItem from="1587134814989" duration="7002000" />
+      <workItem from="1587821706212" duration="1172000" />
+      <workItem from="1611865763921" duration="1301000" />
+      <workItem from="1611868634595" duration="5000" />
+      <workItem from="1611868661072" duration="1737000" />
+      <workItem from="1611878740355" duration="4108000" />
     </task>
-    <task id="LOCAL-00001" summary="Added style.css file and added some style to the navbar">
-      <created>1603735149154</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1603735149154</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Added style to footer and added some divs for future editing">
-      <created>1603737394075</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1603737394075</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Added #user-info and some divs to index.html&#10;&#10;Changed nav style and added #user-info style">
-      <created>1603904797879</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1603904797879</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Added configurar_projeto.md -&gt; Guia de configuração inicial do projeto">
-      <created>1605748191767</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1605748191767</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Added laravel-7-web-template to project">
-      <created>1605748422273</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1605748422273</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Updated configurar_projeto.md. Added some project configuration guides">
-      <created>1605748847603</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1605748847603</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Moved file @configurar_projeto.md out of laravel-7-web-template">
-      <created>1605749166055</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1605749166055</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Moved html files to project view">
-      <created>1605989913667</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1605989913667</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,19 +201,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="origin/main" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -247,113 +209,12 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added style.css file and added some style to the navbar" />
-    <MESSAGE value="Added style to footer and added some divs for future editing" />
-    <MESSAGE value="Added #user-info and some divs to index.html&#10;&#10;Changed nav style and added #user-info style" />
-    <MESSAGE value="Added configurar_projeto.md -&gt; Guia de configuração inicial do projeto" />
-    <MESSAGE value="Added laravel-7-web-template to project" />
-    <MESSAGE value="Updated configurar_projeto.md. Added some project configuration guides" />
-    <MESSAGE value="Moved file @configurar_projeto.md out of laravel-7-web-template" />
-    <MESSAGE value="Moved html files to project view" />
-    <option name="LAST_COMMIT_MESSAGE" value="Moved html files to project view" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
   </component>
-  <component name="WindowStateProjectService">
-    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605987034683">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1280.764.1280.680/0.0.1920.1040@0.0.1920.1040" timestamp="1605987034683" />
-    <state x="734" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605988499470">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="734" y="322" key="#com.intellij.fileTypes.FileTypeChooser/-1280.764.1280.680/0.0.1920.1040@0.0.1920.1040" timestamp="1605988499470" />
-    <state x="2290" y="546" key="ComposerCompositePathDialog" timestamp="1605747258585">
-      <screen x="1366" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2290" y="546" key="ComposerCompositePathDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605747258585" />
-    <state x="774" y="402" key="ComposerDumpAutoloadDialog" timestamp="1605988082855">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="774" y="402" key="ComposerDumpAutoloadDialog/-1280.764.1280.680/0.0.1920.1040@0.0.1920.1040" timestamp="1605988082855" />
-    <state x="2102" y="432" key="ComposerInitDialogKey" timestamp="1605746585220">
-      <screen x="1366" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2102" y="432" key="ComposerInitDialogKey/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605746585220" />
-    <state x="129" y="55" key="DiffContextDialog" timestamp="1604589796255">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="129" y="55" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1604589796255" />
-    <state x="651" y="170" key="FileChooserDialogImpl" timestamp="1605988275589">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="651" y="170" key="FileChooserDialogImpl/-1280.764.1280.680/0.0.1920.1040@0.0.1920.1040" timestamp="1605988275589" />
-    <state x="2017" y="170" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605747428296" />
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1603984928685" />
-    <state x="965" y="538" key="FrameworkEditDialogDimensionKey" timestamp="1605988278355">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="965" y="538" key="FrameworkEditDialogDimensionKey/-1280.764.1280.680/0.0.1920.1040@0.0.1920.1040" timestamp="1605988278355" />
-    <state x="2331" y="538" key="FrameworkEditDialogDimensionKey/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605747430278" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1605988195672">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/-1280.764.1280.680/0.0.1920.1040@0.0.1920.1040" timestamp="1605988195672" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605748133019" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1605988195672">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/-1280.764.1280.680/0.0.1920.1040@0.0.1920.1040" timestamp="1605988195672" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605748133019" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1605988195672">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/-1280.764.1280.680/0.0.1920.1040@0.0.1920.1040" timestamp="1605988195672" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605748133019" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1605988195672">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/-1280.764.1280.680/0.0.1920.1040@0.0.1920.1040" timestamp="1605988195672" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605748133019" />
-    <state x="1547" y="79" width="1559" height="943" key="MergeDialog" timestamp="1605744626634">
-      <screen x="1366" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1547" y="79" width="1559" height="943" key="MergeDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605744626634" />
-    <state x="129" y="55" key="MergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1604589912314" />
-    <state x="2114" y="222" key="RollbackChangesDialog" timestamp="1605746156848">
-      <screen x="1366" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2114" y="222" key="RollbackChangesDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605746156848" />
-    <state x="508" y="291" width="998" height="709" key="SettingsEditor" timestamp="1605988279844">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="508" y="291" width="998" height="709" key="SettingsEditor/-1280.764.1280.680/0.0.1920.1040@0.0.1920.1040" timestamp="1605988279844" />
-    <state x="2067" y="314" key="SettingsEditor/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605747436854" />
-    <state x="2335" y="529" key="SymfonyComponentCompositeDataDialog" timestamp="1605747268022">
-      <screen x="1366" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2335" y="529" key="SymfonyComponentCompositeDataDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605747268022" />
-    <state x="1753" y="120" key="Vcs.Push.Dialog.v2" timestamp="1605989915825">
-      <screen x="1366" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1753" y="120" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605989915825" />
-    <state x="275" y="84" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1603904804452" />
-    <state x="1349" y="196" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1605746188307">
-      <screen x="1366" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1349" y="196" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605746188307" />
-    <state x="2069" y="397" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605749427684">
-      <screen x="1366" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2069" y="397" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605749427684" />
-    <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1604589822155" />
-    <state x="2106" y="233" key="git4idea.branch.GitSmartOperationDialog" timestamp="1605744563051">
-      <screen x="1366" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2106" y="233" key="git4idea.branch.GitSmartOperationDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605744563051" />
-    <state x="476" y="231" width="945" height="968" key="run.anything.popup" timestamp="1605988361668">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="476" y="231" width="945" height="968" key="run.anything.popup/-1280.764.1280.680/0.0.1920.1040@0.0.1920.1040" timestamp="1605988361668" />
-    <state x="1842" y="231" width="945" height="968" key="run.anything.popup/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605747249305" />
-    <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1603989795804" />
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
