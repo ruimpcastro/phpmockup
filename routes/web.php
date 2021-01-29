@@ -23,14 +23,26 @@ Route::get('/login', function () {
 
 Route::get('/entidades/guardar', "EntidadeController@store");
 
+//ENTIDADE E PROJETOS
 Route::get('/entidades/{id_entidade}/home', "EntidadeController@home");
 Route::get('/entidades/{id_entidade}/projetos', "ProjetoController@listar_projetos_entidades");
 Route::get('/entidades/{id_entidade}/projetos/{id_projeto}/detalhes', "ProjetoController@detalhes_projeto_entidades");
 Route::get('/entidades/{id_entidade}/projeto/criar', "ProjetoController@create");
 Route::get('/entidades/{id_entidade}/projeto/guardar', "ProjetoController@store");
-
+Route::get('/entidades/{id_entidade}/projeto/edit', "ProjetoController@edit");
 Route::get('/entidades/{id_entidade}/notificacoes', "EntidadeController@notificacoes");
 
-Route::get('/estagiario/{id}/meusdados', function () {
-    return view('meusdados');
-});
+//DIRETOR (ADMIN)
+Route::get('/Diretor/{id}/criar', "DiretorController@create");
+Route::get('Diretor/{id}/guardar', "DiretorController@store");
+Route::get('Diretor/{id_diretor}/validarProposta/{id_proposta}', "DiretorController@validarProposta");
+Route::get('Diretor/{id_diretor}/justificarPropostaRejeitada/{id_proposta}', "DiretorController@justificarPropostaRejeitada");
+Route::get('Diretor/{id_diretor}/justificarPropostaRejeitada/{id_proposta}', "DiretorController@atribuirPropostaAluno");
+Route::get('Diretor/{id_diretor}/justificarPropostaRejeitada/{id_proposta}', "DiretorController@atribuirPropostaSupervisor");
+
+//ESTAGIÁRIO
+//Route::get('/estagiario/{id}/meusdados', function () {
+//    return view('meusdados');
+//});
+Route::get('estagiario/{id}/criar', "EstagiarioController@create");
+Route::get('estagiario/{id}/guardar', "EstagiarioController@store");
