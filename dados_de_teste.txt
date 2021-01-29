@@ -1,5 +1,5 @@
 
-entidades/guardar?name=Empresa de Programacao Generica&shortName=EPG&description=Equipa de desenvolvedores focada em projetos web fantasticos!
+entidades/guardar?nome=Empresa de Programacao Generica&abreviatura=EPG&descricao=Equipa de desenvolvedores focada em projetos web fantasticos!
 
 ---
 
