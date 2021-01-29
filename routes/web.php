@@ -51,8 +51,8 @@ Route::get('/estagiario/criar', "EstagiarioController@create");
 Route::get('/estagiario/guardar', "EstagiarioController@store");
 
 Route::get('/estagiario/{id_estagiario}/home', "EstagiarioController@home");
-Route::get('/estagiario/{id_estagiario}/verListaProjetos', "EstagiarioController@verListaProjetos");
-Route::get('/estagiario/{id_estagiario}/verDetalhesProjeto', "EstagiarioController@verDetalhesProjeto");
+Route::get('/estagiario/{id_estagiario}/verProjetos', "EstagiarioController@verListaProjetos");
+Route::get('/estagiario/{id_estagiario}/verProjetos/{id_projeto}', "EstagiarioController@verDetalhesProjeto");
 Route::get('/estagiario/{id_estagiario}/escolherProjeto', "EstagiarioController@escolherProjeto");
 
 
