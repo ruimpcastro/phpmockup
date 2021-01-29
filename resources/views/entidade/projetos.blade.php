@@ -34,7 +34,7 @@
                     <td>{{$p->perfilProfissional}}</td>
                     <td>{{$p->titulo}}</td>
                     <td>
-                        <a href="/entidades/{{$entidade->id}}/propostas/{{$p->id}}/detalhes/" class="details-button button">Detalhes</a>
+                        <a href="/entidades/{{$entidade->id}}/projetos/{{$p->id}}/detalhes/" class="details-button button">Detalhes</a>
                     </td>
                 </tr>
             @endforeach

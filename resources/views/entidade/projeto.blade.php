@@ -7,13 +7,13 @@
 @section('sidemenu-options')
     <li><a href="/entidades/{{$entidade->id}}/home">Os Meus Dados</a></li>
     <li><a href="/entidades/{{$entidade->id}}/notificacoes">Notificações</a></li>
-    <li><a href="/entidades/{{$entidade->id}}/propostas" class="active">Propostas de Estágio</a></li>
+    <li><a href="/entidades/{{$entidade->id}}/projetos" class="active">Propostas de Estágio</a></li>
     <li class="nav-separator"></li>
     <li><a href="">Terminar Sessão</a></li>
 @endsection
 
 @section('topbar-contents')
-    <li>{{$entidade->designacao}} ({{$entidade->designacao_curta}})</li>
+    <li>{{$entidade->nome}} ({{$entidade->abreviatura}})</li>
 @endsection
 
 @section('mainpage-contents')
@@ -21,13 +21,13 @@
     <h1 id="page-title">Proposta de Estágio</h1>
 
     <div class="info-section-container">
-        <h2 class="sub-title">{{$entidade->designacao}}</h2>
+        <h2 class="sub-title">{{$entidade->nome}}</h2>
         <div class="info-section">
-            <p>Projeto: {{$proposta->titulo_projeto}}</p><br><br>
+            <p>Projeto: {{$projeto->titulo}}</p><br><br>
             <p>Estagiário(s): [TBD]</p><br>
             <p>Orientador: [TBD]</p><br>
-            <p>Supervisor: {{$proposta->supervisor}}</p><br><br>
-            <p>{{$proposta->descricao_projeto}}</p><br>
+            <p>Supervisor: {{$projeto->supervisor}}</p><br><br>
+            <p>{{$projeto->descricao}}</p><br>
 
             <p>Cronograma:</p>
             <table id="propostas-table" class="button-spacing">

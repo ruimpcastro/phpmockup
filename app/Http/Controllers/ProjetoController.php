@@ -15,7 +15,7 @@ class ProjetoController extends Controller
         return view('entidade.projetos', ['entidade'=>$e, 'projetos'=>$p]);
     }
 
-    public function detalhes_propostas_entidades(int $id_entidade, int $id_projeto)
+    public function detalhes_projeto_entidades(int $id_entidade, int $id_projeto)
     {
         $e = Entidade::find($id_entidade);
         $p = Projeto::find($id_projeto);

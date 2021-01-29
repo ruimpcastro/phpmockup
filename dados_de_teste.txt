@@ -4,7 +4,7 @@ $e->shortName= "EPG";
 $e->description= "Equipa de desenvolvedores focada em projetos web fantasticos!";
 $e->save();
 
-/entidades/1/projeto/guardar?titulo=Desenvolvimento da App SuperFixe9000&descricao=Desenvolvimento de aplicações web utilizando frameworks. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.&perfilProfissional=Programador Full-stack&aprovado=0&entidadeId=1
+entidades/1/projeto/guardar?titulo=Desenvolvimento da App SuperFixe9000&descricao=Desenvolvimento de aplicações web utilizando frameworks. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.&perfilProfissional=Programador Full-stack&aprovado=0&entidadeId=1
 
 ---
 
