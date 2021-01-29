@@ -42,6 +42,7 @@ Route::get('/diretor/{id_diretor}/justificarProjetoRejeitado/{id_projeto}', "Dir
 Route::get('/diretor/{id_diretor}/atribuirProjeto', "DiretorController@atribuirProjeto");
 Route::get('/diretor/{id_diretor}/atribuirProjetoAluno/{id_aluno}', "DiretorController@atribuirProjetoAluno");
 Route::get('/diretor/{id_diretor}/atribuirProjetoSupervisor/{id_supervisor}', "DiretorController@atribuirProjetoSupervisor");
+Route::get('/diretor/{id_diretor}/numeroPropostas, DiretorController@numeroPropostasPorAluno');
 
 //ESTAGIÁRIO
 //Route::get('/estagiario/{id}/meusdados', function () {

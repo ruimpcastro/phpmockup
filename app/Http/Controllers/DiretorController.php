@@ -9,6 +9,15 @@ class DiretorController extends Controller
 {
 
     /**
+     * Home page
+     *
+     */
+    public function home(): void
+    {
+
+    }
+
+    /**
      * Análise e marcação da proposta como aprovada ou rejeitada
      *
      */
@@ -30,6 +39,15 @@ class DiretorController extends Controller
     }
 
     /**
+     * Atribuir Projeto a estagiário e ao supervisor
+     */
+    public function atribuirProjeto(): void
+    {
+
+    }
+
+    /**
+     * Atribuir estagiário
      * Factor de seleção: média do estudante
      *
      */
