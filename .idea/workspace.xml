@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7dbefb2a-ed57-4958-9ee9-bee9e9d12ccb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Diretor.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Estagiario.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/DiretorController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/EstagiarioController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database.sqlite" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_29_190741_create_diretors_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_29_192803_create_estagiarios_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/commandlinetools/Laravel_28_01_2021__19_34.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/commandlinetools/Tool_based_on_Symfony_Console_29_01_21__16_51_artisan.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+    <list default="true" id="7dbefb2a-ed57-4958-9ee9-bee9e9d12ccb" name="Default Changelist" comment="New model Diretor (crm)&#10;New model Estagiario (crm)&#10;Updated web.php with routes for new models">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/DiretorController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/DiretorController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/EstagiarioController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/EstagiarioController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -213,8 +206,16 @@
       <workItem from="1611868661072" duration="1737000" />
       <workItem from="1611878740355" duration="4108000" />
       <workItem from="1611919386606" duration="15677000" />
-      <workItem from="1611942842407" duration="6497000" />
+      <workItem from="1611942842407" duration="8067000" />
     </task>
+    <task id="LOCAL-00001" summary="New model Diretor (crm)&#10;New model Estagiario (crm)&#10;Updated web.php with routes for new models">
+      <created>1611949541288</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1611949541288</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,6 +238,8 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
+    <MESSAGE value="New model Diretor (crm)&#10;New model Estagiario (crm)&#10;Updated web.php with routes for new models" />
+    <option name="LAST_COMMIT_MESSAGE" value="New model Diretor (crm)&#10;New model Estagiario (crm)&#10;Updated web.php with routes for new models" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -7,6 +7,38 @@ use Illuminate\Http\Request;
 
 class EstagiarioController extends Controller
 {
+
+    /**
+     * Permite visualizar detalhes da proposta inclusive:
+     * Se o aluno já estiver atribuido
+     *  O aluno atribuido ao projeto
+     *  O Orientador
+     *  O Supervisor
+     *
+     */
+    public function verDetalhesPropostas()
+    {
+        //
+    }
+
+    /**
+     * Permite estagiario escolher propostas do seu interesse
+     * Estagiario indica propostas por ordem de preferência, no máximo até um número
+     * especificado pelo diretor de curso (p. ex. 5 propostas
+     */
+    public function escolherProposta()
+    {
+        //
+    }
+    /**
+     * Permite visualizar lista de propostas
+     *
+     */
+    public function verlistaPropostas()
+    {
+        //
+    }
+
     /**
      * Display a listing of the resource.
      *

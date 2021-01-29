@@ -34,6 +34,14 @@ class DiretorController extends Controller
         //
     }
 
+    /**
+     * Numero de propostas de projeto por aluno (p. ex. 5 propostas)
+     */
+    public function numeroPropostasPorAluno()
+    {
+        //
+    }
+
     public function atribuirPropostaSupervisor()
     {
         //
