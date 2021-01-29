@@ -1,12 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7dbefb2a-ed57-4958-9ee9-bee9e9d12ccb" name="Default Changelist" comment=".gitignore now has composer.phar">
+    <list default="true" id="7dbefb2a-ed57-4958-9ee9-bee9e9d12ccb" name="Default Changelist" comment="Removed bug">
       <change afterPath="$PROJECT_DIR$/composer.phar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/diretor/diretor_atribuir_projeto.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/diretor/diretor_justificar_projeto.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/diretor/diretor_validar_projeto.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/entidade/entidade_projeto_editar.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/laravel-7-web-template.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laravel-7-web-template.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/EstagiarioController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/EstagiarioController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin_home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/diretor/diretor_home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/entidade/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/entidade/entidade_home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/entidade/notificacoes.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/entidade/entidade_notificacoes.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/entidade/projeto.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/entidade/entidade_projeto.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/entidade/projetos.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/entidade/entidade_projetos.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/entidade/proposta_criar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/entidade/entidade_projeto_criar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,6 +150,7 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
       <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
       <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/vendor/nanigans/single-table-inheritance" />
     </include_path>
   </component>
   <component name="ProjectId" id="1acTqwsQ2hypb1O9gsXE0c0g8o9" />
@@ -168,6 +183,10 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="C:\Projetos Web\pweb202113\resources\views" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views" />
+      <recent name="$PROJECT_DIR$/resources/views/diretor" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -207,7 +226,7 @@
       <workItem from="1611868661072" duration="1737000" />
       <workItem from="1611878740355" duration="4108000" />
       <workItem from="1611919386606" duration="15677000" />
-      <workItem from="1611942842407" duration="12142000" />
+      <workItem from="1611942842407" duration="16496000" />
     </task>
     <task id="LOCAL-00001" summary="New model Diretor (crm)&#10;New model Estagiario (crm)&#10;Updated web.php with routes for new models">
       <created>1611949541288</created>
@@ -244,7 +263,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611958505605</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Removed bug">
+      <created>1611958709903</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1611958709903</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -272,7 +298,8 @@
     <MESSAGE value="Updated names function names&#10;Altered routes and made new routes" />
     <MESSAGE value="Added Estagiaro::class" />
     <MESSAGE value=".gitignore now has composer.phar" />
-    <option name="LAST_COMMIT_MESSAGE" value=".gitignore now has composer.phar" />
+    <MESSAGE value="Removed bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed bug" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,7 +1,7 @@
 @extends('master')
 
 @section('header-contents')
-    <title>Entidade - Proposta</title>
+    <title>Entidade - Projeto</title>
 @endsection
 
 @section('sidemenu-options')
