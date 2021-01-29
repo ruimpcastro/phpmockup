@@ -35,7 +35,13 @@ class OrientadorController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $o = new Orientador();
+        $o->nome=$request->get('nome');
+        $o->email=$request->get('email');
+        $o->telemovel=$request->get('telemovel');
+        $e = Entidade::find($request->get('entidadeId'));
+        $e->orientador()->save($o);
+        return redirect("/login");
     }
 
     /**
