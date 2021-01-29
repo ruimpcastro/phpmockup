@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7dbefb2a-ed57-4958-9ee9-bee9e9d12ccb" name="Default Changelist" comment="Added Estagiaro::class">
+    <list default="true" id="7dbefb2a-ed57-4958-9ee9-bee9e9d12ccb" name="Default Changelist" comment=".gitignore now has composer.phar">
       <change afterPath="$PROJECT_DIR$/composer.phar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/laravel-7-web-template.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laravel-7-web-template.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -14,7 +16,7 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
-      <executable path="composer" />
+      <phar pharPath="$PROJECT_DIR$/composer.phar" interpreterId="46b48a0d-12ce-4b74-a5bf-a696ab99a6cd" />
     </execution>
   </component>
   <component name="Git.Settings">
@@ -205,7 +207,7 @@
       <workItem from="1611868661072" duration="1737000" />
       <workItem from="1611878740355" duration="4108000" />
       <workItem from="1611919386606" duration="15677000" />
-      <workItem from="1611942842407" duration="11883000" />
+      <workItem from="1611942842407" duration="12142000" />
     </task>
     <task id="LOCAL-00001" summary="New model Diretor (crm)&#10;New model Estagiario (crm)&#10;Updated web.php with routes for new models">
       <created>1611949541288</created>
@@ -235,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611958117972</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary=".gitignore now has composer.phar">
+      <created>1611958505605</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1611958505605</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,7 +271,8 @@
     <MESSAGE value="Update DiretorController.php&#10;Update EstagiarioController.php&#10;Update web.php with new estagiario routes" />
     <MESSAGE value="Updated names function names&#10;Altered routes and made new routes" />
     <MESSAGE value="Added Estagiaro::class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Estagiaro::class" />
+    <MESSAGE value=".gitignore now has composer.phar" />
+    <option name="LAST_COMMIT_MESSAGE" value=".gitignore now has composer.phar" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
