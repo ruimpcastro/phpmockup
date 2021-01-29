@@ -21,6 +21,8 @@ Route::get('/login', function () {
     return view('login');
 });
 
+Route::get('/entidades/guardar', "EntidadeController@store");
+
 Route::get('/entidades/{id_entidade}/home', "EntidadeController@home");
 Route::get('/entidades/{id_entidade}/projetos', "ProjetoController@listar_projetos_entidades");
 Route::get('/entidades/{id_entidade}/projetos/{id_projeto}/detalhes', "ProjetoController@detalhes_projeto_entidades");
