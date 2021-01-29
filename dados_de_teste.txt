@@ -1,0 +1,16 @@
+$e = new Entidade();
+$e->name="Empresa de Programacao Generica";
+$e->shortName= "EPG";
+$e->description= "Equipa de desenvolvedores focada em projetos web fantasticos!";
+$e->save();
+
+---
+
+$p = new Proposta();
+$p->titulo_projeto="Desenvolvimento da App SuperFixe9000";
+$p->descricao_projeto="Desenvolvimento de aplicações web utilizando frameworks. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.";
+$p->perfil="Programador Full-stack";
+$p->objetivos="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
+$p->id_cronograma=1;
+$p->id_entidade=1;
+$p->save();

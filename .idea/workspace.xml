@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7dbefb2a-ed57-4958-9ee9-bee9e9d12ccb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/d367ff17-26d1-4890-aa99-c4de6de311f6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d367ff17-26d1-4890-aa99-c4de6de311f6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/laravel-7-web-template.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laravel-7-web-template.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/entidade/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/entidade/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/entidade/proposta.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/entidade/projeto.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/entidade/propostas.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/entidade/projetos.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -126,6 +130,9 @@
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme" />
       <path value="$PROJECT_DIR$/vendor/league/mime-type-detection" />
       <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
     </include_path>
   </component>
   <component name="ProjectId" id="1acTqwsQ2hypb1O9gsXE0c0g8o9" />
@@ -190,6 +197,7 @@
       <workItem from="1611868634595" duration="5000" />
       <workItem from="1611868661072" duration="1737000" />
       <workItem from="1611878740355" duration="4108000" />
+      <workItem from="1611919386606" duration="2844000" />
     </task>
     <servers />
   </component>

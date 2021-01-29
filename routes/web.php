@@ -22,12 +22,12 @@ Route::get('/login', function () {
 });
 
 Route::get('/entidades/{id_entidade}/home', "EntidadeController@home");
-Route::get('/entidades/{id_entidade}/propostas', "PropostaController@listar_propostas_entidades");
+Route::get('/entidades/{id_entidade}/propostas', "ProjetoController@listar_propostas_entidades");
 Route::get('/entidades/{id_entidade}/notificacoes', "EntidadeController@notificacoes");
 
 
-Route::get('/entidades/{id_entidade}/propostas/{id_proposta}/detalhes', "PropostaController@detalhes_propostas_entidades");
-Route::get('/entidades/{id_entidade}/propostas/criar', "PropostaController@create");
+Route::get('/entidades/{id_entidade}/projetos/{id_projeto}/detalhes', "ProjetoController@detalhes_projeto_entidades");
+Route::get('/entidades/{id_entidade}/projeto/criar', "ProjetoController@create");
 
 Route::get('/estagiario/{id}/meusdados', function () {
     return view('meusdados');

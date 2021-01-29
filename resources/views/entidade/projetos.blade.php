@@ -13,7 +13,7 @@
 @endsection
 
 @section('topbar-contents')
-    <li>{{$entidade->designacao}} ({{$entidade->designacao_curta}})</li>
+    <li>{{$entidade->nome}} ({{$entidade->abreviatura}})</li>
 @endsection
 
 @section('mainpage-contents')
@@ -28,11 +28,11 @@
                 <th>Projeto</th>
                 <th>Opções</th>
             </tr>
-            @foreach($propostas as $p)
+            @foreach($projetos as $p)
                 <tr>
-                    <td>{{$entidade->designacao}}</td>
-                    <td>{{$p->perfil}}</td>
-                    <td>{{$p->titulo_projeto}}</td>
+                    <td>{{$entidade->nome}}</td>
+                    <td>{{$p->perfilProfissional}}</td>
+                    <td>{{$p->titulo}}</td>
                     <td>
                         <a href="/entidades/{{$entidade->id}}/propostas/{{$p->id}}/detalhes/" class="details-button button">Detalhes</a>
                     </td>
