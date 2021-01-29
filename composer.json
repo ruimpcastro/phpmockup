@@ -16,7 +16,7 @@
         "laravel/framework": "^7.0",
         "laravel/tinker": "^2.0",
         "laravel/ui": "^2.0",
-        "nanigana/single-table-inheritance": "0.8.*"
+        "nanigans/single-table-inheritance": "0.8.*"
     },
     "require-dev": {
         "facade/ignition": "^2.0",

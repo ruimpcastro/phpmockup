@@ -33,21 +33,24 @@ Route::get('/entidades/{id_entidade}/projeto/guardar', "ProjetoController@store"
 Route::get('/entidades/{id_entidade}/projeto/edit', "ProjetoController@edit");
 Route::get('/entidades/{id_entidade}/notificacoes', "EntidadeController@notificacoes");
 
-//DIRETOR (ADMIN)
-Route::get('Diretor/{id}/guardar', "DiretorController@store");
+//ORIENTADOR
+Route::get('/orientadores/guardar', "OrientadorController@store");
 
-Route::get('Diretor/{id_diretor}/validarProjeto/{id_projeto}', "DiretorController@validarProjeto");
-Route::get('Diretor/{id_diretor}/justificarProjetoRejeitado/{id_projeto}', "DiretorController@justificarProjetoRejeitado");
-Route::get('Diretor/{id_diretor}/atribuirProjetoAluno/{id_aluno}', "DiretorController@atribuirProjetoAluno");
-Route::get('Diretor/{id_diretor}/atribuirProjetoSupervisor/{id_supervisor}', "DiretorController@atribuirProjetoSupervisor");
+//DIRETOR (ADMIN)
+Route::get('/diretor/{id}/guardar', "DiretorController@store");
+
+Route::get('/diretor/{id_diretor}/validarProjeto/{id_projeto}', "DiretorController@validarProjeto");
+Route::get('/diretor/{id_diretor}/justificarProjetoRejeitado/{id_projeto}', "DiretorController@justificarProjetoRejeitado");
+Route::get('/diretor/{id_diretor}/atribuirProjetoAluno/{id_aluno}', "DiretorController@atribuirProjetoAluno");
+Route::get('/diretor/{id_diretor}/atribuirProjetoSupervisor/{id_supervisor}', "DiretorController@atribuirProjetoSupervisor");
 
 //ESTAGIÁRIO
 //Route::get('/estagiario/{id}/meusdados', function () {
 //    return view('meusdados');
 //});
-Route::get('estagiario/{id}/criar', "EstagiarioController@create");
-Route::get('estagiario/{id}/guardar', "EstagiarioController@store");
+Route::get('/estagiario/{id}/criar', "EstagiarioController@create");
+Route::get('/estagiario/{id}/guardar', "EstagiarioController@store");
 
-Route::get('estagiario/{id}/verListaProjetos', "EstagiarioController@verListaProjetos");
-Route::get('estagiario/{id}/verDetalhesProjeto', "EstagiarioController@verDetalhesProjeto");
-Route::get('estagiario/{id}/escolherProjeto', "EstagiarioController@escolherProjeto");
+Route::get('/estagiario/{id}/verListaProjetos', "EstagiarioController@verListaProjetos");
+Route::get('/estagiario/{id}/verDetalhesProjeto', "EstagiarioController@verDetalhesProjeto");
+Route::get('/estagiario/{id}/escolherProjeto', "EstagiarioController@escolherProjeto");
