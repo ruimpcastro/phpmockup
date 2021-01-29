@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Orientador;
+use App\Entidade;
 use Illuminate\Http\Request;
 
 class OrientadorController extends Controller
