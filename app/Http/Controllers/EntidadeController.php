@@ -47,7 +47,12 @@ class EntidadeController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $e = new Entidade();
+        $e->nome=$request->get('nome');
+        $e->abreviatura=$request->get('abreviatura');
+        $e->descricao=$request->get('descricao');
+        $e->save();
+        return redirect("/login");
     }
 
     /**

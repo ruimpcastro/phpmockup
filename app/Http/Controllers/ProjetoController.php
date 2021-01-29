@@ -8,10 +8,10 @@ use Illuminate\Http\Request;
 
 class ProjetoController extends Controller
 {
-    public function listar_propostas_entidades(int $id_entidade)
+    public function listar_projetos_entidades(int $id_entidade)
     {
         $e = Entidade::find($id_entidade);
-        $p = Projeto::where('id_entidade', $id_entidade)->get();
+        $p = $e->projetos;
         return view('entidade.projetos', ['entidade'=>$e, 'projetos'=>$p]);
     }
 
@@ -37,10 +37,12 @@ class ProjetoController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function create(int $id_entidade)
     {
-        //
+        $e = Entidade::find($id_entidade);
+        return view('entidade.proposta_criar', ['entidade'=>$e]);
     }
+
 
     /**
      * Store a newly created resource in storage.
@@ -50,7 +52,14 @@ class ProjetoController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $p = new Projeto();
+        $p->titulo=$request->get('titulo');
+        $p->descricao=$request->get('descricao');
+        $p->perfilProfissional=$request->get('perfilProfissional');
+        $p->aprovado=$request->get('aprovado');
+        $e = Entidade::find($request->get('entidadeId'));
+        $e->projetos()->save($p);
+        return redirect("/login");
     }
 
     /**
