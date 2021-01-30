@@ -43,7 +43,7 @@
                 <td></td>
                 <td></td>
                 <td>
-                    <a href="/entidades/{{$entidade->id}}/propostas/criar/" class="add-button button">Adicionar</a>
+                    <a href="/entidades/{{$entidade->id}}/projetos/criar/" class="add-button button">Adicionar</a>
                 </td>
             </tr>
         </table>

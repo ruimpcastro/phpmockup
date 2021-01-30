@@ -7,13 +7,13 @@
 @section('sidemenu-options')
     <li><a href="/entidades/{{$entidade->id}}/home/">Os Meus Dados</a></li>
     <li><a href="/entidades/{{$entidade->id}}/notificacoes/">Notificações</a></li>
-    <li><a href="/entidades/{{$entidade->id}}/propostas/" class="active">Propostas de Estágio</a></li>
+    <li><a href="/entidades/{{$entidade->id}}/projetos/" class="active">Propostas de Estágio</a></li>
     <li class="nav-separator"></li>
     <li><a href="">Terminar Sessão</a></li>
 @endsection
 
 @section('topbar-contents')
-    <li>{{$entidade->designacao}} ({{$entidade->designacao_curta}})</li>
+    <li>{{$entidade->nome}} ({{$entidade->abreviatura}})</li>
 @endsection
 
 @section('mainpage-contents')
@@ -21,14 +21,15 @@
     <h1 id="page-title">Proposta de Estágio</h1>
 
     <div class="info-section-container">
-        <h2 class="sub-title">{{$entidade->designacao}}</h2>
+        <h2 class="sub-title">{{$entidade->nome}}</h2>
         <div class="info-section">
-            <form action="" method="POST">
+            <form action="" method="post">
                 @CSRF
-                <p>Projeto: </p><input type="text"><br><br>
-                <p>Supervisor: </p><input type="text"><br><br>
+                <input name="redirect" type="text" value="/entidade/{{$entidade->id}}/projetos" hidden>
+                <p>Projeto: </p><input name="titulo" type="text"><br><br>
+                <p>Supervisor: </p><input name="supervisor" type="text"><br><br>
                 <p>Descrição: </p>
-                <textarea name="" id="" cols="50" rows="10"></textarea>
+                <textarea name="descricao" cols="50" rows="10"></textarea>
                 <br><br>
                 <p>Cronograma:</p><br>
                 <div class="table-container">

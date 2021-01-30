@@ -7,13 +7,13 @@
 @section('sidemenu-options')
     <li><a href="/entidades/{{$entidade->id}}/home">Os Meus Dados</a></li>
     <li><a href="/entidades/{{$entidade->id}}/notificacoes" class="active">Notificações</a></li>
-    <li><a href="/entidades/{{$entidade->id}}/propostas">Propostas de Estágio</a></li>
+    <li><a href="/entidades/{{$entidade->id}}/projetos">Propostas de Estágio</a></li>
     <li class="nav-separator"></li>
     <li><a href="">Terminar Sessão</a></li>
 @endsection
 
 @section('topbar-contents')
-    <li>{{$entidade->designacao}} ({{$entidade->designacao_curta}})</li>
+    <li>{{$entidade->nome}} ({{$entidade->abreviatura}})</li>
 @endsection
 
 @section('mainpage-contents')

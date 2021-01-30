@@ -40,7 +40,7 @@ class ProjetoController extends Controller
     public function create(int $id_entidade)
     {
         $e = Entidade::find($id_entidade);
-        return view('entidade.proposta_criar', ['entidade'=>$e]);
+        return view('entidade.projetos_criar', ['entidade'=>$e]);
     }
 
 
@@ -59,7 +59,7 @@ class ProjetoController extends Controller
         $p->aprovado=$request->get('aprovado');
         $e = Entidade::find($request->get('entidadeId'));
         $e->projetos()->save($p);
-        return redirect("/login");
+        return redirect($request->get('redirect'));
     }
 
     /**

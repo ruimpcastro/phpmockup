@@ -2,23 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use App\Entidade;
+use App\Supervisor;
 use Illuminate\Http\Request;
 
-class EntidadeController extends Controller
+class SupervisorController extends Controller
 {
-    public function home(int $id_entidade)
-    {
-        $e = Entidade::find($id_entidade);
-        return view('entidade.home', ['entidade'=>$e]);
-    }
-
-    public function notificacoes(int $id_entidade)
-    {
-        $e = Entidade::find($id_entidade);
-        return view('entidade.notificacoes', ['entidade'=>$e]);
-    }
-
     /**
      * Display a listing of the resource.
      *
@@ -36,7 +24,7 @@ class EntidadeController extends Controller
      */
     public function create()
     {
-        return view('entidade.proposta_criar');
+        //
     }
 
     /**
@@ -47,21 +35,23 @@ class EntidadeController extends Controller
      */
     public function store(Request $request)
     {
-        $e = new Entidade();
-        $e->nome=$request->get('nome');
-        $e->abreviatura=$request->get('abreviatura');
-        $e->descricao=$request->get('descricao');
-        $e->save();
+        $s = new Supervisor();
+        $s->nome=$request->get('nome');
+        $s->username=$request->get('username');
+        $s->password=$request->get('password');
+        $s->email=$request->get('email');
+        $s->telemovel=$request->get('telemovel');
+        $s->save();
         return redirect("/login");
     }
 
     /**
      * Display the specified resource.
      *
-     * @param  \App\Entidade  $entidade
+     * @param  \App\Supervisor  $supervisor
      * @return \Illuminate\Http\Response
      */
-    public function show(Entidade $entidade)
+    public function show(Supervisor $supervisor)
     {
         //
     }
@@ -69,10 +59,10 @@ class EntidadeController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Entidade  $entidade
+     * @param  \App\Supervisor  $supervisor
      * @return \Illuminate\Http\Response
      */
-    public function edit(Entidade $entidade)
+    public function edit(Supervisor $supervisor)
     {
         //
     }
@@ -81,10 +71,10 @@ class EntidadeController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Entidade  $entidade
+     * @param  \App\Supervisor  $supervisor
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Entidade $entidade)
+    public function update(Request $request, Supervisor $supervisor)
     {
         //
     }
@@ -92,10 +82,10 @@ class EntidadeController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Entidade  $entidade
+     * @param  \App\Supervisor  $supervisor
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Entidade $entidade)
+    public function destroy(Supervisor $supervisor)
     {
         //
     }
