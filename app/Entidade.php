@@ -15,4 +15,8 @@ class Entidade extends Utilizador
     public function orientador(){
         return $this->hasOne(Orientador::class);
     }
+
+    public function diretor(){
+        return $this->belongsTo(Diretor::class);
+    }
 }

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Diretor;
 use App\Entidade;
 use App\Projeto;
 use Illuminate\Http\Request;
@@ -84,7 +85,8 @@ class EntidadeController extends Controller
         $e->nome=$request->get('nome');
         $e->abreviatura=$request->get('abreviatura');
         $e->descricao=$request->get('descricao');
-        $e->save();
+        $d = Diretor::find($request->get('diretorId'));
+        $d->entidades()->save($e);
         return redirect("/login");
     }
 

@@ -41,13 +41,15 @@ class DiretorController extends Controller
         $e->descricao=$request->get('descricao');
         $e->username=$request->get('username');
         $e->password=$request->get('password');
-        $e->save();
+        $d = Diretor::find($request->get('diretorId'));
+        $d->entidades()->save($e);
 
         $o = new Orientador();
         $o->nome=$request->get('o_nome');
         $o->email=$request->get('o_email');
         $o->telemovel=$request->get('o_telemovel');
         $e->orientador()->save($o);
+
         return redirect($request->get('redirect'));
     }
 

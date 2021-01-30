@@ -11,7 +11,7 @@ class Utilizador extends Model
 
     protected $table = "utilizadores";
     protected static $singleTableTypeField = 'tipo';
-    protected static $persisted = ['nome','email','telemovel','abreviatura','descricao','username','password'];
+    protected static $persisted = ['nome','email','telemovel','abreviatura','descricao','username','password','diretor_id'];
     protected static $singleTableSubclasses = [
         Entidade::class,
         Diretor::class

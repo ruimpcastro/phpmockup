@@ -25,6 +25,7 @@
             <form action="/diretor/{{$diretor->id}}/entidade/guardar" method="post">
                 @CSRF
                 <input name="redirect" type="text" value="/diretor/{{$diretor->id}}/entidade" hidden>
+                <input name="diretorId" type="number" value={{$diretor->id}} hidden>
                 <p>Designação: </p><input name="nome" type="text"><br><br>
                 <p>Abreviatura: </p><input name="abreviatura" type="text"><br><br>
                 <p>E-Mail: </p><input name="email" type="text"><br><br>
@@ -48,5 +49,4 @@
 @endsection
 
 @section("script-imports")
-    <script type="text/javascript" src="{{ asset('js/addTableRow.js') }}"></script>
 @endsection
