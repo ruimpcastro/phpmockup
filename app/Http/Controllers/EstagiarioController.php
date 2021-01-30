@@ -8,6 +8,11 @@ use Illuminate\Http\Request;
 class EstagiarioController extends Controller
 {
 
+    public function home(): void
+    {
+        //
+    }
+
     /**
      * Permite visualizar detalhes da proposta inclusive:
      * Se o aluno já estiver atribuido
@@ -24,7 +29,7 @@ class EstagiarioController extends Controller
     /**
      * Permite estagiario escolher propostas do seu interesse
      * Estagiario indica propostas por ordem de preferência, no máximo até um número
-     * especificado pelo diretor de curso (p. ex. 5 propostas
+     * especificado pelo diretor de curso (p. ex. 5 propostas)
      */
     public function escolherProjeto(): void
     {

@@ -16,7 +16,7 @@
                 <li><a href="">Estagiários</a></li>
                 <li class="nav-separator"></li>
                 <li><a href="">Entidades</a></li>
-                <li><a href="diretor_propostas_estagios.blade.php">Propostas de Estágio</a></li>
+                <li><a href="../diretor_propostas_estagios.blade.php">Propostas de Estágio</a></li>
                 <li class="nav-separator"></li>
                 <li><a href="">Terminar Sessão</a></li>
             </ul>
