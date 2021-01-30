@@ -5,9 +5,9 @@
 @endsection
 
 @section('sidemenu-options')
-    <li><a href="/entidades/{{$entidade->id}}/home">Os Meus Dados</a></li>
-    <li><a href="/entidades/{{$entidade->id}}/notificacoes">Notificações</a></li>
-    <li><a href="/entidades/{{$entidade->id}}/propostas" class="active">Propostas de Estágio</a></li>
+    <li><a href="/entidade/{{$entidade->id}}/home">Os Meus Dados</a></li>
+    <li><a href="/entidade/{{$entidade->id}}/notificacoes">Notificações</a></li>
+    <li><a href="/entidade/{{$entidade->id}}/projeto" class="active">Propostas de Estágio</a></li>
     <li class="nav-separator"></li>
     <li><a href="">Terminar Sessão</a></li>
 @endsection
@@ -34,7 +34,7 @@
                     <td>{{$p->perfilProfissional}}</td>
                     <td>{{$p->titulo}}</td>
                     <td>
-                        <a href="/entidades/{{$entidade->id}}/projetos/{{$p->id}}/detalhes/" class="details-button button">Detalhes</a>
+                        <a href="/entidade/{{$entidade->id}}/projeto/{{$p->id}}/detalhes/" class="details-button button">Detalhes</a>
                     </td>
                 </tr>
             @endforeach
@@ -43,7 +43,7 @@
                 <td></td>
                 <td></td>
                 <td>
-                    <a href="/entidades/{{$entidade->id}}/projetos/criar/" class="add-button button">Adicionar</a>
+                    <a href="/entidade/{{$entidade->id}}/projeto/criar/" class="add-button button">Adicionar</a>
                 </td>
             </tr>
         </table>
