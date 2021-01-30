@@ -2,11 +2,22 @@
 
 namespace App\Http\Controllers;
 
+use App\Diretor;
+use App\Entidade;
+use App\Orientador;
 use App\Utilizador;
 use Illuminate\Http\Request;
 
 class UtilizadorController extends Controller
 {
+    public function listarUtilizadoresLogin()
+    {
+        $d = Diretor::all();
+        $e = Entidade::all();
+        $o = Orientador::all();
+        return view("login", ['diretores'=>$d, 'entidades'=>$e, 'orientadores'=>$o]);
+    }
+
     /**
      * Display a listing of the resource.
      *

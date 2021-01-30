@@ -1,4 +1,5 @@
-
+diretor/guardar?nome=Hélia Guerra&username=diretor1&password=1234&email=diretor1@gmail.com&telemovel=960123123
+---
 entidades/guardar?nome=Empresa de Programacao Generica&abreviatura=EPG&descricao=Equipa de desenvolvedores focada em projetos web fantasticos!
 entidades/guardar?nome=Googole&abreviatura=GG&descricao=São os melhores!
 ---

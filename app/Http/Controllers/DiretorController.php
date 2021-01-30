@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\Diretor;
+use App\Entidade;
+use App\Orientador;
 use Illuminate\Http\Request;
 
 class DiretorController extends Controller
@@ -12,9 +14,41 @@ class DiretorController extends Controller
      * Home page
      *
      */
-    public function home(): void
+    public function home(int $id_diretor)
     {
-        //
+        $d = Diretor::find($id_diretor);
+        return view('diretor.home', ['diretor'=>$d]);
+    }
+
+    public function listarEntidades(int $id_diretor)
+    {
+        $d = Diretor::find($id_diretor);
+        $e = $d->entidades();
+        return view('diretor.entidades', ['diretor'=>$d, 'entidades'=>$e]);
+    }
+
+    public function createEntidade(int $id_diretor)
+    {
+        $d = Diretor::find($id_diretor);
+        return view('diretor.entidade_criar', ['diretor'=>$d]);
+    }
+
+    public function guardarEntidade(Request $request)
+    {
+        $e = new Entidade();
+        $e->nome=$request->get('nome');
+        $e->abreviatura=$request->get('abreviatura');
+        $e->descricao=$request->get('descricao');
+        $e->username=$request->get('username');
+        $e->password=$request->get('password');
+        $e->save();
+
+        $o = new Orientador();
+        $o->nome=$request->get('o_nome');
+        $o->email=$request->get('o_email');
+        $o->telemovel=$request->get('o_telemovel');
+        $e->orientador()->save($o);
+        return redirect($request->get('redirect'));
     }
 
     /**
@@ -103,7 +137,14 @@ class DiretorController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $e = new Diretor();
+        $e->nome=$request->get('nome');
+        $e->email=$request->get('email');
+        $e->telemovel=$request->get('telemovel');
+        $e->username=$request->get('username');
+        $e->password=$request->get('password');
+        $e->save();
+        return redirect("/login");
     }
 
     /**

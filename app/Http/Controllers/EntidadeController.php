@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Entidade;
+use App\Projeto;
 use Illuminate\Http\Request;
 
 class EntidadeController extends Controller
@@ -24,23 +25,31 @@ class EntidadeController extends Controller
      * Lista de projetos criado por várias entidades
      *
      */
-    public function listarProjetosEntidades(): void
+    public function listarProjetos(int $id_entidade)
     {
-        //
+        $e = Entidade::find($id_entidade);
+        $p = $e->projetos;
+        return view('entidade.projetos', ['entidade'=>$e, 'projetos'=>$p]);
     }
 
-    /**
-     *
-     */
-    public function detalhesProjetoEntidades(): void
+    public function detalhesProjeto(int $id_entidade, int $id_projeto)
     {
-        //
+        $e = Entidade::find($id_entidade);
+        $p = Projeto::find($id_projeto);
+        return view('entidade.projeto', ['entidade'=>$e, 'projeto'=>$p]);
     }
 
     public function notificacoes(int $id_entidade)
     {
         $e = Entidade::find($id_entidade);
         return view('entidade.notificacoes', ['entidade'=>$e]);
+    }
+
+    public function listarOrientadores(int $id_entidade)
+    {
+        $e = Entidade::find($id_entidade);
+        $o = $e->orientadores;
+        return view('entidade.orientador', ['entidade'=>$e, 'orientador'=>$o]);
     }
 
     /**

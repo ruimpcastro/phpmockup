@@ -8,6 +8,7 @@
     <li><a href="/entidade/{{$entidade->id}}/home">Os Meus Dados</a></li>
     <li><a href="/entidade/{{$entidade->id}}/notificacoes" class="active">Notificações</a></li>
     <li><a href="/entidade/{{$entidade->id}}/projeto">Propostas de Estágio</a></li>
+    <li><a href="/entidade/{{$entidade->id}}/orientador">Orientadores</a></li>
     <li class="nav-separator"></li>
     <li><a href="">Terminar Sessão</a></li>
 @endsection

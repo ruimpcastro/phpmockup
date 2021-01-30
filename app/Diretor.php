@@ -4,7 +4,11 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Diretor extends Model
+class Diretor extends Utilizador
 {
-    //
+    protected static $singleTableType = Diretor::class;
+
+    public function entidades(){
+        return $this->hasMany(Entidade::class);
+    }
 }

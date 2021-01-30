@@ -6,5 +6,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class Orientador extends Model
 {
-
+    protected $table = 'orientadores';
 }

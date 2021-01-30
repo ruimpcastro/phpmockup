@@ -8,20 +8,6 @@ use Illuminate\Http\Request;
 
 class ProjetoController extends Controller
 {
-    public function listarProjetosEntidades(int $id_entidade)
-    {
-        $e = Entidade::find($id_entidade);
-        $p = $e->projetos;
-        return view('entidade.projetos', ['entidade'=>$e, 'projetos'=>$p]);
-    }
-
-    public function detalhesProjetoEntidades(int $id_entidade, int $id_projeto)
-    {
-        $e = Entidade::find($id_entidade);
-        $p = Projeto::find($id_projeto);
-        return view('entidade.projeto', ['entidade'=>$e, 'projeto'=>$p]);
-    }
-
     /**
      * Display a listing of the resource.
      *
@@ -57,7 +43,6 @@ class ProjetoController extends Controller
         $p->descricao=$request->get('descricao');
         $p->perfilProfissional=$request->get('perfilProfissional');
         $p->aprovado=$request->get('aprovado');
-        echo $request->get('aprovado');
         $e = Entidade::find($request->get('entidadeId'));
         $e->projetos()->save($p);
         return redirect($request->get('redirect'));

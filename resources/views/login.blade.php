@@ -22,11 +22,12 @@
           </div>
         </div>
           <div class="login-shortcut">
-              <a href="/entidade/1/home/" class="login-shortcut-btn accept-button button">Login: Entidade Acolhedora</a>
-              <a href="/diretor/1/" class="login-shortcut-btn accept-button button">Login: Diretor de Curso</a>
-              <a href="/orientador/1/" class="login-shortcut-btn accept-button button">Login: Orientador</a>
-              <a href="/supervisor/1/" class="login-shortcut-btn accept-button button">Login: Supervisor</a>
-              <a href="/estagiario/1/" class="login-shortcut-btn accept-button button">Login: Estagiário</a>
+              @foreach($diretores as $d)
+                  <a href="/diretor/{{$d->id}}/home/" class="login-shortcut-btn accept-button button">Diretor(a): {{$d->nome}}</a>
+              @endforeach
+              @foreach($entidades as $e)
+                  <a href="/entidade/{{$e->id}}/home/" class="login-shortcut-btn accept-button button">Entidade: {{$e->nome}}</a>
+              @endforeach
           </div>
       </div>
     </body>

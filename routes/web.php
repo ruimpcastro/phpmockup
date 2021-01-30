@@ -17,26 +17,29 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/login', function () {
-    return view('login');
-});
+Route::get('/login', "UtilizadorController@listarUtilizadoresLogin");
 
 //ENTIDADE E PROJETOS
 Route::get('/entidade/criar', "EntidadeController@create");
 Route::get('/entidade/guardar', "EntidadeController@store");
 
 Route::get('/entidade/{id_entidade}/home', "EntidadeController@home");
-Route::get('/entidade/{id_entidade}/projeto', "ProjetoController@listarProjetosEntidades");
-Route::get('/entidade/{id_entidade}/projeto/{id_projeto}/detalhes', "ProjetoController@detalhesProjetoEntidades");
+Route::get('/entidade/{id_entidade}/projeto', "EntidadeController@listarProjetos");
+Route::get('/entidade/{id_entidade}/projeto/{id_projeto}/detalhes', "EntidadeController@detalhesProjeto");
 Route::get('/entidade/{id_entidade}/projeto/criar', "ProjetoController@create");
 Route::post('/entidade/{id_entidade}/projeto/guardar', "ProjetoController@store");
 Route::get('/entidade/{id_entidade}/projeto/edit', "ProjetoController@edit");
 Route::get('/entidade/{id_entidade}/notificacoes', "EntidadeController@notificacoes");
+Route::get('/entidade/{id_entidade}/orientador', "EntidadeController@listarOrientadores");
 
 //DIRETOR (ADMIN)
 Route::get('/diretor/guardar', "DiretorController@store");
 
-Route::get('/diretor/{id_diretor}/home, DiretorController@home');
+Route::get("/diretor/{id_diretor}/home","DiretorController@home");
+Route::get("/diretor/{id_diretor}/entidade","DiretorController@listarEntidades");
+Route::get("/diretor/{id_diretor}/entidade/criar","DiretorController@createEntidade");
+Route::post("/diretor/{id_diretor}/entidade/guardar","DiretorController@guardarEntidade");
+
 Route::get('/diretor/{id_diretor}/validarProjeto/{id_projeto}', "DiretorController@validarProjeto");
 Route::get('/diretor/{id_diretor}/justificarProjetoRejeitado/{id_projeto}', "DiretorController@justificarProjetoRejeitado");
 Route::get('/diretor/{id_diretor}/atribuirProjeto', "DiretorController@atribuirProjeto");
