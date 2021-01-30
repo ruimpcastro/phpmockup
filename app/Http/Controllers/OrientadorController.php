@@ -9,6 +9,19 @@ use Illuminate\Http\Request;
 class OrientadorController extends Controller
 {
     /**
+     * Orientador home page
+     */
+    public function home(): void
+    {
+        //
+    }
+
+    public function verProjeto(): void
+    {
+        //
+    }
+
+    /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response

@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7dbefb2a-ed57-4958-9ee9-bee9e9d12ccb" name="Default Changelist" comment="Created entidade views&#10;Created diretor views&#10;Edited web.php entidade routes and diretor routes">
-      <change afterPath="$PROJECT_DIR$/composer.phar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/estagiario/estagiario_escolher_projeto.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/estagiario/estagiario_home.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/estagiario/estagiario_ver_projeto.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/estagiario/estagiario_ver_projetos.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    <list default="true" id="7dbefb2a-ed57-4958-9ee9-bee9e9d12ccb" name="Default Changelist" comment="updated EntidadeController.php.php functions and updated web.php entidade routes">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/DiretorController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/DiretorController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/EstagiarioController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/EstagiarioController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/OrientadorController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/OrientadorController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -213,7 +211,7 @@
       <workItem from="1611868661072" duration="1737000" />
       <workItem from="1611878740355" duration="4108000" />
       <workItem from="1611919386606" duration="15677000" />
-      <workItem from="1611942842407" duration="16819000" />
+      <workItem from="1611942842407" duration="19014000" />
     </task>
     <task id="LOCAL-00001" summary="New model Diretor (crm)&#10;New model Estagiario (crm)&#10;Updated web.php with routes for new models">
       <created>1611949541288</created>
@@ -264,7 +262,28 @@
       <option name="project" value="LOCAL" />
       <updated>1611963489340</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Created estagiario views">
+      <created>1611964010891</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1611964010891</updated>
+    </task>
+    <task id="LOCAL-00009" summary="updated DiretorController.php functions and updated web.php routes">
+      <created>1611964657243</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1611964657243</updated>
+    </task>
+    <task id="LOCAL-00010" summary="updated EntidadeController.php.php functions and updated web.php entidade routes">
+      <created>1611965417034</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1611965417035</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,7 +314,10 @@
     <MESSAGE value="Removed bug" />
     <MESSAGE value="Created entidade views&#10;Created diretor views" />
     <MESSAGE value="Created entidade views&#10;Created diretor views&#10;Edited web.php entidade routes and diretor routes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created entidade views&#10;Created diretor views&#10;Edited web.php entidade routes and diretor routes" />
+    <MESSAGE value="Created estagiario views" />
+    <MESSAGE value="updated DiretorController.php functions and updated web.php routes" />
+    <MESSAGE value="updated EntidadeController.php.php functions and updated web.php entidade routes" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated EntidadeController.php.php functions and updated web.php entidade routes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

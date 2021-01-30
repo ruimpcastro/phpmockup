@@ -14,7 +14,7 @@ class DiretorController extends Controller
      */
     public function home(): void
     {
-
+        //
     }
 
     /**

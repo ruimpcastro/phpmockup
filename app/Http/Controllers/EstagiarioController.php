@@ -10,7 +10,7 @@ class EstagiarioController extends Controller
 
     public function home(): void
     {
-
+        //
     }
 
     /**
