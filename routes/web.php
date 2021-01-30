@@ -26,8 +26,8 @@ Route::get('/entidade/criar', "EntidadeController@create");
 Route::get('/entidade/guardar', "EntidadeController@store");
 
 Route::get('/entidade/{id_entidade}/home', "EntidadeController@home");
-Route::get('/entidade/{id_entidade}/projetos', "ProjetoController@listar_projetos_entidades");
-Route::get('/entidade/{id_entidade}/projetos/{id_projeto}/detalhes', "ProjetoController@detalhes_projeto_entidades");
+Route::get('/entidade/{id_entidade}/projetos', "ProjetoController@listarProjetosEntidades");
+Route::get('/entidade/{id_entidade}/projetos/{id_projeto}/detalhes', "ProjetoController@detalhesProjetoEntidades");
 Route::get('/entidade/{id_entidade}/projeto/criar', "ProjetoController@create");
 Route::get('/entidade/{id_entidade}/projeto/guardar', "ProjetoController@store");
 Route::get('/entidade/{id_entidade}/projeto/edit', "ProjetoController@edit");

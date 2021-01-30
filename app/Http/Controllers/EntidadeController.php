@@ -7,10 +7,34 @@ use Illuminate\Http\Request;
 
 class EntidadeController extends Controller
 {
+    /**
+     * Entidade home page
+     *
+     * @param int $id_entidade
+     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     *
+     */
     public function home(int $id_entidade)
     {
         $e = Entidade::find($id_entidade);
         return view('entidade.home', ['entidade'=>$e]);
+    }
+
+    /**
+     * Lista de projetos criado por várias entidades
+     *
+     */
+    public function listarProjetosEntidades(): void
+    {
+        //
+    }
+
+    /**
+     *
+     */
+    public function detalhesProjetoEntidades(): void
+    {
+        //
     }
 
     public function notificacoes(int $id_entidade)
