@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Diretor;
 use App\Entidade;
+use App\Estagiario;
 use App\Orientador;
 use App\Utilizador;
 use Illuminate\Http\Request;
@@ -15,7 +16,8 @@ class UtilizadorController extends Controller
         $d = Diretor::all();
         $e = Entidade::all();
         $o = Orientador::all();
-        return view("login", ['diretores'=>$d, 'entidades'=>$e, 'orientadores'=>$o]);
+        $est = Estagiario::all();
+        return view("login", ['diretores'=>$d, 'entidades'=>$e, 'orientadores'=>$o, 'estagiarios'=>$est]);
     }
 
     /**

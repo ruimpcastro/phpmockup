@@ -8,9 +8,10 @@ use Illuminate\Http\Request;
 class EstagiarioController extends Controller
 {
 
-    public function home(): void
+    public function home(int $id_estagiario): void
     {
-        //
+        $est = Estagiario::find($id_estagiario);
+        return view('estagiario.home', ['estagiario'=>$est]);
     }
 
     /**
