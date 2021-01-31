@@ -24,7 +24,7 @@ class DiretorController extends Controller
     public function listarEntidades(int $id_diretor)
     {
         $d = Diretor::find($id_diretor);
-        $e = $d->entidades();
+        $e = $d->entidades;
         return view('diretor.entidades', ['diretor'=>$d, 'entidades'=>$e]);
     }
 
@@ -59,13 +59,11 @@ class DiretorController extends Controller
      *
      */
 
-    public function validarProjeto(int $id_diretor)
+    public function listarProjetos(int $id_diretor)
     {
         $d = Diretor::find($id_diretor);
-        $e = $d->entidades();
-        return view('diretor.validar_projeto', [
-            'diretor'=>$d,
-            'entidades'=>$e]);
+        $e = $d->entidades;
+        return view('diretor.projetos', ['diretor'=>$d, 'entidades'=>$e]);
     }
 
     /**
