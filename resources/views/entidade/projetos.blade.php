@@ -25,15 +25,19 @@
         <table id="propostas-table">
             <tr>
                 <th>Entidade Acolhedora</th>
-                <th>Perfil Requirido</th>
                 <th>Projeto</th>
+                <th>Estado</th>
                 <th>Opções</th>
             </tr>
             @foreach($projetos as $p)
                 <tr>
                     <td>{{$entidade->nome}}</td>
-                    <td>{{$p->perfilProfissional}}</td>
                     <td>{{$p->titulo}}</td>
+                    @if($p->aprovado)
+                    <td>Aprovado</td>
+                    @else
+                    <td>Aprovação Pendente</td>
+                    @endif
                     <td>
                         <a href="/entidade/{{$entidade->id}}/projeto/{{$p->id}}/detalhes/" class="details-button button">Detalhes</a>
                     </td>

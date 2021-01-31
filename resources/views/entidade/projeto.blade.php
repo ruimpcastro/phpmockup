@@ -26,11 +26,11 @@
         <div class="info-section">
             <p>Projeto: {{$projeto->titulo}}</p><br><br>
             <p>Estagiário(s): [TBD]</p><br>
-            <p>Orientador: [TBD]</p><br>
-            <p>Supervisor: {{$projeto->supervisor}}</p><br><br>
-            <p>{{$projeto->descricao}}</p><br>
-
-            <p>Cronograma:</p>
+            <p>Orientador: {{$orientador->nome}} ({{$orientador->email}})</p><br>
+            <p>Supervisor: [TBD]</p><br><br>
+            <p>Perfil: {{$projeto->perfilProfissional}}</p><br><br>
+            <p>{{$projeto->descricao}}</p><br><br>
+            <p>Cronograma:</p><br>
             <table id="propostas-table" class="button-spacing">
                 <tr>
                     <th>ID Tarefa</th>
@@ -59,7 +59,7 @@
                 </tr>
             </table>
 
-            <a href="#" class="edit-button button">Alterar Dados</a>
+            <a href="/entidade/{{$entidade->id}}/projeto/{{$projeto->id}}/editar" class="edit-button button">Alterar Dados</a>
             <a href="#" class="delete-button button">Apagar Proposta</a>
         </div>
     </div>

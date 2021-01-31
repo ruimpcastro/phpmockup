@@ -27,10 +27,12 @@ Route::get('/entidade/{id_entidade}/home', "EntidadeController@home");
 Route::get('/entidade/{id_entidade}/projeto', "EntidadeController@listarProjetos");
 Route::get('/entidade/{id_entidade}/projeto/{id_projeto}/detalhes', "EntidadeController@detalhesProjeto");
 Route::get('/entidade/{id_entidade}/projeto/criar', "ProjetoController@create");
+Route::get('/entidade/{id_entidade}/projeto/{id_projeto}/editar', "EntidadeController@editarProjeto");
 Route::post('/entidade/{id_entidade}/projeto/guardar', "ProjetoController@store");
-Route::get('/entidade/{id_entidade}/projeto/edit', "ProjetoController@edit");
 Route::get('/entidade/{id_entidade}/notificacoes', "EntidadeController@notificacoes");
 Route::get('/entidade/{id_entidade}/orientador', "EntidadeController@listarOrientadores");
+
+Route::put('/projeto/{id_projeto}/editar', "ProjetoController@update");
 
 //DIRETOR (ADMIN)
 Route::get('/diretor/guardar', "DiretorController@store");

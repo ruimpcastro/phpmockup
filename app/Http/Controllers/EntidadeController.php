@@ -33,11 +33,19 @@ class EntidadeController extends Controller
         return view('entidade.projetos', ['entidade'=>$e, 'projetos'=>$p]);
     }
 
+    public function editarProjeto(int $id_entidade, int $id_projeto)
+    {
+        $e = Entidade::find($id_entidade);
+        $p = Projeto::find($id_projeto);
+        return view('entidade.projeto_editar', ['entidade'=>$e, 'projeto'=>$p]);
+    }
+
     public function detalhesProjeto(int $id_entidade, int $id_projeto)
     {
         $e = Entidade::find($id_entidade);
         $p = Projeto::find($id_projeto);
-        return view('entidade.projeto', ['entidade'=>$e, 'projeto'=>$p]);
+        $o = $e->orientador;
+        return view('entidade.projeto', ['entidade'=>$e, 'projeto'=>$p, 'orientador'=>$o]);
     }
 
     public function notificacoes(int $id_entidade)
@@ -49,7 +57,7 @@ class EntidadeController extends Controller
     public function listarOrientadores(int $id_entidade)
     {
         $e = Entidade::find($id_entidade);
-        $o = $e->orientadores;
+        $o = $e->orientador;
         return view('entidade.orientador', ['entidade'=>$e, 'orientador'=>$o]);
     }
 

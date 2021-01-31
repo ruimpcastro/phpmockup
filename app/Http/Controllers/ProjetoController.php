@@ -79,7 +79,13 @@ class ProjetoController extends Controller
      */
     public function update(Request $request, Projeto $projeto)
     {
-        //
+        $p = Projeto::find($request->projetoId);
+        $p->titulo=$request->get('titulo');
+        $p->descricao=$request->get('descricao');
+        $p->perfilProfissional=$request->get('perfilProfissional');
+        $p->aprovado=$request->get('aprovado');
+        $p->save();
+        return redirect($request->get('redirect'));
     }
 
     /**
