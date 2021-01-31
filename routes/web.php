@@ -44,6 +44,7 @@ Route::get("/diretor/{id_diretor}/entidade/criar","DiretorController@createEntid
 Route::post("/diretor/{id_diretor}/entidade/guardar","DiretorController@guardarEntidade");
 //TODO: entidade/detalhes
 Route::get('/diretor/{id_diretor}/projeto', "DiretorController@listarProjetos");
+Route::get('/diretor/{id_diretor}/datas', "DiretorController@datas");
 Route::get('/diretor/{id_diretor}/projeto/{id_projeto}/detalhes', "DiretorController@detalhesProjeto");
 Route::get('/diretor/{id_diretor}/projeto/{id_projeto}/justificarReprovacao/', "DiretorController@justificarReprovacao");
 Route::post('/diretor/{id_diretor}/projeto/{id_projeto}/reprovar/', "NotificacaoController@store");

@@ -8,6 +8,7 @@ use App\Orientador;
 use App\Projeto;
 use App\Utilizador;
 use Illuminate\Http\Request;
+use Carbon\Carbon;
 
 class DiretorController extends Controller
 {
@@ -59,6 +60,11 @@ class DiretorController extends Controller
      * Análise e marcação da proposta como aprovada ou rejeitada
      *
      */
+
+    public function datas(int $id_diretor){
+        $d = Diretor::find($id_diretor);
+        return view('diretor.datas', ['diretor'=>$d]);
+    }
 
     public function listarProjetos(int $id_diretor)
     {
@@ -155,13 +161,14 @@ class DiretorController extends Controller
      */
     public function store(Request $request)
     {
-        $e = new Diretor();
-        $e->nome=$request->get('nome');
-        $e->email=$request->get('email');
-        $e->telemovel=$request->get('telemovel');
-        $e->username=$request->get('username');
-        $e->password=$request->get('password');
-        $e->save();
+        $d = new Diretor();
+        $d->nome=$request->get('nome');
+        $d->email=$request->get('email');
+        $d->telemovel=$request->get('telemovel');
+        $d->username=$request->get('username');
+        $d->password=$request->get('password');
+        $d->dataPubliPropostas=$request->get('dataPubliPropostas');
+        $d->save();
         return redirect("/login");
     }
 
