@@ -10,7 +10,7 @@
     <li><a href="/entidade/{{$entidade->id}}/projeto/" class="active">Propostas de Estágio</a></li>
     <li><a href="/entidade/{{$entidade->id}}/orientador">Orientadores</a></li>
     <li class="nav-separator"></li>
-    <li><a href="">Terminar Sessão</a></li>
+    <li><a href="/login">Terminar Sessão</a></li>
 @endsection
 
 @section('topbar-contents')

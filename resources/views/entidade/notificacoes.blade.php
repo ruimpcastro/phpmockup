@@ -10,7 +10,7 @@
     <li><a href="/entidade/{{$entidade->id}}/projeto">Propostas de Estágio</a></li>
     <li><a href="/entidade/{{$entidade->id}}/orientador">Orientadores</a></li>
     <li class="nav-separator"></li>
-    <li><a href="">Terminar Sessão</a></li>
+    <li><a href="/login">Terminar Sessão</a></li>
 @endsection
 
 @section('topbar-contents')
@@ -20,33 +20,13 @@
 @section('mainpage-contents')
     <h1 id="page-title">Notificações</h1>
 
+    @foreach($notificacoes as $n)
       <div class="new notification">
         <ul>
-          <li>ENVIADO POR: <span class="underlined-space">[NOME DA ENTIDADE]</span></li>
-          <li>Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit, sed do eiusmod tempor incididunt ut labore
-            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate
-            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-            sint occaecat cupidatat non proident, sunt in culpa qui
-            officia deserunt mollit anim id est laborum.</li>
-          <li>2 de novembro, 2020</li>
+          <li>ENVIADO POR: <span class="underlined-space">{{$n->enviadoPor}}</span></li>
+          <li>{{$n->mensagem}}</li>
+          <li>{{$n->data}}</li>
         </ul>
       </div>
-
-      <div class="notification">
-        <ul>
-          <li>ENVIADO POR: <span class="underlined-space">[NOME DA ENTIDADE]</span></li>
-          <li>Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit, sed do eiusmod tempor incididunt ut labore
-            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate
-            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-            sint occaecat cupidatat non proident, sunt in culpa qui
-            officia deserunt mollit anim id est laborum.</li>
-          <li>30 de outubro, 2020</li>
-        </ul>
-      </div>
+    @endforeach
 @endsection

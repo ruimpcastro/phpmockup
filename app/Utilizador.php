@@ -16,4 +16,8 @@ class Utilizador extends Model
         Entidade::class,
         Diretor::class
     ];
+
+    public function notificacoes(){
+        return $this->hasMany(Notificacao::class);
+    }
 }

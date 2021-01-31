@@ -51,7 +51,8 @@ class EntidadeController extends Controller
     public function notificacoes(int $id_entidade)
     {
         $e = Entidade::find($id_entidade);
-        return view('entidade.notificacoes', ['entidade'=>$e]);
+        $n = $e->notificacoes;
+        return view('entidade.notificacoes', ['entidade'=>$e, 'notificacoes'=>$n]);
     }
 
     public function listarOrientadores(int $id_entidade)

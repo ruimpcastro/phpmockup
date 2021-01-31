@@ -6,6 +6,7 @@ use App\Diretor;
 use App\Entidade;
 use App\Orientador;
 use App\Projeto;
+use App\Utilizador;
 use Illuminate\Http\Request;
 
 class DiretorController extends Controller
@@ -66,15 +67,27 @@ class DiretorController extends Controller
         return view('diretor.projetos', ['diretor'=>$d, 'entidades'=>$e]);
     }
 
+    public function detalhesProjeto(int $id_diretor, int $id_projeto)
+    {
+        $d = Diretor::find($id_diretor);
+        $p = Projeto::find($id_projeto);
+        $e = $p->entidade;
+        $o = $p->entidade->orientador;
+        return view('diretor.projeto', ['diretor'=>$d, 'projeto'=>$p, 'entidade'=>$e, 'orientador'=>$o]);
+    }
+
     /**
      * If proposta rejeitada:
      * Campo de texto para justificar a decisao do Diretor
      * Enviar aviso para empresa editar e voltar a submeter uma nova proposta
      *
      */
-    public function justificarProjetoRejeitado(): void
+    public function justificarReprovacao(int $id_diretor, int $id_projeto)
     {
-        //
+        $d = Diretor::find($id_diretor);
+        $p = Projeto::find($id_projeto);
+        $e = $p->entidade;
+        return view('diretor.justificar', ['diretor'=>$d, 'projeto'=>$p, 'entidade'=>$e]);
     }
 
     /**

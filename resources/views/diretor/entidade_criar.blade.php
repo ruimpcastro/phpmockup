@@ -8,7 +8,7 @@
     <li><a href="/diretor/{{$diretor->id}}/home">Os Meus Dados</a></li>
     <li><a href="/diretor/{{$diretor->id}}/entidade" class="active">Entidades/Orientadores</a></li>
     <li class="nav-separator"></li>
-    <li><a href="">Terminar Sessão</a></li>
+    <li><a href="/login">Terminar Sessão</a></li>
 @endsection
 
 @section('topbar-contents')

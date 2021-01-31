@@ -9,7 +9,7 @@
     <li><a href="/diretor/{{$diretor->id}}/entidade">Entidades / Orientadores</a></li>
     <li><a href="/diretor/{{$diretor->id}}/projeto" class="active">Propostas</a></li>
     <li class="nav-separator"></li>
-    <li><a href="">Terminar Sessão</a></li>
+    <li><a href="/login">Terminar Sessão</a></li>
 @endsection
 
 @section('topbar-contents')
@@ -35,7 +35,7 @@
                         <td>{{$e->nome}}</td>
                         <td>{{$p->descricao}}</td>
                         <td>
-                            <a href="#" class="add-button button">Detalhes</a>
+                            <a href="/diretor/{{$diretor->id}}/projeto/{{$p->id}}/detalhes" class="add-button button">Detalhes</a>
                         </td>
                     </tr>
                 @endforeach

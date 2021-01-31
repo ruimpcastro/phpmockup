@@ -1,20 +1,19 @@
 @extends('master')
 
 @section('header-contents')
-    <title>Entidade - Proposta</title>
+    <title>Diretor - Entidades</title>
 @endsection
 
 @section('sidemenu-options')
-    <li><a href="/entidade/{{$entidade->id}}/home">Os Meus Dados</a></li>
-    <li><a href="/entidade/{{$entidade->id}}/notificacoes">Notificações</a></li>
-    <li><a href="/entidade/{{$entidade->id}}/projeto" class="active">Propostas de Estágio</a></li>
-    <li><a href="/entidade/{{$entidade->id}}/orientador">Orientadores</a></li>
+    <li><a href="/diretor/{{$diretor->id}}/home">Os Meus Dados</a></li>
+    <li><a href="/diretor/{{$diretor->id}}/entidade">Entidades / Orientadores</a></li>
+    <li><a href="/diretor/{{$diretor->id}}/projeto" class="active">Propostas</a></li>
     <li class="nav-separator"></li>
     <li><a href="/login">Terminar Sessão</a></li>
 @endsection
 
 @section('topbar-contents')
-    <li>{{$entidade->nome}} ({{$entidade->abreviatura}})</li>
+    <li>{{$diretor->nome}} ({{$diretor->email}})</li>
 @endsection
 
 @section('mainpage-contents')
@@ -59,8 +58,8 @@
                 </tr>
             </table>
 
-            <a href="/entidade/{{$entidade->id}}/projeto/{{$projeto->id}}/editar" class="edit-button button">Alterar Dados</a>
-            <a href="#" class="delete-button button">Apagar Proposta</a>
+            <a href="/entidade/{{$entidade->id}}/projeto/{{$projeto->id}}/editar" class="add-button button">Aprovar</a>
+            <a href="/diretor/{{$diretor->id}}/projeto/{{$projeto->id}}/justificarReprovacao/" class="delete-button button">Reprovar</a>
         </div>
     </div>
 @endsection

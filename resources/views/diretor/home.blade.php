@@ -9,7 +9,7 @@
     <li><a href="/diretor/{{$diretor->id}}/entidade">Entidades/Orientadores</a></li>
     <li><a href="/diretor/{{$diretor->id}}/projeto">Propostas</a></li>
     <li class="nav-separator"></li>
-    <li><a href="">Terminar Sessão</a></li>
+    <li><a href="/login">Terminar Sessão</a></li>
 @endsection
 
 @section('topbar-contents')

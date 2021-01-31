@@ -18,7 +18,8 @@ class Projeto extends Model
         return $this->hasOne(Orientador::class);
     }
 
-//    public function supervisor(){
-//        return $this->hasOne(Supervisor::class);
-//    }
+    public function entidade(){
+        return $this->belongsTo(Entidade::class);
+    }
+
 }
