@@ -2,6 +2,7 @@
 
 namespace App;
 
+use App\Http\Controllers\ProjetoController;
 use Illuminate\Database\Eloquent\Model;
 
 class Diretor extends Utilizador

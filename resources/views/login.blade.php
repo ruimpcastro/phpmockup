@@ -13,7 +13,7 @@
         <div class="login-wrapper">
           <div id="login-form-div">
             <form id="login-form" action="index.blade.php" method="post">
-              <p>Utilizadors:</p>
+              <p>Utilizadores:</p>
               <input type="text" name="username" value="">
               <p>Palavra-Passe:</p>
               <input type="text" name="password" value="">

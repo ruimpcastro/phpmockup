@@ -6,7 +6,8 @@
 
 @section('sidemenu-options')
     <li><a href="/diretor/{{$diretor->id}}/home" class="active">Os Meus Dados</a></li>
-    <li><a href="/diretor/{{$diretor->id}}/entidade">Entidades/Orientadores</a></li>
+    <li><a href="/diretor/{{$diretor->id}}/entidade">Entidades / Orientadores</a></li>
+    <li><a href="/diretor/{{$diretor->id}}/validarProjeto">Validar projetos</a></li>
     <li class="nav-separator"></li>
     <li><a href="">Terminar Sessão</a></li>
 @endsection

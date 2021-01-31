@@ -40,7 +40,7 @@ Route::get("/diretor/{id_diretor}/entidade","DiretorController@listarEntidades")
 Route::get("/diretor/{id_diretor}/entidade/criar","DiretorController@createEntidade");
 Route::post("/diretor/{id_diretor}/entidade/guardar","DiretorController@guardarEntidade");
 
-Route::get('/diretor/{id_diretor}/validarProjeto/{id_projeto}', "DiretorController@validarProjeto");
+Route::get('/diretor/{id_diretor}/validarProjeto', "DiretorController@validarProjeto");
 Route::get('/diretor/{id_diretor}/justificarProjetoRejeitado/{id_projeto}', "DiretorController@justificarProjetoRejeitado");
 Route::get('/diretor/{id_diretor}/atribuirProjeto', "DiretorController@atribuirProjeto");
 Route::get('/diretor/{id_diretor}/atribuirProjetoAluno/{id_aluno}', "DiretorController@atribuirProjetoAluno");

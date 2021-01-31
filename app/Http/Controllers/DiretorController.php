@@ -58,9 +58,13 @@ class DiretorController extends Controller
      *
      */
 
-    public function validarProjeto(): void
+    public function validarProjeto(int $id_diretor)
     {
-        //
+        $d = Diretor::find($id_diretor);
+        return view('diretor.validar_projeto', [
+            'diretor'=>$d,
+            'entidades'=>$e,
+            'projetos'=>$p]);
     }
 
     /**
