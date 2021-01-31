@@ -72,7 +72,14 @@ class EstagiarioController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $est = new Estagiario();
+        $est->nome=$request->get('nome');
+        $est->username=$request->get('username');
+        $est->password=$request->get('password');
+        $est->email=$request->get('email');
+        $est->telemovel=$request->get('telemovel');
+        $est->save();
+        return redirect("/login");
     }
 
     /**
