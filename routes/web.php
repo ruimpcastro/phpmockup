@@ -47,6 +47,7 @@ Route::get('/diretor/{id_diretor}/projeto', "DiretorController@listarProjetos");
 Route::get('/diretor/{id_diretor}/projeto/{id_projeto}/detalhes', "DiretorController@detalhesProjeto");
 Route::get('/diretor/{id_diretor}/projeto/{id_projeto}/justificarReprovacao/', "DiretorController@justificarReprovacao");
 Route::post('/diretor/{id_diretor}/projeto/{id_projeto}/reprovar/', "NotificacaoController@store");
+Route::put('/diretor/{id_diretor}/projeto/{id_projeto}/aprovar/', "ProjetoController@update");
 Route::get('/diretor/{id_diretor}/atribuirProjeto', "DiretorController@atribuirProjeto");
 Route::get('/diretor/{id_diretor}/atribuirProjetoAluno/{id_aluno}', "DiretorController@atribuirProjetoAluno");
 Route::get('/diretor/{id_diretor}/atribuirProjetoSupervisor/{id_supervisor}', "DiretorController@atribuirProjetoSupervisor");

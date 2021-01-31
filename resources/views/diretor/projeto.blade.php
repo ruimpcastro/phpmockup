@@ -24,6 +24,11 @@
         <h2 class="sub-title">{{$entidade->nome}}</h2>
         <div class="info-section">
             <p>Projeto: {{$projeto->titulo}}</p><br><br>
+            @if($projeto->aprovado)
+            <p>Aprovado: Sim</p><br><br>
+            @else
+            <p>Aprovado: Não</p><br><br>
+            @endif
             <p>Estagiário(s): [TBD]</p><br>
             <p>Orientador: {{$orientador->nome}} ({{$orientador->email}})</p><br>
             <p>Supervisor: [TBD]</p><br><br>
@@ -58,8 +63,21 @@
                 </tr>
             </table>
 
-            <a href="/entidade/{{$entidade->id}}/projeto/{{$projeto->id}}/editar" class="add-button button">Aprovar</a>
-            <a href="/diretor/{{$diretor->id}}/projeto/{{$projeto->id}}/justificarReprovacao/" class="delete-button button">Reprovar</a>
+            @if(!$projeto->aprovado)
+            <form action="/diretor/{{$diretor->id}}/projeto/{{$projeto->id}}/aprovar/" method="post">
+                @CSRF
+                @method('PUT')
+                <input name="redirect" type="text" value="/diretor/{{$diretor->id}}/projeto" hidden>
+                <input name="entidadeId" type="text" value="{{$entidade->id}}" hidden>
+                <input name="projetoId" type="text" value="{{$projeto->id}}" hidden>
+                <input name="aprovado" type="text" value="1" hidden>
+                <input name="perfilProfissional" type="text" value="{{$projeto->perfilProfissional}}" hidden>
+                <input name="descricao" type="text" value="{{$projeto->descricao}}" hidden>
+                <input name="titulo" type="text" value="{{$projeto->titulo}}" hidden>
+                <input type="submit" class="accept-button button" value="Aprovar">
+                <a href="/diretor/{{$diretor->id}}/projeto/{{$projeto->id}}/justificarReprovacao/" class="delete-button button">Reprovar</a>
+            </form>
+            @endif
         </div>
     </div>
 @endsection

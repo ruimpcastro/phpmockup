@@ -29,7 +29,6 @@ class ProjetoController extends Controller
         return view('entidade.projeto_criar', ['entidade'=>$e]);
     }
 
-
     /**
      * Store a newly created resource in storage.
      *
@@ -77,7 +76,7 @@ class ProjetoController extends Controller
      * @param  \App\Projeto  $projeto
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Projeto $projeto)
+    public function update(Request $request)
     {
         $p = Projeto::find($request->projetoId);
         $p->titulo=$request->get('titulo');

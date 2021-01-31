@@ -25,7 +25,7 @@
             <tr>
                 <th>Projeto</th>
                 <th>Entidade</th>
-                <th>Descrição</th>
+                <th>Aprovação</th>
                 <th>Opções</th>
             </tr>
             @foreach($entidades as $e)
@@ -33,7 +33,11 @@
                     <tr>
                         <td>{{$p->titulo}}</td>
                         <td>{{$e->nome}}</td>
-                        <td>{{$p->descricao}}</td>
+                        @if($p->aprovado)
+                            <td>Aprovado</td>
+                        @else
+                            <td>Aprovação Pendente</td>
+                        @endif
                         <td>
                             <a href="/diretor/{{$diretor->id}}/projeto/{{$p->id}}/detalhes" class="add-button button">Detalhes</a>
                         </td>
