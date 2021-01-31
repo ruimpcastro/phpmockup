@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Diretor;
 use App\Entidade;
 use App\Orientador;
+use App\Projeto;
 use Illuminate\Http\Request;
 
 class DiretorController extends Controller
@@ -61,10 +62,10 @@ class DiretorController extends Controller
     public function validarProjeto(int $id_diretor)
     {
         $d = Diretor::find($id_diretor);
+        $e = $d->entidades();
         return view('diretor.validar_projeto', [
             'diretor'=>$d,
-            'entidades'=>$e,
-            'projetos'=>$p]);
+            'entidades'=>$e]);
     }
 
     /**
