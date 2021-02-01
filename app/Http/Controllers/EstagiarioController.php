@@ -2,12 +2,18 @@
 
 namespace App\Http\Controllers;
 
+use App\Entidade;
 use App\Estagiario;
+use App\Projeto;
 use Illuminate\Http\Request;
 
 class EstagiarioController extends Controller
 {
 
+    /**
+     * @param int $id_estagiario
+     *
+     */
     public function home(int $id_estagiario): void
     {
         $est = Estagiario::find($id_estagiario);
@@ -31,18 +37,26 @@ class EstagiarioController extends Controller
      * Permite estagiario escolher propostas do seu interesse
      * Estagiario indica propostas por ordem de preferência, no máximo até um número
      * especificado pelo diretor de curso (p. ex. 5 propostas)
+     * @param int $id_entidade
+     * @param int $id_projeto
+     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
-    public function escolherProjeto(): void
+    public function escolherProjeto(int $id_entidade, int $id_projeto)
     {
-        //
+        $e = Entidade::find($id_entidade);
+        $p = Projeto::find($id_projeto);
+        return view('estagiario.escolher_projeto', ['entidade'=>$e, 'projeto'=>$p]);
     }
+
     /**
      * Permite visualizar lista de propostas
-     *
+     * @param int $id_entidade
      */
-    public function verListaProjetos(): void
+    public function verListaProjetos(int $id_entidade, int $id_projeto)
     {
-        //
+        $e = Entidade::find($id_entidade);
+        $p = Projeto::find($id_projeto);
+        return view('estagiario.ver_projetos')
     }
 
     /**
