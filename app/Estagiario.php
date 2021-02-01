@@ -6,6 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Estagiario extends Utilizador
 {
+    protected static $singleTableType = Estagiario::class;
 
     public function projeto()
     {

@@ -20,30 +20,20 @@
 
 @section('mainpage-contents')
 
-    <h1 id="page-title">Criar Entidade</h1>
+    <h1 id="page-title">Criar Estagiário</h1>
 
     <div class="info-section-container">
-        <h2 class="sub-title">Nova Entidade</h2>
+        <h2 class="sub-title">Novo Estagiário</h2>
         <div class="info-section">
             <form action="/diretor/{{$diretor->id}}/entidade/guardar" method="post">
                 @CSRF
-                <input name="redirect" type="text" value="/diretor/{{$diretor->id}}/entidade" hidden>
+                <input name="redirect" type="text" value="/diretor/{{$diretor->id}}/estagiario" hidden>
                 <input name="diretorId" type="number" value={{$diretor->id}} hidden>
-                <p>Designação: </p><input name="nome" type="text"><br><br>
-                <p>Abreviatura: </p><input name="abreviatura" type="text"><br><br>
-                <p>E-Mail: </p><input name="email" type="text"><br><br>
+                <p>Nome: </p><input name="nome" type="text"><br><br>
                 <p>Username: </p><input name="username" type="text"><br><br>
                 <p>Password: </p><input name="password" type="password"><br><br>
-                <p>Descrição: </p>
-                <textarea name="descricao" cols="50" rows="2"></textarea>
-                <br><br>
-                <hr>
-                <br>
-                <p><b>Orientador: </b></p>
-                <br>
-                <p>Nome: </p><input name="o_nome" type="text"><br><br>
-                <p>E-Mail: </p><input name="o_email" type="text"><br><br>
-                <p>Telemóvel: </p><input name="o_telemovel" type="text"><br><br>
+                <p>Telemovel: </p><input name="telemovel" type="text"><br><br>
+                <p>E-Mail: </p><input name="email" type="text"><br><br>
                 <input type="submit" class="accept-button button" value="Registar Entidade">
                 <a href="/diretor/{{$diretor->id}}/entidade" class="delete-button button">Cancelar</a>
             </form>

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Diretor;
 use App\Entidade;
 use App\Estagiario;
 use App\Projeto;
@@ -14,7 +15,7 @@ class EstagiarioController extends Controller
      * @param int $id_estagiario
      *
      */
-    public function home(int $id_estagiario): void
+    public function home(int $id_estagiario)
     {
         $est = Estagiario::find($id_estagiario);
         return view('estagiario.home', ['estagiario'=>$est]);
@@ -56,7 +57,7 @@ class EstagiarioController extends Controller
     {
         $e = Entidade::find($id_entidade);
         $p = Projeto::find($id_projeto);
-        return view('estagiario.ver_projetos')
+        return view('estagiario.ver_projetos');
     }
 
     /**
@@ -74,9 +75,10 @@ class EstagiarioController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function create(int $id_diretor)
     {
-        //
+        $d = Diretor::find($id_diretor);
+        return view('diretor.estagiario_criar', ['diretor'=>$d]);
     }
 
     /**
@@ -93,8 +95,9 @@ class EstagiarioController extends Controller
         $est->password=$request->get('password');
         $est->email=$request->get('email');
         $est->telemovel=$request->get('telemovel');
-        $est->save();
-        return redirect("/login");
+        $d = Diretor::find($request->get('diretorId'));
+        $d->estagiarios()->save($est);
+        return redirect($request->get('redirect'));
     }
 
     /**

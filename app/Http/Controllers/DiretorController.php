@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Diretor;
 use App\Entidade;
+use App\Estagiario;
 use App\Orientador;
 use App\Projeto;
 use App\Utilizador;
@@ -28,6 +29,13 @@ class DiretorController extends Controller
         $d = Diretor::find($id_diretor);
         $e = $d->entidades;
         return view('diretor.entidades', ['diretor'=>$d, 'entidades'=>$e]);
+    }
+
+    public function listarEstagiarios(int $id_diretor)
+    {
+        $d = Diretor::find($id_diretor);
+        $e = $d->estagiarios;
+        return view('diretor.estagiarios', ['diretor'=>$d, 'estagiarios'=>$e]);
     }
 
     public function createEntidade(int $id_diretor)

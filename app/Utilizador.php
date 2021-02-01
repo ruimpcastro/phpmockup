@@ -14,7 +14,8 @@ class Utilizador extends Model
     protected static $persisted = ['nome','email','telemovel','abreviatura','descricao','username','password','diretor_id','dataPubliPropostas'];
     protected static $singleTableSubclasses = [
         Entidade::class,
-        Diretor::class
+        Diretor::class,
+        Estagiario::class
     ];
 
     public function notificacoes(){

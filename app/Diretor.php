@@ -12,4 +12,8 @@ class Diretor extends Utilizador
     public function entidades(){
         return $this->hasMany(Entidade::class);
     }
+
+    public function estagiarios(){
+        return $this->hasMany(Estagiario::class);
+    }
 }

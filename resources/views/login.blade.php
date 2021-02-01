@@ -25,6 +25,9 @@
               @foreach($diretores as $d)
                   <a href="/diretor/{{$d->id}}/home/" class="login-shortcut-btn accept-button button">Diretor(a): {{$d->nome}}</a>
               @endforeach
+                  @foreach($estagiarios as $est)
+                      <a href="/diretor/{{$est->id}}/home/" class="login-shortcut-btn accept-button button">Estagiario(a): {{$est->nome}}</a>
+                  @endforeach
               @foreach($entidades as $e)
                   <a href="/entidade/{{$e->id}}/home/" class="login-shortcut-btn accept-button button">Entidade: {{$e->nome}}</a>
               @endforeach

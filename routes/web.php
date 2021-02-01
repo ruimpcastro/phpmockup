@@ -41,9 +41,12 @@ Route::get('/diretor/guardar', "DiretorController@store");
 Route::get("/diretor/{id_diretor}/home","DiretorController@home");
 Route::get("/diretor/{id_diretor}/entidade","DiretorController@listarEntidades");
 Route::get("/diretor/{id_diretor}/entidade/criar","DiretorController@createEntidade");
-Route::post("/diretor/{id_diretor}/entidade/guardar","DiretorController@guardarEntidade");
+Route::post("/diretor/{id_diretor}/entidade/guardar","EstagiarioController@store");
 //TODO: entidade/detalhes
 Route::get('/diretor/{id_diretor}/projeto', "DiretorController@listarProjetos");
+Route::get('/diretor/{id_diretor}/estagiario', "DiretorController@listarEstagiarios");
+Route::get('/diretor/{id_diretor}/estagiario/criar', "EstagiarioController@create");
+Route::get('/diretor/{id_diretor}/estagiario/guardar', "EstagiarioController@store");
 Route::get('/diretor/{id_diretor}/datas', "DiretorController@datas");
 Route::get('/diretor/{id_diretor}/projeto/{id_projeto}/detalhes', "DiretorController@detalhesProjeto");
 Route::get('/diretor/{id_diretor}/projeto/{id_projeto}/justificarReprovacao/', "DiretorController@justificarReprovacao");
