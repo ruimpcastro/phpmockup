@@ -1,14 +1,13 @@
 @extends('master')
 
 @section('header-contents')
-    <title>Diretor(a) - Home</title>
+    <title>Estagiario(a) - Home</title>
 @endsection
 
 @section('sidemenu-options')
-    <li><a href="/estagiario/{{$estagiario_id}}/home" class="active">Os Meus Dados</a></li>
-    <li><a href="/estagiario/{{$estagiario_id}}/entidade">Propostas de estágio</a></li>
-    <li><a href="/estagiario/{{$estagiario_id}}/projeto">Projeto</a></li>
-    <li><a href="/estagiario/{{$estagiario_id}}/datas">Datas</a></li>
+    <li><a href="/estagiario/{{$estagiario->id}}/home" class="active">Os Meus Dados</a></li>
+    <li><a href="/estagiario/{{$estagiario->id}}/projeto">Propostas de Estágio</a></li>
+    <li><a href="/estagiario/{{$estagiario->id}}/datas">Datas</a></li>
     <li class="nav-separator"></li>
     <li><a href="/login">Terminar Sessão</a></li>
 @endsection
@@ -21,7 +20,7 @@
     <h1 id="page-title">Os Meus Dados</h1>
 
     <div class="info-section-container">
-        <h2 class="sub-title">Diretor(a)</h2>
+        <h2 class="sub-title">Estagiario(a)</h2>
         <div class="info-section">
             <ul class="button-spacing">
                 <li>Nome: <span class="underlined-space">{{$estagiario->nome}}</span></li>

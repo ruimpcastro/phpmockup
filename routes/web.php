@@ -41,7 +41,7 @@ Route::get('/diretor/guardar', "DiretorController@store");
 Route::get("/diretor/{id_diretor}/home","DiretorController@home");
 Route::get("/diretor/{id_diretor}/entidade","DiretorController@listarEntidades");
 Route::get("/diretor/{id_diretor}/entidade/criar","DiretorController@createEntidade");
-Route::post("/diretor/{id_diretor}/entidade/guardar","EstagiarioController@store");
+Route::post("/diretor/{id_diretor}/entidade/guardar","DiretorController@guardarEntidade");
 //TODO: entidade/detalhes
 Route::get('/diretor/{id_diretor}/projeto', "DiretorController@listarProjetos");
 Route::get('/diretor/{id_diretor}/estagiario', "DiretorController@listarEstagiarios");
@@ -58,14 +58,12 @@ Route::get('/diretor/{id_diretor}/atribuirProjetoSupervisor/{id_supervisor}', "D
 Route::get('/diretor/{id_diretor}/numeroPropostas, DiretorController@numeroPropostasPorAluno');
 
 //ESTAGIÁRIO
-//Route::get('/estagiario/{id}/meusdados', function () {
-//    return view('meusdados');
-//});
 Route::get('/estagiario/criar', "EstagiarioController@create");
 Route::get('/estagiario/guardar', "EstagiarioController@store");
 
+Route::get('/estagiario/{id_entidade}/home', "EstagiarioController@home");
+Route::get('/estagiario/{id_estagiario}/projeto', "EstagiarioController@listarProjetos");
 Route::get('/estagiario/{id_estagiario}/home', "EstagiarioController@home");
-Route::get('/estagiario/{id_estagiario}/verProjetos', "EstagiarioController@verListaProjetos");
 Route::get('/estagiario/{id_estagiario}/verProjetos/{id_projeto}', "EstagiarioController@verDetalhesProjeto");
 Route::get('/estagiario/{id_estagiario}/escolherProjeto', "EstagiarioController@escolherProjeto");
 

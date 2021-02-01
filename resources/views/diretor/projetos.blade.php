@@ -20,7 +20,7 @@
 
 @section('mainpage-contents')
 
-    <h1 id="page-title">Entidades</h1>
+    <h1 id="page-title">Projetos</h1>
 
     <div class="table-container">
         <table id="propostas-table">

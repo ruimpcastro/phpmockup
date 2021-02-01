@@ -53,11 +53,11 @@ class EstagiarioController extends Controller
      * Permite visualizar lista de propostas
      * @param int $id_entidade
      */
-    public function verListaProjetos(int $id_entidade, int $id_projeto)
+    public function listarProjetos(int $id_estagiario)
     {
-        $e = Entidade::find($id_entidade);
-        $p = Projeto::find($id_projeto);
-        return view('estagiario.ver_projetos');
+        $est = Estagiario::find($id_estagiario);
+        $p = Projeto::where('aprovado',1)->get();
+        return view('estagiario.projetos', ['estagiario'=>$est, 'projeto'=>$p]);
     }
 
     /**
