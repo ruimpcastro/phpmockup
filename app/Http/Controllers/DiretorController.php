@@ -38,6 +38,13 @@ class DiretorController extends Controller
         return view('diretor.estagiarios', ['diretor'=>$d, 'estagiarios'=>$e]);
     }
 
+    public function listarSupervisores(int $id_diretor)
+    {
+        $d = Diretor::find($id_diretor);
+        $s = $d->supervisores;
+        return view('diretor.supervisores', ['diretor'=>$d, 'supervisores'=>$s]);
+    }
+
     public function detalhesEstagiario(int $id_diretor, int $id_estagiario)
     {
         $d = Diretor::find($id_diretor);
@@ -49,6 +56,12 @@ class DiretorController extends Controller
     {
         $d = Diretor::find($id_diretor);
         return view('diretor.entidade_criar', ['diretor'=>$d]);
+    }
+
+    public function createSupervisor(int $id_diretor)
+    {
+        $d = Diretor::find($id_diretor);
+        return view('diretor.supervisor_criar', ['diretor'=>$d]);
     }
 
     public function guardarEntidade(Request $request)

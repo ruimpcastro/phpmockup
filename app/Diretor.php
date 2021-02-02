@@ -16,4 +16,8 @@ class Diretor extends Utilizador
     public function estagiarios(){
         return $this->hasMany(Estagiario::class);
     }
+
+    public function supervisores(){
+        return $this->hasMany(Supervisor::class);
+    }
 }

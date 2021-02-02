@@ -27,4 +27,13 @@ class Projeto extends Model
         return $this->belongsToMany(Estagiario::class, 'preferencias', 'estagiario_id', 'projeto_id');
     }
 
+    public function estagiario()
+    {
+        return $this->belongsTo(Estagiario::class);
+    }
+
+    public function supervisor()
+    {
+        return $this->hasOne(Supervisor::class);
+    }
 }

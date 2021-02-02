@@ -96,8 +96,6 @@ class EntidadeController extends Controller
         $e->descricao=$request->get('descricao');
         $d = Diretor::find($request->get('diretorId'));
         $d->entidades()->save($e);
-
-        //CRONOGRAMA
         return redirect("/login");
     }
 

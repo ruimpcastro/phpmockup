@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Diretor;
 use App\Supervisor;
 use Illuminate\Http\Request;
 
@@ -41,8 +42,9 @@ class SupervisorController extends Controller
         $s->password=$request->get('password');
         $s->email=$request->get('email');
         $s->telemovel=$request->get('telemovel');
-        $s->save();
-        return redirect("/login");
+        $d = Diretor::find($request->get('diretorId'));
+        $d->supervisores()->save($s);
+        return redirect($request->get('redirect'));
     }
 
     /**

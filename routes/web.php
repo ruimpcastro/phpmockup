@@ -53,6 +53,8 @@ Route::get('/diretor/{id_diretor}/projeto/{id_projeto}/detalhes', "DiretorContro
 Route::get('/diretor/{id_diretor}/projeto/{id_projeto}/justificarReprovacao/', "DiretorController@justificarReprovacao");
 Route::post('/diretor/{id_diretor}/projeto/{id_projeto}/reprovar/', "NotificacaoController@store");
 Route::put('/diretor/{id_diretor}/projeto/{id_projeto}/aprovar/', "ProjetoController@update");
+Route::get('/diretor/{id_diretor}/supervisor', "DiretorController@listarSupervisores");
+Route::get('/diretor/{id_diretor}/supervisor/criar', "DiretorController@createSupervisor");
 Route::get('/diretor/{id_diretor}/atribuirProjeto', "DiretorController@atribuirProjeto");
 Route::get('/diretor/{id_diretor}/atribuirProjetoAluno/{id_aluno}', "DiretorController@atribuirProjetoAluno");
 Route::get('/diretor/{id_diretor}/atribuirProjetoSupervisor/{id_supervisor}', "DiretorController@atribuirProjetoSupervisor");
@@ -79,3 +81,6 @@ Route::get('/orientador/{id_orientador}/verDetalhesProjeto/{id_Projeto}', "Orien
 
 //PREFERENCIA
 Route::put('/preferencia/guardar', "PreferenciaController@update");
+
+//SUPERVISOR
+Route::post('/supervisor/guardar', "SupervisorController@store");
