@@ -38,6 +38,13 @@ class DiretorController extends Controller
         return view('diretor.estagiarios', ['diretor'=>$d, 'estagiarios'=>$e]);
     }
 
+    public function detalhesEstagiario(int $id_diretor, int $id_estagiario)
+    {
+        $d = Diretor::find($id_diretor);
+        $est = Estagiario::find($id_estagiario);
+        return view('diretor.estagiario', ['diretor'=>$d, 'estagiario'=>$est]);
+    }
+
     public function createEntidade(int $id_diretor)
     {
         $d = Diretor::find($id_diretor);
