@@ -41,13 +41,13 @@
                     <tr>
                         <th>Projeto</th>
                         <th>Entidade</th>
-                        <th>Descrição</th>
                         <th>Prioridade</th>
+                        <th>Supervisor</th>
                         <th>Opções</th>
                     </tr>
                     @foreach($estagiario->preferencias as $p)
                         <tr>
-                            <form action="/projeto/{{$p->id}}/editar" method="post">
+                            <form action="/projeto/{{$p->id}}/editar" id="atrib{{$loop->index}}" method="post">
                                 @CSRF
                                 @method('PUT')
                                 <input type="text" name="redirect" value="/diretor/{{$diretor->id}}/estagiario" hidden>
@@ -60,8 +60,14 @@
                                 <input type="number" name="aprovado" value="{{$p->aprovado}}" hidden>
                                 <td>{{$p->titulo}}</td>
                                 <td>{{$p->entidade->nome}}</td>
-                                <td>{{$p->descricao}}</td>
                                 <td>{{$p->pivot->prioridade}}</td>
+                                <td>
+                                    <select name="supervisor" form="atrib{{$loop->index}}">
+                                        @foreach($diretor->supervisores as $sup)
+                                            <option value="{{$sup->id}}">{{$sup->nome}}</option>
+                                        @endforeach
+                                    </select>
+                                </td>
                                 <td><input type="submit" class="add-button button" value="Atribuir Projeto"></td>
                             </form>
                         </tr>

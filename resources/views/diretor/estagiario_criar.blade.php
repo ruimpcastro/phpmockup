@@ -26,7 +26,7 @@
     <div class="info-section-container">
         <h2 class="sub-title">Novo Estagiário</h2>
         <div class="info-section">
-            <form action="/diretor/{{$diretor->id}}/entidade/guardar" method="post">
+            <form action="/diretor/{{$diretor->id}}/estagiario/guardar" method="post">
                 @CSRF
                 <input name="redirect" type="text" value="/diretor/{{$diretor->id}}/estagiario" hidden>
                 <input name="diretorId" type="number" value={{$diretor->id}} hidden>

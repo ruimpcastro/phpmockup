@@ -89,6 +89,9 @@ class ProjetoController extends Controller
         if($request->has('entidadeId')){
             $p->entidade_id = $request->get('entidadeId');
         }
+        if($request->has('supervisor')){
+            $p->supervisor_id = $request->get('supervisor');
+        }
         $p->save();
         return redirect($request->get('redirect'));
     }

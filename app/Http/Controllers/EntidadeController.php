@@ -4,7 +4,9 @@ namespace App\Http\Controllers;
 
 use App\Diretor;
 use App\Entidade;
+use App\Estagiario;
 use App\Projeto;
+use App\Supervisor;
 use Illuminate\Http\Request;
 
 class EntidadeController extends Controller
@@ -45,7 +47,9 @@ class EntidadeController extends Controller
         $e = Entidade::find($id_entidade);
         $p = Projeto::find($id_projeto);
         $o = $e->orientador;
-        return view('entidade.projeto', ['entidade'=>$e, 'projeto'=>$p, 'orientador'=>$o]);
+        $sup = Supervisor::find($p->supervisor_id);
+        $est = $p->estagiario;
+        return view('entidade.projeto', ['entidade'=>$e, 'projeto'=>$p, 'orientador'=>$o, 'supervisor'=>$sup, 'estagiario'=>$est]);
     }
 
     public function notificacoes(int $id_entidade)
