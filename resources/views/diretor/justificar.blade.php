@@ -9,7 +9,7 @@
     <li><a href="/diretor/{{$diretor->id}}/entidade">Entidades/Orientadores</a></li>
     <li><a href="/diretor/{{$diretor->id}}/projeto" class="active">Propostas</a></li>
     <li><a href="/diretor/{{$diretor->id}}/estagiario">Estagiários</a></li>
-    <li><a href="/diretor/{{$diretor->id}}/datas">Datas</a></li>
+    <li><a href="/diretor/{{$diretor->id}}/confs">Configurações</a></li>
     <li class="nav-separator"></li>
     <li><a href="/login">Terminar Sessão</a></li>
 @endsection

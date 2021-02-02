@@ -69,9 +69,9 @@ class DiretorController extends Controller
      *
      */
 
-    public function datas(int $id_diretor){
+    public function confs(int $id_diretor){
         $d = Diretor::find($id_diretor);
-        return view('diretor.datas', ['diretor'=>$d]);
+        return view('diretor.confs', ['diretor'=>$d]);
     }
 
     public function listarProjetos(int $id_diretor)

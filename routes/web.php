@@ -47,7 +47,7 @@ Route::get('/diretor/{id_diretor}/projeto', "DiretorController@listarProjetos");
 Route::get('/diretor/{id_diretor}/estagiario', "DiretorController@listarEstagiarios");
 Route::get('/diretor/{id_diretor}/estagiario/criar', "EstagiarioController@create");
 Route::get('/diretor/{id_diretor}/estagiario/guardar', "EstagiarioController@store");
-Route::get('/diretor/{id_diretor}/datas', "DiretorController@datas");
+Route::get('/diretor/{id_diretor}/confs', "DiretorController@confs");
 Route::get('/diretor/{id_diretor}/projeto/{id_projeto}/detalhes', "DiretorController@detalhesProjeto");
 Route::get('/diretor/{id_diretor}/projeto/{id_projeto}/justificarReprovacao/', "DiretorController@justificarReprovacao");
 Route::post('/diretor/{id_diretor}/projeto/{id_projeto}/reprovar/', "NotificacaoController@store");
@@ -63,13 +63,18 @@ Route::get('/estagiario/guardar', "EstagiarioController@store");
 
 Route::get('/estagiario/{id_entidade}/home', "EstagiarioController@home");
 Route::get('/estagiario/{id_estagiario}/projeto', "EstagiarioController@listarProjetos");
+Route::get('/estagiario/{id_estagiario}/projeto/{id_projeto}/detalhes', "EstagiarioController@detalhesProjeto");
+Route::post('/estagiario/{id_estagiario}/projeto/{id_projeto}/adicionar', "PreferenciaController@store");
+Route::get('/estagiario/{id_estagiario}/prefs', "EstagiarioController@listarPrefs");
 Route::get('/estagiario/{id_estagiario}/home', "EstagiarioController@home");
 Route::get('/estagiario/{id_estagiario}/verProjetos/{id_projeto}', "EstagiarioController@verDetalhesProjeto");
 Route::get('/estagiario/{id_estagiario}/escolherProjeto', "EstagiarioController@escolherProjeto");
-
 
 //ORIENTADOR
 Route::get('/orientador/guardar', "Orientador@store");
 
 Route::get('/orientador/{id_orientador}/home', "Orientador@home");
 Route::get('/orientador/{id_orientador}/verDetalhesProjeto/{id_Projeto}', "Orientador@verProjeto");
+
+//PREFERENCIA
+Route::put('/preferencia/guardar', "PreferenciaController@update");

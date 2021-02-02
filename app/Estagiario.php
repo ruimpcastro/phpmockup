@@ -18,10 +18,19 @@ class Estagiario extends Utilizador
         return $this->hasOne(Orientador::class);
     }
 
+    public function diretor()
+    {
+        return $this->belongsTo(Diretor::class);
+    }
+
     public function entidade()
     {
         return $this->hasOne(Entidade::class);
     }
 
-
+    public function preferencias()
+    {
+        return $this->belongsToMany(Projeto::class, 'preferencias', 'estagiario_id', 'projeto_id')
+            ->withPivot('prioridade','id');
+    }
 }

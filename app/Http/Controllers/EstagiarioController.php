@@ -60,6 +60,22 @@ class EstagiarioController extends Controller
         return view('estagiario.projetos', ['estagiario'=>$est, 'projeto'=>$p]);
     }
 
+    public function listarPrefs(int $id_estagiario)
+    {
+        $est = Estagiario::find($id_estagiario);
+        $prefs = $est->preferencias;
+        return view('estagiario.prefs', ['estagiario'=>$est, 'prefs'=>$prefs]);
+    }
+
+    public function detalhesProjeto(int $id_estagiario, int $id_projeto)
+    {
+        $est = Estagiario::find($id_estagiario);
+        $p = Projeto::find($id_projeto);
+        $e = $p->entidade;
+        $o = $p->entidade->orientador;
+        return view('estagiario.projeto', ['estagiario'=>$est, 'projeto'=>$p, 'entidade'=>$e, 'orientador'=>$o]);
+    }
+
     /**
      * Display a listing of the resource.
      *

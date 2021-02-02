@@ -22,4 +22,9 @@ class Projeto extends Model
         return $this->belongsTo(Entidade::class);
     }
 
+    public function estagiario()
+    {
+        return $this->belongsToMany(Estagiario::class, 'preferencias', 'estagiario_id', 'projeto_id');
+    }
+
 }

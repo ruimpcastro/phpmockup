@@ -9,7 +9,7 @@
     <li><a href="/diretor/{{$diretor->id}}/entidade">Entidades/Orientadores</a></li>
     <li><a href="/diretor/{{$diretor->id}}/projeto">Propostas</a></li>
     <li><a href="/diretor/{{$diretor->id}}/estagiario">Estagiários</a></li>
-    <li><a href="/diretor/{{$diretor->id}}/datas" class="active">Datas</a></li>
+    <li><a href="/diretor/{{$diretor->id}}/confs" class="active">Configurações</a></li>
     <li class="nav-separator"></li>
     <li><a href="/login">Terminar Sessão</a></li>
 @endsection
@@ -29,7 +29,18 @@
                 <li>{{$diretor->dataPubliPropostas}}</li>
                 <li><input name="dataPublicacao" type="date" value="{{$diretor->dataPubliPropostas}}"></li>
             </ul>
-            <a href="meusdados_form.blade.php" class="button edit-button">Alterar Dados</a>
+            <a href="meusdados_form.blade.php" class="button add-button">Guardar Data</a>
+            <br>
+            <br>
+            <br>
+            <form action="">
+                <p>Nº Máximo de Propostas Selecionadas por Estagiário:</p>
+                <br>
+                <input type="text" nome="maxPrefs" value="{{$diretor->maxPrefs}}">
+                <br>
+                <br>
+                <input type="submit" class="button add-button" value="Guardar Valor">
+            </form>
         </div>
     </div>
 @endsection

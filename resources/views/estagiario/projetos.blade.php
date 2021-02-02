@@ -7,7 +7,7 @@
 @section('sidemenu-options')
     <li><a href="/estagiario/{{$estagiario->id}}/home">Os Meus Dados</a></li>
     <li><a href="/estagiario/{{$estagiario->id}}/projeto" class="active">Propostas de Estágio</a></li>
-    <li><a href="/estagiario/{{$estagiario->id}}/datas">Datas</a></li>
+    <li><a href="/estagiario/{{$estagiario->id}}/prefs">Propostas Selecionadas</a></li>
     <li class="nav-separator"></li>
     <li><a href="/login">Terminar Sessão</a></li>
 @endsection
