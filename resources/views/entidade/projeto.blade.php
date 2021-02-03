@@ -38,6 +38,9 @@
             @endif
             <p>Perfil: {{$projeto->perfilProfissional}}</p><br><br>
             <p>{{$projeto->descricao}}</p><br><br>
+            <p>Objetivos: {{$projeto->objetivos}}</p><br><br>
+            <p>Data de início: @if($projeto->dataInicio){{$projeto->dataInicio}}@else N/a @endif</p><br>
+            <p>Data da 1ª Reunião: @if($projeto->dataInicio){{$projeto->dataInicio}}@else N/a @endif</p><br><br>
             <p>Cronograma:</p><br>
             <table id="propostas-table" class="button-spacing">
                 <tr>
@@ -45,26 +48,13 @@
                     <th>Descrição da Tarefa</th>
                     <th>Duração</th>
                 </tr>
-                <tr>
-                    <td>01</td>
-                    <td>Lorem ipsum dolor sit amet, consectetur
-                        adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                        et dolore magna aliqua.
-                    </td>
-                    <td>
-                        9 dias
-                    </td>
-                </tr>
-                <tr>
-                    <td>01</td>
-                    <td>Lorem ipsum dolor sit amet, consectetur
-                        adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                        et dolore magna aliqua.
-                    </td>
-                    <td>
-                        9 dias
-                    </td>
-                </tr>
+                @foreach($projeto->cronogramas as $c)
+                    <tr>
+                        <td>{{$loop->index+1}}</td>
+                        <td>{{$c->atividade}}</td>
+                        <td>{{$c->duracao}}</td>
+                    </tr>
+                @endforeach
             </table>
 
             <a href="/entidade/{{$entidade->id}}/projeto/{{$projeto->id}}/editar" class="edit-button button">Alterar Dados</a>

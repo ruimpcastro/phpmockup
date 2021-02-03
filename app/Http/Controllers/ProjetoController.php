@@ -41,6 +41,7 @@ class ProjetoController extends Controller
         $p = new Projeto();
         $p->titulo=$request->get('titulo');
         $p->descricao=$request->get('descricao');
+        $p->objetivos=$request->get('objetivos');
         $p->perfilProfissional=$request->get('perfilProfissional');
         $p->aprovado=$request->get('aprovado');
         $e = Entidade::find($request->get('entidadeId'));
@@ -101,6 +102,7 @@ class ProjetoController extends Controller
         $p = Projeto::find($request->get('projetoId'));
         $p->titulo=$request->get('titulo');
         $p->descricao=$request->get('descricao');
+        $p->objetivos=$request->get('objetivos');
         $p->perfilProfissional=$request->get('perfilProfissional');
         $p->aprovado=$request->get('aprovado');
         if($request->has('estagiarioId')){
@@ -111,6 +113,12 @@ class ProjetoController extends Controller
         }
         if($request->has('supervisor')){
             $p->supervisor_id = $request->get('supervisor');
+        }
+        if($request->has('dataInicio')){
+            $p->dataInicio = $request->get('dataInicio');
+        }
+        if($request->has('dataReuniao')){
+            $p->dataReuniao = $request->get('dataReuniao');
         }
         $p->save();
         return redirect($request->get('redirect'));
