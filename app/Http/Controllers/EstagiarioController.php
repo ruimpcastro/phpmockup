@@ -7,6 +7,7 @@ use App\Entidade;
 use App\Estagiario;
 use App\Projeto;
 use Illuminate\Http\Request;
+use Carbon\Carbon;
 
 class EstagiarioController extends Controller
 {
@@ -57,7 +58,9 @@ class EstagiarioController extends Controller
     {
         $est = Estagiario::find($id_estagiario);
         $p = Projeto::where('aprovado',1)->get();
-        return view('estagiario.projetos', ['estagiario'=>$est, 'projeto'=>$p]);
+        $dataProps = $est->diretor->dataPubliPropostas;
+        $mostrarProjetos = Carbon::createFromFormat('Y-m-d',  $dataProps)->lt(Carbon::now());
+        return view('estagiario.projetos', ['estagiario'=>$est, 'projeto'=>$p, 'mostrarProjetos'=>$mostrarProjetos]);
     }
 
     public function listarPrefs(int $id_estagiario)

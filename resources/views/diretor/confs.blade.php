@@ -25,12 +25,23 @@
     <div class="info-section-container">
         <h2 class="sub-title">Datas</h2>
         <div class="info-section">
-            <ul class="button-spacing">
-                <li>Publicação das Propostas de Estágio:</li>
-                <li>{{$diretor->dataPubliPropostas}}</li>
-                <li><input name="dataPublicacao" type="date" value="{{$diretor->dataPubliPropostas}}"></li>
-            </ul>
-            <a href="meusdados_form.blade.php" class="button add-button">Guardar Data</a>
+            <form action="/diretor/{{$diretor->id}}/guardar" method="post">
+                <input type="text" name="redirect" value="/diretor/{{$diretor->id}}/confs" hidden>
+                <input type="number" name="diretorId" value="{{$diretor->id}}" hidden>
+                <input type="text" name="nome" value="{{$diretor->nome}}" hidden>
+                <input type="text" name="email" value="{{$diretor->email}}" hidden>
+                <input type="text" name="telemovel" value="{{$diretor->telemovel}}" hidden>
+                <input type="text" name="username" value="{{$diretor->username}}" hidden>
+                <input type="text" name="password" value="{{$diretor->password}}" hidden>
+                <input type="date" name="dataPubliPropostas" value="{{$diretor->dataPubliPropostas}}" hidden>
+                @CSRF
+                @method('PUT')
+                <ul class="button-spacing">
+                    <li>Publicação das Propostas de Estágio:</li>
+                    <li><input name="dataPubliPropostas" type="date" value="{{$diretor->dataPubliPropostas}}"></li>
+                </ul>
+                <input type="submit" class="add-button button" value="Guardar Data">
+            </form>
             <br>
             <br>
             <br>

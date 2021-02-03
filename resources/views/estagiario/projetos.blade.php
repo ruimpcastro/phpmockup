@@ -18,9 +18,10 @@
 
 @section('mainpage-contents')
 
-    <h1 id="page-title">Entidades</h1>
+    <h1 id="page-title">Propostas de Estágio</h1>
 
     <div class="table-container">
+        @if($mostrarProjetos)
         <table id="propostas-table">
             <tr>
                 <th>Projeto</th>
@@ -28,16 +29,20 @@
                 <th>Descrição</th>
                 <th>Opções</th>
             </tr>
-            @foreach($projeto as $p)
-                <tr>
-                    <td>{{$p->titulo}}</td>
-                    <td>{{$p->entidade->nome}}</td>
-                    <td>{{$p->descricao}}</td>
-                    <td>
-                        <a href="/estagiario/{{$estagiario->id}}/projeto/{{$p->id}}/detalhes" class="add-button button">Detalhes</a>
-                    </td>
-                </tr>
-            @endforeach
+
+                @foreach($projeto as $p)
+                    <tr>
+                        <td>{{$p->titulo}}</td>
+                        <td>{{$p->entidade->nome}}</td>
+                        <td>{{$p->descricao}}</td>
+                        <td>
+                            <a href="/estagiario/{{$estagiario->id}}/projeto/{{$p->id}}/detalhes" class="add-button button">Detalhes</a>
+                        </td>
+                    </tr>
+                @endforeach
         </table>
+        @else
+            <p>As propostas de estágio ainda não foram publicadas pelo diretor de estágios!</p>
+        @endif
     </div>
 @endsection

@@ -37,6 +37,7 @@ Route::put('/projeto/{id_projeto}/editar', "ProjetoController@update");
 
 //DIRETOR (ADMIN)
 Route::get('/diretor/guardar', "DiretorController@store");
+Route::put("/diretor/{id_diretor}/guardar","DiretorController@update");
 
 Route::get("/diretor/{id_diretor}/home","DiretorController@home");
 Route::get("/diretor/{id_diretor}/entidade","DiretorController@listarEntidades");

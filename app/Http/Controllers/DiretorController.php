@@ -229,9 +229,17 @@ class DiretorController extends Controller
      * @param  \App\Diretor  $diretor
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Diretor $diretor)
+    public function update(Request $request)
     {
-        //
+        $d = Diretor::find($request->get('diretorId'));
+        $d->nome=$request->get('nome');
+        $d->email=$request->get('email');
+        $d->telemovel=$request->get('telemovel');
+        $d->username=$request->get('username');
+        $d->password=$request->get('password');
+        $d->dataPubliPropostas=$request->get('dataPubliPropostas');
+        $d->save();
+        return redirect($request->get('redirect'));
     }
 
     /**
