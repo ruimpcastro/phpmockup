@@ -82,6 +82,7 @@ Route::get('/orientador/{id_orientador}/verDetalhesProjeto/{id_Projeto}', "Orien
 
 //PREFERENCIA
 Route::put('/preferencia/guardar', "PreferenciaController@update");
+Route::delete('/preferencia/apagar', "PreferenciaController@destroy");
 
 //SUPERVISOR
 Route::post('/supervisor/guardar', "SupervisorController@store");

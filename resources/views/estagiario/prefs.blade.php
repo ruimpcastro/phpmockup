@@ -28,6 +28,7 @@
                 <th>Descrição</th>
                 <th>Prioridade</th>
                 <th>Opções</th>
+                <th>Apagar</th>
             </tr>
             @foreach($prefs as $p)
                 <tr>
@@ -42,17 +43,25 @@
                     <td>{{$p->entidade->nome}}</td>
                     <td>{{$p->descricao}}</td>
                     <td><select name="prioridade" form="prioridade{{$loop->index}}">
-                            <option value="1" @if($p->pivot->prioridade == 1) selected @endif>1</option>
-                            <option value="2" @if($p->pivot->prioridade == 2) selected @endif>2</option>
-                            <option value="3" @if($p->pivot->prioridade == 3) selected @endif>3</option>
+                            @for($i = 1; $i <= $estagiario->diretor->maxPrefs; $i++)
+                                <option value="{{$i}}" @if($p->pivot->prioridade == $i) selected @endif>{{$i}}</option>
+                            @endfor
                         </select>
                     </td>
                     <td>
                         <a href="/estagiario/{{$estagiario->id}}/projeto/{{$p->id}}/detalhes" class="add-button button">Detalhes</a>
                         <input type="submit" class="add-button button" value="Guardar Prioridade">
-                        <a href="/estagiario/{{$estagiario->id}}/projeto/{{$p->id}}/detalhes" class="cancel-button button">X</a>
+                        </form>
                     </td>
-                    </form>
+                    <td>
+                        <form action="/preferencia/apagar" method="post">
+                            @CSRF
+                            @method('DELETE')
+                            <input type="text" name="redirect" value="/estagiario/{{$estagiario->id}}/prefs" hidden>
+                            <input type="number" name="prefId" value="{{$p->pivot->id}}" hidden>
+                            <input type="submit" class="cancel-button button" value="X">
+                        </form>
+                    </td>
                 </tr>
             @endforeach
         </table>

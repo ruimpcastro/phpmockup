@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Projeto extends Model
 {
-    public function cronograma(){
+    public function cronogramas(){
         return $this->hasMany(Cronograma::class);
     }
 

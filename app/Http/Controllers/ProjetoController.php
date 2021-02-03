@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Cronograma;
 use App\Projeto;
 use App\Entidade;
 use Illuminate\Http\Request;
@@ -44,6 +45,25 @@ class ProjetoController extends Controller
         $p->aprovado=$request->get('aprovado');
         $e = Entidade::find($request->get('entidadeId'));
         $e->projetos()->save($p);
+
+        $cronoCount = $request->get('cronoCount');
+
+        if ($cronoCount > 0){
+            $cronoTarefas = array();
+            $cronoDuracoes = array();
+
+            for ($i = 0; $i < $cronoCount; $i++){
+                array_push($cronoTarefas, $request->get('crono_tarefa'.$i));
+                array_push($cronoDuracoes, $request->get('crono_duracao'.$i));
+            }
+
+            for ($i = 0; $i < $cronoCount; $i++){
+                $c = new Cronograma();
+                $c->atividade=$cronoTarefas[$i];
+                $c->duracao=$cronoDuracoes[$i];
+                $p->cronogramas()->save($c);
+            }
+        }
         return redirect($request->get('redirect'));
     }
 
