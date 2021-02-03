@@ -38,7 +38,7 @@
                 @method('PUT')
                 <ul class="button-spacing">
                     <li>Publicação das Propostas de Estágio:</li>
-                    <li><input name="dataPubliPropostas" type="date" value="{{$diretor->dataPubliPropostas}}"></li>
+                    <li><input name="dataPubliPropostas" type="date" value="{{$diretor->dataPubliPropostas}}" required></li>
                 </ul>
                 <input type="submit" class="add-button button" value="Guardar Data">
             </form>
@@ -48,7 +48,7 @@
             <form action="">
                 <p>Nº Máximo de Propostas Selecionadas por Estagiário:</p>
                 <br>
-                <input type="text" nome="maxPrefs" value="{{$diretor->maxPrefs}}">
+                <input type="text" nome="maxPrefs" value="{{$diretor->maxPrefs}}" required>
                 <br>
                 <br>
                 <input type="submit" class="button add-button" value="Guardar Valor">

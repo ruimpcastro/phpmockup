@@ -36,7 +36,7 @@
             <p>{{$projeto->descricao}}</p><br><br>
             <p>Justificação:</p><br>
             <p>(Escreva uma justificação para a reprovação da proposta de estágio, para que a entidade acolhedora possa corrigir a proposta)</p><br>
-            <textarea name="mensagem" cols="50" rows="2">A sua proposta de estágio foi reprovada! Segue uma justificação do diretor de estágios:</textarea><br><br>
+            <textarea name="mensagem" cols="50" rows="2" required>A sua proposta de estágio foi reprovada! Segue uma justificação do diretor de estágios:</textarea><br><br>
             <input type="submit" class="accept-button button" value="Submeter">
             <a href="/diretor/{{$diretor->id}}/projeto" class="delete-button button">Cancelar</a>
         </form>

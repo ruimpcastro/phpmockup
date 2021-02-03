@@ -29,9 +29,9 @@
                 @method('PUT')
                 <input name="redirect" type="text" value="/entidade/{{$entidade->id}}/projeto" hidden>
                 <input name="entidadeId" type="number" value={{$entidade->id}} hidden>
-                <p>Nome: </p><input name="nome" type="text"><br><br>
-                <p>E-Mail: </p><input name="email" type="text"><br><br>
-                <p>Telemovel: </p><input name="telemovel" type="text"><br><br>
+                <p>Nome: </p><input name="nome" type="text" required><br><br>
+                <p>E-Mail: </p><input name="email" type="text" required><br><br>
+                <p>Telemovel: </p><input name="telemovel" type="text" required><br><br>
                 <input type="submit" class="accept-button button" value="Atualizar Orientador">
                 <a href="/entidades/{{$entidade->id}}/orientador" class="delete-button button">Cancelar</a>
             </form>
