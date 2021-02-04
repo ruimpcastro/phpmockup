@@ -92,7 +92,6 @@ class PreferenciaController extends Controller
     public function destroy(Request $request)
     {
         $pref = Preferencia::find($request->get('prefId'));
-        echo $pref;
         if($pref){
             $pref->delete();
         }
