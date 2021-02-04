@@ -1,26 +1,14 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\api;
 
-use App\Orientador;
 use App\Entidade;
+use App\Http\Controllers\Controller;
+use App\Orientador;
 use Illuminate\Http\Request;
 
-class OrientadorController extends Controller
+class OrientadoresResource extends Controller
 {
-    /**
-     * Orientador home page
-     */
-    public function home(): void
-    {
-        //
-    }
-
-    public function verProjeto(): void
-    {
-        //
-    }
-
     /**
      * Display a listing of the resource.
      *
@@ -28,7 +16,7 @@ class OrientadorController extends Controller
      */
     public function index()
     {
-        //
+        return Orientador::all();
     }
 
     /**
@@ -49,33 +37,27 @@ class OrientadorController extends Controller
      */
     public function store(Request $request)
     {
-        $o = new Orientador();
-        $o->nome=$request->get('nome');
-        $o->email=$request->get('email');
-        $o->telemovel=$request->get('telemovel');
-        $e = Entidade::find($request->get('entidadeId'));
-        $e->orientador()->save($o);
-        return redirect("/login");
+        //
     }
 
     /**
      * Display the specified resource.
      *
-     * @param  \App\Orientador  $orientador
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show(Orientador $orientador)
+    public function show(int $id)
     {
-        //
+        return Orientador::find($id);
     }
 
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Orientador  $orientador
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit(Orientador $orientador)
+    public function edit($id)
     {
         //
     }
@@ -84,10 +66,10 @@ class OrientadorController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Orientador  $orientador
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, int $id)
+    public function update(Request $request, $id)
     {
         $o = Orientador::find($id);
         $o->nome=$request->get('nome');
@@ -95,16 +77,15 @@ class OrientadorController extends Controller
         $o->telemovel=$request->get('telemovel');
         $e = Entidade::find($request->get('entidadeId'));
         $e->orientador()->save($o);
-        return redirect($request->get('redirect'));
     }
 
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Orientador  $orientador
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Orientador $orientador)
+    public function destroy($id)
     {
         //
     }

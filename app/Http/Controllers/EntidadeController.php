@@ -132,9 +132,15 @@ class EntidadeController extends Controller
      * @param  \App\Entidade  $entidade
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Entidade $entidade)
+    public function update(Request $request, int $id)
     {
-        //
+        $e = Entidade::find($id);
+        $e->nome=$request->get('nome');
+        $e->abreviatura=$request->get('abreviatura');
+        $e->descricao=$request->get('descricao');
+        $d = Diretor::find($request->get('diretorId'));
+        $d->entidades()->save($e);
+        return redirect($request->get('redirect'));
     }
 
     /**
@@ -143,8 +149,11 @@ class EntidadeController extends Controller
      * @param  \App\Entidade  $entidade
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Entidade $entidade)
+    public function destroy(int $id)
     {
-        //
+        $e = Entidade::find($id);
+        if($e){
+            $e->delete();
+        }
     }
 }
