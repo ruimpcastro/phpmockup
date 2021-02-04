@@ -32,3 +32,38 @@ Route::get('/diretor/{id}', 'api\DiretorResource@show');
 Route::post('/diretor/guardar', 'api\DiretorResource@store');
 Route::put('/diretor/{id}/atualizar', 'api\DiretorResource@update');
 Route::delete('/diretor/{id}/apagar', 'api\DiretorResource@destroy');
+
+//ENTIDADE
+Route::get('/entidade/all', 'api\EntidadeResource@index');
+Route::get('/entidade/{id}', 'api\EntidadeResource@show');
+Route::post('/entidade/guardar', 'api\EntidadeResource@store');
+Route::put('/entidade/{id}/atualizar', 'api\EntidadeResource@update');
+Route::delete('/entidade/{id}/apagar', 'api\EntidadeResource@destroy');
+
+//NOTIFICACOES
+Route::get('/notif/all', 'api\NotificacoesResource@index');
+Route::get('/notif/{id}', 'api\NotificacoesResource@show');
+Route::post('/notif/guardar', 'api\NotificacoesResource@store');
+Route::put('/notif/{id}/atualizar', 'api\NotificacoesResource@update');
+Route::delete('/notif/{id}/apagar', 'api\NotificacoesResource@destroy');
+
+//ORIENTADORES
+Route::get('/orientador/all', 'api\OrientadoresResource@index');
+Route::get('/orientador/{id}', 'api\OrientadoresResource@show');
+Route::put('/orientador/{id}/atualizar', 'api\OrientadoresResource@update');
+
+//ORIENTADORES
+Route::get('/orientador/all', 'api\OrientadoresResource@index');
+Route::get('/orientador/{id}', 'api\OrientadoresResource@show');
+Route::put('/orientador/{id}/atualizar', 'api\OrientadoresResource@update');
+
+//PROJETOS
+Route::get('/projeto/all', 'api\ProjetosResource@index');
+Route::get('/projeto/{id}', 'api\ProjetosResource@show');
+Route::post('/projeto/guardar', 'api\ProjetosResource@store');
+Route::put('/projeto/{id}/atualizar', 'api\ProjetosResource@update');
+Route::delete('/projeto/{id}/apagar', 'api\ProjetosResource@destroy');
+
+//PROJETOS
+Route::get('/utilizador/all', 'api\UtilizadoresResource@index');
+Route::get('/utilizador/{id}', 'api\UtilizadoresResource@show');
