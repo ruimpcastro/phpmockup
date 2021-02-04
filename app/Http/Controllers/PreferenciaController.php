@@ -89,8 +89,12 @@ class PreferenciaController extends Controller
      * @param  \App\Preferencia  $preferencia
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Preferencia $preferencia)
+    public function destroy(Request $request)
     {
-        //
+        $pref = Preferencia::find($request->get('prefId'));
+        if($pref){
+            $pref->delete();
+        }
+        return redirect($request->get('redirect'));
     }
 }

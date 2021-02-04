@@ -33,6 +33,7 @@
                 <input type="text" name="telemovel" value="{{$diretor->telemovel}}" hidden>
                 <input type="text" name="username" value="{{$diretor->username}}" hidden>
                 <input type="text" name="password" value="{{$diretor->password}}" hidden>
+                <input type="text" name="maxPrefs" value="{{$diretor->maxPrefs}}" hidden>
                 <input type="date" name="dataPubliPropostas" value="{{$diretor->dataPubliPropostas}}" hidden>
                 @CSRF
                 @method('PUT')
@@ -45,10 +46,20 @@
             <br>
             <br>
             <br>
-            <form action="">
+            <form action="/diretor/{{$diretor->id}}/guardar" method="post">
+                @CSRF
+                @method('PUT')
+                <input type="text" name="redirect" value="/diretor/{{$diretor->id}}/confs" hidden>
+                <input type="number" name="diretorId" value="{{$diretor->id}}" hidden>
+                <input type="text" name="nome" value="{{$diretor->nome}}" hidden>
+                <input type="text" name="email" value="{{$diretor->email}}" hidden>
+                <input type="text" name="telemovel" value="{{$diretor->telemovel}}" hidden>
+                <input type="text" name="username" value="{{$diretor->username}}" hidden>
+                <input type="text" name="password" value="{{$diretor->password}}" hidden>
+                <input type="date" name="dataPubliPropostas" value="{{$diretor->dataPubliPropostas}}" hidden>
                 <p>Nº Máximo de Propostas Selecionadas por Estagiário:</p>
                 <br>
-                <input type="text" nome="maxPrefs" value="{{$diretor->maxPrefs}}" required>
+                <input type="number" name="maxPrefs" value="{{$diretor->maxPrefs}}" required>
                 <br>
                 <br>
                 <input type="submit" class="button add-button" value="Guardar Valor">

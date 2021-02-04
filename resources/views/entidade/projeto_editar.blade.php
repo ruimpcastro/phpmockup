@@ -39,18 +39,9 @@
                 <p>Descrição: </p>
                 <textarea name="descricao" cols="50" rows="10" required>{{$projeto->descricao}}</textarea>
                 <br><br>
-                <p>Cronograma:</p><br>
-                <div class="table-container">
-                    <table id="propostas-table" class="button-spacing">
-                        <tr>
-                            <th>Descrição da Tarefa</th>
-                            <th>Duração</th>
-                            <th>
-                                <a class="neutral-button button add-row-btn">Adicionar</a>
-                            </th>
-                        </tr>
-                    </table>
-                </div>
+                <p>Objetivos: </p>
+                <textarea name="objetivos" cols="50" rows="10" required>{{$projeto->objetivos}}</textarea>
+                <br><br>
                 <input type="submit" class="accept-button button" value="Submeter Proposta">
                 <a href="/entidade/{{$entidade->id}}/projeto" class="delete-button button">Cancelar</a>
             </form>

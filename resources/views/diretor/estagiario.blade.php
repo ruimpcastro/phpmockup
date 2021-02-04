@@ -43,6 +43,8 @@
                         <th>Entidade</th>
                         <th>Prioridade</th>
                         <th>Supervisor</th>
+                        <th>Início</th>
+                        <th>1ª Reunião</th>
                         <th>Opções</th>
                     </tr>
                     @foreach($estagiario->preferencias as $p)
@@ -68,7 +70,9 @@
                                         @endforeach
                                     </select>
                                 </td>
-                                <td><input type="submit" class="add-button button" value="Atribuir Projeto"></td>
+                                <td><input name="dataInicio" type="date"></td>
+                                <td><input name="dataReuniao" type="date"></td>
+                                <td><input type="submit" class="add-button button" value="Atribuir"></td>
                             </form>
                         </tr>
                     @endforeach

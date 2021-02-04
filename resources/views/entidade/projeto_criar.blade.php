@@ -29,13 +29,16 @@
                 <input name="redirect" type="text" value="/entidade/{{$entidade->id}}/projeto" hidden>
                 <input name="entidadeId" type="number" value={{$entidade->id}} hidden>
                 <input name="aprovado" type="number" value=0 hidden>
+                <input name="cronoCount" id="cronoCount" type="number" value=0 hidden>
                 <p>Projeto: </p><input name="titulo" type="text" required><br><br>
-                <p>Supervisor: </p><input name="supervisor" type="text" required><br><br>
                 <p>Perfil Profissional: </p>
                 <textarea name="perfilProfissional" cols="50" rows="2" required></textarea>
                 <br><br>
                 <p>Descrição: </p>
                 <textarea name="descricao" cols="50" rows="10" required></textarea>
+                <br><br>
+                <p>Objetivos: </p>
+                <textarea name="objetivos" cols="50" rows="10" required></textarea>
                 <br><br>
                 <p>Cronograma:</p><br>
                 <div class="table-container">
@@ -44,7 +47,8 @@
                             <th>Descrição da Tarefa</th>
                             <th>Duração</th>
                             <th>
-                                <a class="neutral-button button add-row-btn">Adicionar</a>
+                                <a class="neutral-button button add-row-btn">+</a>
+                                <a class="delete-button button rem-row-btn">-</a>
                             </th>
                         </tr>
                     </table>

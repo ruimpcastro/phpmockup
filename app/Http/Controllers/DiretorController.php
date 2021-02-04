@@ -196,6 +196,7 @@ class DiretorController extends Controller
         $d->username=$request->get('username');
         $d->password=$request->get('password');
         $d->dataPubliPropostas=$request->get('dataPubliPropostas');
+        $d->maxPrefs=$request->get('maxPrefs');
         $d->save();
         return redirect("/login");
     }
@@ -238,6 +239,7 @@ class DiretorController extends Controller
         $d->username=$request->get('username');
         $d->password=$request->get('password');
         $d->dataPubliPropostas=$request->get('dataPubliPropostas');
+        $d->maxPrefs=$request->get('maxPrefs');
         $d->save();
         return redirect($request->get('redirect'));
     }
