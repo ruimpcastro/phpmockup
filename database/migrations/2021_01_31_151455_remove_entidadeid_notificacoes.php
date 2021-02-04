@@ -13,9 +13,11 @@ class RemoveEntidadeidNotificacoes extends Migration
      */
     public function up()
     {
-        Schema::table('notificacoes', function (Blueprint $table) {
+        if (Schema::hasColumn('notificacoes', 'entidade_id')) {
+            Schema::table('notificacoes', function (Blueprint $table){
             $table->dropColumn('entidade_id');
-        });
+            });
+        }
     }
 
     /**

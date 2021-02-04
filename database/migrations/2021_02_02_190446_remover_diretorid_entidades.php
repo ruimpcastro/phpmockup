@@ -13,9 +13,12 @@ class RemoverDiretoridEntidades extends Migration
      */
     public function up()
     {
-        Schema::table('entidades', function (Blueprint $table) {
-            $table->dropColumn('diretor_id');
-        });
+        if(Schema::hasColumn('entidades', 'diretor_id')) {
+
+            Schema::table('entidades', function (Blueprint $table) {
+                $table->dropColumn('diretor_id');
+            });
+        }
     }
 
     /**

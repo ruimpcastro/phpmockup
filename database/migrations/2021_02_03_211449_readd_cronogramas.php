@@ -13,12 +13,14 @@ class ReaddCronogramas extends Migration
      */
     public function up()
     {
-        Schema::create('cronogramas', function (Blueprint $table) {
-            $table->id();
-            $table->string('atividade');
-            $table->string('duracao');
-            $table->timestamps();
-        });
+        if(!Schema::hasTable('cronogramas')){
+            Schema::create('cronogramas', function (Blueprint $table) {
+                $table->id();
+                $table->string('atividade');
+                $table->string('duracao');
+                $table->timestamps();
+            });
+        }
     }
 
     /**

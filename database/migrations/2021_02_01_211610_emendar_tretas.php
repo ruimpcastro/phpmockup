@@ -13,6 +13,7 @@ class EmendarTretas extends Migration
      */
     public function up()
     {
+        if (Schema::hasColumn('diretores', 'maxPrefs'))
         Schema::table('diretores', function (Blueprint $table) {
             $table->dropColumn('maxPrefs');
         });
