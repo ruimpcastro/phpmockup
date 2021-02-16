@@ -24,7 +24,7 @@
         <h2 class="sub-title">{{$entidade->nome}}</h2>
         <div class="info-section">
             <p>Projeto: {{$projeto->titulo}}</p><br><br>
-            <p>Estagiário(s): [TBD]</p><br>
+            <p>Estagiário(s): @if($projeto->estagiario) {{$projeto->estagiario->nome}}@else [TBD] @endif</p><br>
             <p>Orientador: {{$orientador->nome}} ({{$orientador->email}})</p><br>
             <p>Supervisor: [TBD]</p><br><br>
             <p>Perfil: {{$projeto->perfilProfissional}}</p><br><br>
