@@ -26,7 +26,7 @@
             <p>Projeto: {{$projeto->titulo}}</p><br><br>
             <p>Estagiário(s): @if($projeto->estagiario) {{$projeto->estagiario->nome}}@else [TBD] @endif</p><br>
             <p>Orientador: {{$orientador->nome}} ({{$orientador->email}})</p><br>
-            <p>Supervisor: [TBD]</p><br><br>
+            <p>Supervisor: @if($projeto->supervisor) {{$projeto->supervisor->nome}}@else [TBD] @endif</p><br><br>
             <p>Perfil: {{$projeto->perfilProfissional}}</p><br><br>
             <p>{{$projeto->descricao}}</p><br><br>
             <p>Objetivos: {{$projeto->objetivos}}</p><br><br>

@@ -5,6 +5,7 @@ namespace App\Http\Controllers\api;
 use App\Diretor;
 use App\Estagiario;
 use App\Http\Controllers\Controller;
+use App\Http\Resources\EResource;
 use Illuminate\Http\Request;
 
 class EstagiarioResource extends Controller
@@ -55,7 +56,7 @@ class EstagiarioResource extends Controller
      */
     public function show(int $id)
     {
-        return Estagiario::find($id);
+        return new EResource(Estagiario::find($id));
     }
 
     /**
